@@ -9,8 +9,11 @@ namespace Benchmarking
     {
         static void Main(string[] args)
         {
+            // Benchmark Runner is runs the class called : BenchmarkHarness.cs
             BenchmarkRunner.Run<BenchmarkHarness>();
-            Console.WriteLine("Start ---- BenchmarkHarness ");
+
+            // Logged on console app
+            Console.WriteLine("Start ---- BenchmarkHarness");
         }
     }
 

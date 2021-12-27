@@ -6690,11 +6690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Talentelgia\\MySQLVSPostgresWithReact\\Benchmarking\\Benchmarking.csproj",
+      "projectUniqueName": "E:\\Talentelgia\\Test-Project\\BenchmarkOnMySQLvsPostgreSQL\\Benchmarking\\Benchmarking.csproj",
       "projectName": "Benchmarking",
-      "projectPath": "E:\\Talentelgia\\MySQLVSPostgresWithReact\\Benchmarking\\Benchmarking.csproj",
+      "projectPath": "E:\\Talentelgia\\Test-Project\\BenchmarkOnMySQLvsPostgreSQL\\Benchmarking\\Benchmarking.csproj",
       "packagesPath": "C:\\Users\\SAUNAK\\.nuget\\packages\\",
-      "outputPath": "E:\\Talentelgia\\MySQLVSPostgresWithReact\\Benchmarking\\obj\\",
+      "outputPath": "E:\\Talentelgia\\Test-Project\\BenchmarkOnMySQLvsPostgreSQL\\Benchmarking\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SAUNAK\\AppData\\Roaming\\NuGet\\NuGet.Config",
