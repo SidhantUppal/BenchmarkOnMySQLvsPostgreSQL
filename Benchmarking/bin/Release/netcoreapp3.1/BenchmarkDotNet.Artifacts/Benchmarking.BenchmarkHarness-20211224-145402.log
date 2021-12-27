@@ -1,0 +1,989 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\c988b05d-9e09-44b4-ae4a-2339704be044
+// command took 67.14s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\c988b05d-9e09-44b4-ae4a-2339704be044
+// command took 41.2s and exited with 0
+// ***** Done, took 00:01:55 (115.26 sec)   *****
+// Found 2 benchmarks:
+//   BenchmarkHarness.MySQLSelectPlusUpdate: DefaultJob [IterationCount=2]
+//   BenchmarkHarness.PGSelectPlusUpdate: DefaultJob [IterationCount=2]
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdate: DefaultJob [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "c988b05d-9e09-44b4-ae4a-2339704be044.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdate(IterationCount: 2)" --job "Default" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\c988b05d-9e09-44b4-ae4a-2339704be044\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 930300.00 ns, 930.3000 us/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 28725687800.00 ns, 28.7257 s/op
+
+"Data are saved in MySQLDB"
+""
+WorkloadWarmup   1: 1 op, 330157900.00 ns, 330.1579 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadWarmup   2: 1 op, 651170000.00 ns, 651.1700 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadWarmup   3: 1 op, 445157600.00 ns, 445.1576 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadWarmup   4: 1 op, 464630100.00 ns, 464.6301 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadWarmup   5: 1 op, 351494100.00 ns, 351.4941 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadWarmup   6: 1 op, 394226400.00 ns, 394.2264 ms/op
+
+// BeforeActualRun
+"Data are saved in MySQLDB"
+""
+WorkloadActual   1: 1 op, 267887400.00 ns, 267.8874 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual   2: 1 op, 355211800.00 ns, 355.2118 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual   3: 1 op, 437398500.00 ns, 437.3985 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual   4: 1 op, 480547500.00 ns, 480.5475 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual   5: 1 op, 318856600.00 ns, 318.8566 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual   6: 1 op, 320792400.00 ns, 320.7924 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual   7: 1 op, 321018800.00 ns, 321.0188 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual   8: 1 op, 522907500.00 ns, 522.9075 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual   9: 1 op, 298791800.00 ns, 298.7918 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  10: 1 op, 344668600.00 ns, 344.6686 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  11: 1 op, 556624700.00 ns, 556.6247 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  12: 1 op, 512610400.00 ns, 512.6104 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  13: 1 op, 328735300.00 ns, 328.7353 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  14: 1 op, 321030900.00 ns, 321.0309 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  15: 1 op, 403881700.00 ns, 403.8817 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  16: 1 op, 413491400.00 ns, 413.4914 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  17: 1 op, 208873500.00 ns, 208.8735 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  18: 1 op, 661191700.00 ns, 661.1917 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  19: 1 op, 331990500.00 ns, 331.9905 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  20: 1 op, 374416900.00 ns, 374.4169 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  21: 1 op, 388741200.00 ns, 388.7412 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  22: 1 op, 382678000.00 ns, 382.6780 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  23: 1 op, 494020800.00 ns, 494.0208 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  24: 1 op, 428837500.00 ns, 428.8375 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  25: 1 op, 359715500.00 ns, 359.7155 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  26: 1 op, 461195100.00 ns, 461.1951 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  27: 1 op, 425182400.00 ns, 425.1824 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  28: 1 op, 279213500.00 ns, 279.2135 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  29: 1 op, 302602300.00 ns, 302.6023 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  30: 1 op, 289729700.00 ns, 289.7297 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  31: 1 op, 354641500.00 ns, 354.6415 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  32: 1 op, 608426700.00 ns, 608.4267 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  33: 1 op, 318648000.00 ns, 318.6480 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  34: 1 op, 249865900.00 ns, 249.8659 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  35: 1 op, 188954300.00 ns, 188.9543 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  36: 1 op, 358423000.00 ns, 358.4230 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  37: 1 op, 190974200.00 ns, 190.9742 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  38: 1 op, 329077100.00 ns, 329.0771 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  39: 1 op, 296339600.00 ns, 296.3396 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  40: 1 op, 192746800.00 ns, 192.7468 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  41: 1 op, 294805100.00 ns, 294.8051 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  42: 1 op, 307971900.00 ns, 307.9719 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  43: 1 op, 335437000.00 ns, 335.4370 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  44: 1 op, 241125600.00 ns, 241.1256 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  45: 1 op, 256803000.00 ns, 256.8030 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  46: 1 op, 170276900.00 ns, 170.2769 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  47: 1 op, 194404900.00 ns, 194.4049 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  48: 1 op, 168000100.00 ns, 168.0001 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  49: 1 op, 170813400.00 ns, 170.8134 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  50: 1 op, 197449900.00 ns, 197.4499 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  51: 1 op, 224116600.00 ns, 224.1166 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  52: 1 op, 176932600.00 ns, 176.9326 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  53: 1 op, 450591100.00 ns, 450.5911 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  54: 1 op, 176500800.00 ns, 176.5008 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  55: 1 op, 189693600.00 ns, 189.6936 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  56: 1 op, 286307500.00 ns, 286.3075 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  57: 1 op, 287547200.00 ns, 287.5472 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  58: 1 op, 204675000.00 ns, 204.6750 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  59: 1 op, 260693400.00 ns, 260.6934 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  60: 1 op, 167669400.00 ns, 167.6694 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  61: 1 op, 351724300.00 ns, 351.7243 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  62: 1 op, 351541300.00 ns, 351.5413 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  63: 1 op, 336109400.00 ns, 336.1094 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  64: 1 op, 254202600.00 ns, 254.2026 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  65: 1 op, 211264800.00 ns, 211.2648 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  66: 1 op, 275326000.00 ns, 275.3260 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  67: 1 op, 504484700.00 ns, 504.4847 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  68: 1 op, 258865000.00 ns, 258.8650 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  69: 1 op, 173631000.00 ns, 173.6310 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  70: 1 op, 260997300.00 ns, 260.9973 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  71: 1 op, 186149600.00 ns, 186.1496 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  72: 1 op, 129642000.00 ns, 129.6420 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  73: 1 op, 307238400.00 ns, 307.2384 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  74: 1 op, 536148600.00 ns, 536.1486 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  75: 1 op, 162300900.00 ns, 162.3009 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  76: 1 op, 274275500.00 ns, 274.2755 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  77: 1 op, 269014100.00 ns, 269.0141 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  78: 1 op, 300295000.00 ns, 300.2950 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  79: 1 op, 271373900.00 ns, 271.3739 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  80: 1 op, 306521300.00 ns, 306.5213 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  81: 1 op, 222530400.00 ns, 222.5304 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  82: 1 op, 229532500.00 ns, 229.5325 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  83: 1 op, 232576700.00 ns, 232.5767 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  84: 1 op, 335142700.00 ns, 335.1427 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  85: 1 op, 195687600.00 ns, 195.6876 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  86: 1 op, 199632300.00 ns, 199.6323 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  87: 1 op, 174354800.00 ns, 174.3548 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  88: 1 op, 252617000.00 ns, 252.6170 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  89: 1 op, 428435500.00 ns, 428.4355 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  90: 1 op, 142267700.00 ns, 142.2677 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  91: 1 op, 158364800.00 ns, 158.3648 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  92: 1 op, 256144600.00 ns, 256.1446 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  93: 1 op, 256956500.00 ns, 256.9565 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  94: 1 op, 241972300.00 ns, 241.9723 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  95: 1 op, 608868300.00 ns, 608.8683 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  96: 1 op, 354324900.00 ns, 354.3249 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  97: 1 op, 339894900.00 ns, 339.8949 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  98: 1 op, 150999100.00 ns, 150.9991 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  99: 1 op, 226059700.00 ns, 226.0597 ms/op
+"Data are saved in MySQLDB"
+""
+WorkloadActual  100: 1 op, 267424500.00 ns, 267.4245 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 267887400.00 ns, 267.8874 ms/op
+WorkloadResult   2: 1 op, 355211800.00 ns, 355.2118 ms/op
+WorkloadResult   3: 1 op, 437398500.00 ns, 437.3985 ms/op
+WorkloadResult   4: 1 op, 480547500.00 ns, 480.5475 ms/op
+WorkloadResult   5: 1 op, 318856600.00 ns, 318.8566 ms/op
+WorkloadResult   6: 1 op, 320792400.00 ns, 320.7924 ms/op
+WorkloadResult   7: 1 op, 321018800.00 ns, 321.0188 ms/op
+WorkloadResult   8: 1 op, 522907500.00 ns, 522.9075 ms/op
+WorkloadResult   9: 1 op, 298791800.00 ns, 298.7918 ms/op
+WorkloadResult  10: 1 op, 344668600.00 ns, 344.6686 ms/op
+WorkloadResult  11: 1 op, 512610400.00 ns, 512.6104 ms/op
+WorkloadResult  12: 1 op, 328735300.00 ns, 328.7353 ms/op
+WorkloadResult  13: 1 op, 321030900.00 ns, 321.0309 ms/op
+WorkloadResult  14: 1 op, 403881700.00 ns, 403.8817 ms/op
+WorkloadResult  15: 1 op, 413491400.00 ns, 413.4914 ms/op
+WorkloadResult  16: 1 op, 208873500.00 ns, 208.8735 ms/op
+WorkloadResult  17: 1 op, 331990500.00 ns, 331.9905 ms/op
+WorkloadResult  18: 1 op, 374416900.00 ns, 374.4169 ms/op
+WorkloadResult  19: 1 op, 388741200.00 ns, 388.7412 ms/op
+WorkloadResult  20: 1 op, 382678000.00 ns, 382.6780 ms/op
+WorkloadResult  21: 1 op, 494020800.00 ns, 494.0208 ms/op
+WorkloadResult  22: 1 op, 428837500.00 ns, 428.8375 ms/op
+WorkloadResult  23: 1 op, 359715500.00 ns, 359.7155 ms/op
+WorkloadResult  24: 1 op, 461195100.00 ns, 461.1951 ms/op
+WorkloadResult  25: 1 op, 425182400.00 ns, 425.1824 ms/op
+WorkloadResult  26: 1 op, 279213500.00 ns, 279.2135 ms/op
+WorkloadResult  27: 1 op, 302602300.00 ns, 302.6023 ms/op
+WorkloadResult  28: 1 op, 289729700.00 ns, 289.7297 ms/op
+WorkloadResult  29: 1 op, 354641500.00 ns, 354.6415 ms/op
+WorkloadResult  30: 1 op, 318648000.00 ns, 318.6480 ms/op
+WorkloadResult  31: 1 op, 249865900.00 ns, 249.8659 ms/op
+WorkloadResult  32: 1 op, 188954300.00 ns, 188.9543 ms/op
+WorkloadResult  33: 1 op, 358423000.00 ns, 358.4230 ms/op
+WorkloadResult  34: 1 op, 190974200.00 ns, 190.9742 ms/op
+WorkloadResult  35: 1 op, 329077100.00 ns, 329.0771 ms/op
+WorkloadResult  36: 1 op, 296339600.00 ns, 296.3396 ms/op
+WorkloadResult  37: 1 op, 192746800.00 ns, 192.7468 ms/op
+WorkloadResult  38: 1 op, 294805100.00 ns, 294.8051 ms/op
+WorkloadResult  39: 1 op, 307971900.00 ns, 307.9719 ms/op
+WorkloadResult  40: 1 op, 335437000.00 ns, 335.4370 ms/op
+WorkloadResult  41: 1 op, 241125600.00 ns, 241.1256 ms/op
+WorkloadResult  42: 1 op, 256803000.00 ns, 256.8030 ms/op
+WorkloadResult  43: 1 op, 170276900.00 ns, 170.2769 ms/op
+WorkloadResult  44: 1 op, 194404900.00 ns, 194.4049 ms/op
+WorkloadResult  45: 1 op, 168000100.00 ns, 168.0001 ms/op
+WorkloadResult  46: 1 op, 170813400.00 ns, 170.8134 ms/op
+WorkloadResult  47: 1 op, 197449900.00 ns, 197.4499 ms/op
+WorkloadResult  48: 1 op, 224116600.00 ns, 224.1166 ms/op
+WorkloadResult  49: 1 op, 176932600.00 ns, 176.9326 ms/op
+WorkloadResult  50: 1 op, 450591100.00 ns, 450.5911 ms/op
+WorkloadResult  51: 1 op, 176500800.00 ns, 176.5008 ms/op
+WorkloadResult  52: 1 op, 189693600.00 ns, 189.6936 ms/op
+WorkloadResult  53: 1 op, 286307500.00 ns, 286.3075 ms/op
+WorkloadResult  54: 1 op, 287547200.00 ns, 287.5472 ms/op
+WorkloadResult  55: 1 op, 204675000.00 ns, 204.6750 ms/op
+WorkloadResult  56: 1 op, 260693400.00 ns, 260.6934 ms/op
+WorkloadResult  57: 1 op, 167669400.00 ns, 167.6694 ms/op
+WorkloadResult  58: 1 op, 351724300.00 ns, 351.7243 ms/op
+WorkloadResult  59: 1 op, 351541300.00 ns, 351.5413 ms/op
+WorkloadResult  60: 1 op, 336109400.00 ns, 336.1094 ms/op
+WorkloadResult  61: 1 op, 254202600.00 ns, 254.2026 ms/op
+WorkloadResult  62: 1 op, 211264800.00 ns, 211.2648 ms/op
+WorkloadResult  63: 1 op, 275326000.00 ns, 275.3260 ms/op
+WorkloadResult  64: 1 op, 504484700.00 ns, 504.4847 ms/op
+WorkloadResult  65: 1 op, 258865000.00 ns, 258.8650 ms/op
+WorkloadResult  66: 1 op, 173631000.00 ns, 173.6310 ms/op
+WorkloadResult  67: 1 op, 260997300.00 ns, 260.9973 ms/op
+WorkloadResult  68: 1 op, 186149600.00 ns, 186.1496 ms/op
+WorkloadResult  69: 1 op, 129642000.00 ns, 129.6420 ms/op
+WorkloadResult  70: 1 op, 307238400.00 ns, 307.2384 ms/op
+WorkloadResult  71: 1 op, 536148600.00 ns, 536.1486 ms/op
+WorkloadResult  72: 1 op, 162300900.00 ns, 162.3009 ms/op
+WorkloadResult  73: 1 op, 274275500.00 ns, 274.2755 ms/op
+WorkloadResult  74: 1 op, 269014100.00 ns, 269.0141 ms/op
+WorkloadResult  75: 1 op, 300295000.00 ns, 300.2950 ms/op
+WorkloadResult  76: 1 op, 271373900.00 ns, 271.3739 ms/op
+WorkloadResult  77: 1 op, 306521300.00 ns, 306.5213 ms/op
+WorkloadResult  78: 1 op, 222530400.00 ns, 222.5304 ms/op
+WorkloadResult  79: 1 op, 229532500.00 ns, 229.5325 ms/op
+WorkloadResult  80: 1 op, 232576700.00 ns, 232.5767 ms/op
+WorkloadResult  81: 1 op, 335142700.00 ns, 335.1427 ms/op
+WorkloadResult  82: 1 op, 195687600.00 ns, 195.6876 ms/op
+WorkloadResult  83: 1 op, 199632300.00 ns, 199.6323 ms/op
+WorkloadResult  84: 1 op, 174354800.00 ns, 174.3548 ms/op
+WorkloadResult  85: 1 op, 252617000.00 ns, 252.6170 ms/op
+WorkloadResult  86: 1 op, 428435500.00 ns, 428.4355 ms/op
+WorkloadResult  87: 1 op, 142267700.00 ns, 142.2677 ms/op
+WorkloadResult  88: 1 op, 158364800.00 ns, 158.3648 ms/op
+WorkloadResult  89: 1 op, 256144600.00 ns, 256.1446 ms/op
+WorkloadResult  90: 1 op, 256956500.00 ns, 256.9565 ms/op
+WorkloadResult  91: 1 op, 241972300.00 ns, 241.9723 ms/op
+WorkloadResult  92: 1 op, 354324900.00 ns, 354.3249 ms/op
+WorkloadResult  93: 1 op, 339894900.00 ns, 339.8949 ms/op
+WorkloadResult  94: 1 op, 150999100.00 ns, 150.9991 ms/op
+WorkloadResult  95: 1 op, 226059700.00 ns, 226.0597 ms/op
+WorkloadResult  96: 1 op, 267424500.00 ns, 267.4245 ms/op
+
+// AfterAll
+// Benchmark Process 4508 has exited with code 0.
+
+Mean = 291.693 ms, StdErr = 9.830 ms (3.37%), N = 96, StdDev = 96.313 ms
+Min = 129.642 ms, Q1 = 210.667 ms, Median = 282.760 ms, Q3 = 346.387 ms, Max = 536.149 ms
+IQR = 135.720 ms, LowerFence = 7.087 ms, UpperFence = 549.966 ms
+ConfidenceInterval = [258.312 ms; 325.074 ms] (CI 99.9%), Margin = 33.381 ms (11.44% of Mean)
+Skewness = 0.57, Kurtosis = 2.71, MValue = 3.12
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdate: DefaultJob [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "c988b05d-9e09-44b4-ae4a-2339704be044.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdate(IterationCount: 2)" --job "Default" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\c988b05d-9e09-44b4-ae4a-2339704be044\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 710300.00 ns, 710.3000 us/op
+"Data are saved in PostgreSQLDB"
+"Data are saved in PostgreSQLDB"
+WorkloadJitting  1: 1 op, 6968469500.00 ns, 6.9685 s/op
+
+"Data are saved in PostgreSQLDB"
+""
+WorkloadWarmup   1: 1 op, 92505500.00 ns, 92.5055 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadWarmup   2: 1 op, 77565200.00 ns, 77.5652 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadWarmup   3: 1 op, 56264400.00 ns, 56.2644 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadWarmup   4: 1 op, 61148800.00 ns, 61.1488 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadWarmup   5: 1 op, 49261100.00 ns, 49.2611 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadWarmup   6: 1 op, 42719700.00 ns, 42.7197 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadWarmup   7: 1 op, 120244000.00 ns, 120.2440 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadWarmup   8: 1 op, 63460800.00 ns, 63.4608 ms/op
+
+// BeforeActualRun
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual   1: 1 op, 185338300.00 ns, 185.3383 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual   2: 1 op, 49684700.00 ns, 49.6847 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual   3: 1 op, 58754800.00 ns, 58.7548 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual   4: 1 op, 51610700.00 ns, 51.6107 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual   5: 1 op, 53199500.00 ns, 53.1995 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual   6: 1 op, 55936000.00 ns, 55.9360 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual   7: 1 op, 68987400.00 ns, 68.9874 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual   8: 1 op, 42804900.00 ns, 42.8049 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual   9: 1 op, 51289000.00 ns, 51.2890 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  10: 1 op, 101343400.00 ns, 101.3434 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  11: 1 op, 58243100.00 ns, 58.2431 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  12: 1 op, 99876200.00 ns, 99.8762 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  13: 1 op, 31812100.00 ns, 31.8121 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  14: 1 op, 31083700.00 ns, 31.0837 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  15: 1 op, 75522500.00 ns, 75.5225 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  16: 1 op, 36715800.00 ns, 36.7158 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  17: 1 op, 54196300.00 ns, 54.1963 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  18: 1 op, 48707100.00 ns, 48.7071 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  19: 1 op, 53105100.00 ns, 53.1051 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  20: 1 op, 30787700.00 ns, 30.7877 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  21: 1 op, 67533300.00 ns, 67.5333 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  22: 1 op, 47314600.00 ns, 47.3146 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  23: 1 op, 39536100.00 ns, 39.5361 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  24: 1 op, 48621600.00 ns, 48.6216 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  25: 1 op, 104078700.00 ns, 104.0787 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  26: 1 op, 49517600.00 ns, 49.5176 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  27: 1 op, 61284000.00 ns, 61.2840 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  28: 1 op, 50232600.00 ns, 50.2326 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  29: 1 op, 76827900.00 ns, 76.8279 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  30: 1 op, 44758000.00 ns, 44.7580 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  31: 1 op, 28175400.00 ns, 28.1754 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  32: 1 op, 53053100.00 ns, 53.0531 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  33: 1 op, 59441000.00 ns, 59.4410 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  34: 1 op, 50341500.00 ns, 50.3415 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  35: 1 op, 86615900.00 ns, 86.6159 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  36: 1 op, 197232200.00 ns, 197.2322 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  37: 1 op, 78906200.00 ns, 78.9062 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  38: 1 op, 95258900.00 ns, 95.2589 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  39: 1 op, 78204700.00 ns, 78.2047 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  40: 1 op, 167764600.00 ns, 167.7646 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  41: 1 op, 69664000.00 ns, 69.6640 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  42: 1 op, 41367700.00 ns, 41.3677 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  43: 1 op, 63503200.00 ns, 63.5032 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  44: 1 op, 34059700.00 ns, 34.0597 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  45: 1 op, 39942300.00 ns, 39.9423 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  46: 1 op, 32630100.00 ns, 32.6301 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  47: 1 op, 92188100.00 ns, 92.1881 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  48: 1 op, 45923000.00 ns, 45.9230 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  49: 1 op, 52585900.00 ns, 52.5859 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  50: 1 op, 34758800.00 ns, 34.7588 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  51: 1 op, 39704000.00 ns, 39.7040 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  52: 1 op, 64138700.00 ns, 64.1387 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  53: 1 op, 61170500.00 ns, 61.1705 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  54: 1 op, 65368500.00 ns, 65.3685 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  55: 1 op, 153173900.00 ns, 153.1739 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  56: 1 op, 51569600.00 ns, 51.5696 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  57: 1 op, 45135700.00 ns, 45.1357 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  58: 1 op, 66138900.00 ns, 66.1389 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  59: 1 op, 44863400.00 ns, 44.8634 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  60: 1 op, 39955900.00 ns, 39.9559 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  61: 1 op, 30880300.00 ns, 30.8803 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  62: 1 op, 38365400.00 ns, 38.3654 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  63: 1 op, 44819600.00 ns, 44.8196 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  64: 1 op, 35537100.00 ns, 35.5371 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  65: 1 op, 38902400.00 ns, 38.9024 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  66: 1 op, 81857700.00 ns, 81.8577 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  67: 1 op, 64719700.00 ns, 64.7197 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  68: 1 op, 51190700.00 ns, 51.1907 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  69: 1 op, 43266600.00 ns, 43.2666 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  70: 1 op, 41553200.00 ns, 41.5532 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  71: 1 op, 46974200.00 ns, 46.9742 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  72: 1 op, 51008100.00 ns, 51.0081 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  73: 1 op, 30978500.00 ns, 30.9785 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  74: 1 op, 29275100.00 ns, 29.2751 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  75: 1 op, 42621100.00 ns, 42.6211 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  76: 1 op, 57917300.00 ns, 57.9173 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  77: 1 op, 41276000.00 ns, 41.2760 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  78: 1 op, 33858900.00 ns, 33.8589 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  79: 1 op, 44810300.00 ns, 44.8103 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  80: 1 op, 32214000.00 ns, 32.2140 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  81: 1 op, 38663500.00 ns, 38.6635 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  82: 1 op, 190904800.00 ns, 190.9048 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  83: 1 op, 108122600.00 ns, 108.1226 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  84: 1 op, 86427700.00 ns, 86.4277 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  85: 1 op, 225380400.00 ns, 225.3804 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  86: 1 op, 35617500.00 ns, 35.6175 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  87: 1 op, 32489000.00 ns, 32.4890 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  88: 1 op, 37507000.00 ns, 37.5070 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  89: 1 op, 32749500.00 ns, 32.7495 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  90: 1 op, 34974700.00 ns, 34.9747 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  91: 1 op, 44256900.00 ns, 44.2569 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  92: 1 op, 45798100.00 ns, 45.7981 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  93: 1 op, 47247400.00 ns, 47.2474 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  94: 1 op, 43158600.00 ns, 43.1586 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  95: 1 op, 796492900.00 ns, 796.4929 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  96: 1 op, 29042700.00 ns, 29.0427 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  97: 1 op, 24760700.00 ns, 24.7607 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  98: 1 op, 29694700.00 ns, 29.6947 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  99: 1 op, 40364100.00 ns, 40.3641 ms/op
+"Data are saved in PostgreSQLDB"
+""
+WorkloadActual  100: 1 op, 38913500.00 ns, 38.9135 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 49684700.00 ns, 49.6847 ms/op
+WorkloadResult   2: 1 op, 58754800.00 ns, 58.7548 ms/op
+WorkloadResult   3: 1 op, 51610700.00 ns, 51.6107 ms/op
+WorkloadResult   4: 1 op, 53199500.00 ns, 53.1995 ms/op
+WorkloadResult   5: 1 op, 55936000.00 ns, 55.9360 ms/op
+WorkloadResult   6: 1 op, 68987400.00 ns, 68.9874 ms/op
+WorkloadResult   7: 1 op, 42804900.00 ns, 42.8049 ms/op
+WorkloadResult   8: 1 op, 51289000.00 ns, 51.2890 ms/op
+WorkloadResult   9: 1 op, 101343400.00 ns, 101.3434 ms/op
+WorkloadResult  10: 1 op, 58243100.00 ns, 58.2431 ms/op
+WorkloadResult  11: 1 op, 99876200.00 ns, 99.8762 ms/op
+WorkloadResult  12: 1 op, 31812100.00 ns, 31.8121 ms/op
+WorkloadResult  13: 1 op, 31083700.00 ns, 31.0837 ms/op
+WorkloadResult  14: 1 op, 75522500.00 ns, 75.5225 ms/op
+WorkloadResult  15: 1 op, 36715800.00 ns, 36.7158 ms/op
+WorkloadResult  16: 1 op, 54196300.00 ns, 54.1963 ms/op
+WorkloadResult  17: 1 op, 48707100.00 ns, 48.7071 ms/op
+WorkloadResult  18: 1 op, 53105100.00 ns, 53.1051 ms/op
+WorkloadResult  19: 1 op, 30787700.00 ns, 30.7877 ms/op
+WorkloadResult  20: 1 op, 67533300.00 ns, 67.5333 ms/op
+WorkloadResult  21: 1 op, 47314600.00 ns, 47.3146 ms/op
+WorkloadResult  22: 1 op, 39536100.00 ns, 39.5361 ms/op
+WorkloadResult  23: 1 op, 48621600.00 ns, 48.6216 ms/op
+WorkloadResult  24: 1 op, 49517600.00 ns, 49.5176 ms/op
+WorkloadResult  25: 1 op, 61284000.00 ns, 61.2840 ms/op
+WorkloadResult  26: 1 op, 50232600.00 ns, 50.2326 ms/op
+WorkloadResult  27: 1 op, 76827900.00 ns, 76.8279 ms/op
+WorkloadResult  28: 1 op, 44758000.00 ns, 44.7580 ms/op
+WorkloadResult  29: 1 op, 28175400.00 ns, 28.1754 ms/op
+WorkloadResult  30: 1 op, 53053100.00 ns, 53.0531 ms/op
+WorkloadResult  31: 1 op, 59441000.00 ns, 59.4410 ms/op
+WorkloadResult  32: 1 op, 50341500.00 ns, 50.3415 ms/op
+WorkloadResult  33: 1 op, 86615900.00 ns, 86.6159 ms/op
+WorkloadResult  34: 1 op, 78906200.00 ns, 78.9062 ms/op
+WorkloadResult  35: 1 op, 95258900.00 ns, 95.2589 ms/op
+WorkloadResult  36: 1 op, 78204700.00 ns, 78.2047 ms/op
+WorkloadResult  37: 1 op, 69664000.00 ns, 69.6640 ms/op
+WorkloadResult  38: 1 op, 41367700.00 ns, 41.3677 ms/op
+WorkloadResult  39: 1 op, 63503200.00 ns, 63.5032 ms/op
+WorkloadResult  40: 1 op, 34059700.00 ns, 34.0597 ms/op
+WorkloadResult  41: 1 op, 39942300.00 ns, 39.9423 ms/op
+WorkloadResult  42: 1 op, 32630100.00 ns, 32.6301 ms/op
+WorkloadResult  43: 1 op, 92188100.00 ns, 92.1881 ms/op
+WorkloadResult  44: 1 op, 45923000.00 ns, 45.9230 ms/op
+WorkloadResult  45: 1 op, 52585900.00 ns, 52.5859 ms/op
+WorkloadResult  46: 1 op, 34758800.00 ns, 34.7588 ms/op
+WorkloadResult  47: 1 op, 39704000.00 ns, 39.7040 ms/op
+WorkloadResult  48: 1 op, 64138700.00 ns, 64.1387 ms/op
+WorkloadResult  49: 1 op, 61170500.00 ns, 61.1705 ms/op
+WorkloadResult  50: 1 op, 65368500.00 ns, 65.3685 ms/op
+WorkloadResult  51: 1 op, 51569600.00 ns, 51.5696 ms/op
+WorkloadResult  52: 1 op, 45135700.00 ns, 45.1357 ms/op
+WorkloadResult  53: 1 op, 66138900.00 ns, 66.1389 ms/op
+WorkloadResult  54: 1 op, 44863400.00 ns, 44.8634 ms/op
+WorkloadResult  55: 1 op, 39955900.00 ns, 39.9559 ms/op
+WorkloadResult  56: 1 op, 30880300.00 ns, 30.8803 ms/op
+WorkloadResult  57: 1 op, 38365400.00 ns, 38.3654 ms/op
+WorkloadResult  58: 1 op, 44819600.00 ns, 44.8196 ms/op
+WorkloadResult  59: 1 op, 35537100.00 ns, 35.5371 ms/op
+WorkloadResult  60: 1 op, 38902400.00 ns, 38.9024 ms/op
+WorkloadResult  61: 1 op, 81857700.00 ns, 81.8577 ms/op
+WorkloadResult  62: 1 op, 64719700.00 ns, 64.7197 ms/op
+WorkloadResult  63: 1 op, 51190700.00 ns, 51.1907 ms/op
+WorkloadResult  64: 1 op, 43266600.00 ns, 43.2666 ms/op
+WorkloadResult  65: 1 op, 41553200.00 ns, 41.5532 ms/op
+WorkloadResult  66: 1 op, 46974200.00 ns, 46.9742 ms/op
+WorkloadResult  67: 1 op, 51008100.00 ns, 51.0081 ms/op
+WorkloadResult  68: 1 op, 30978500.00 ns, 30.9785 ms/op
+WorkloadResult  69: 1 op, 29275100.00 ns, 29.2751 ms/op
+WorkloadResult  70: 1 op, 42621100.00 ns, 42.6211 ms/op
+WorkloadResult  71: 1 op, 57917300.00 ns, 57.9173 ms/op
+WorkloadResult  72: 1 op, 41276000.00 ns, 41.2760 ms/op
+WorkloadResult  73: 1 op, 33858900.00 ns, 33.8589 ms/op
+WorkloadResult  74: 1 op, 44810300.00 ns, 44.8103 ms/op
+WorkloadResult  75: 1 op, 32214000.00 ns, 32.2140 ms/op
+WorkloadResult  76: 1 op, 38663500.00 ns, 38.6635 ms/op
+WorkloadResult  77: 1 op, 86427700.00 ns, 86.4277 ms/op
+WorkloadResult  78: 1 op, 35617500.00 ns, 35.6175 ms/op
+WorkloadResult  79: 1 op, 32489000.00 ns, 32.4890 ms/op
+WorkloadResult  80: 1 op, 37507000.00 ns, 37.5070 ms/op
+WorkloadResult  81: 1 op, 32749500.00 ns, 32.7495 ms/op
+WorkloadResult  82: 1 op, 34974700.00 ns, 34.9747 ms/op
+WorkloadResult  83: 1 op, 44256900.00 ns, 44.2569 ms/op
+WorkloadResult  84: 1 op, 45798100.00 ns, 45.7981 ms/op
+WorkloadResult  85: 1 op, 47247400.00 ns, 47.2474 ms/op
+WorkloadResult  86: 1 op, 43158600.00 ns, 43.1586 ms/op
+WorkloadResult  87: 1 op, 29042700.00 ns, 29.0427 ms/op
+WorkloadResult  88: 1 op, 24760700.00 ns, 24.7607 ms/op
+WorkloadResult  89: 1 op, 29694700.00 ns, 29.6947 ms/op
+WorkloadResult  90: 1 op, 40364100.00 ns, 40.3641 ms/op
+WorkloadResult  91: 1 op, 38913500.00 ns, 38.9135 ms/op
+
+// AfterAll
+// Benchmark Process 25488 has exited with code 0.
+
+Mean = 50.304 ms, StdErr = 1.823 ms (3.62%), N = 91, StdDev = 17.389 ms
+Min = 24.761 ms, Q1 = 38.514 ms, Median = 45.923 ms, Q3 = 58.499 ms, Max = 101.343 ms
+IQR = 19.985 ms, LowerFence = 8.538 ms, UpperFence = 88.476 ms
+ConfidenceInterval = [44.102 ms; 56.505 ms] (CI 99.9%), Margin = 6.201 ms (12.33% of Mean)
+Skewness = 1.06, Kurtosis = 3.62, MValue = 2.16
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.html
+
+// * Detailed results *
+BenchmarkHarness.MySQLSelectPlusUpdate: DefaultJob [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 291.693 ms, StdErr = 9.830 ms (3.37%), N = 96, StdDev = 96.313 ms
+Min = 129.642 ms, Q1 = 210.667 ms, Median = 282.760 ms, Q3 = 346.387 ms, Max = 536.149 ms
+IQR = 135.720 ms, LowerFence = 7.087 ms, UpperFence = 549.966 ms
+ConfidenceInterval = [258.312 ms; 325.074 ms] (CI 99.9%), Margin = 33.381 ms (11.44% of Mean)
+Skewness = 0.57, Kurtosis = 2.71, MValue = 3.12
+-------------------- Histogram --------------------
+[102.035 ms ; 157.207 ms) | @@@
+[157.207 ms ; 212.422 ms) | @@@@@@@@@@@@@@@@@@@@@@
+[212.422 ms ; 253.480 ms) | @@@@@@@@@
+[253.480 ms ; 308.695 ms) | @@@@@@@@@@@@@@@@@@@@@@@@@
+[308.695 ms ; 366.789 ms) | @@@@@@@@@@@@@@@@@@@@
+[366.789 ms ; 429.235 ms) | @@@@@@@@
+[429.235 ms ; 487.477 ms) | @@@@
+[487.477 ms ; 542.692 ms) | @@@@@
+---------------------------------------------------
+
+BenchmarkHarness.PGSelectPlusUpdate: DefaultJob [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 50.304 ms, StdErr = 1.823 ms (3.62%), N = 91, StdDev = 17.389 ms
+Min = 24.761 ms, Q1 = 38.514 ms, Median = 45.923 ms, Q3 = 58.499 ms, Max = 101.343 ms
+IQR = 19.985 ms, LowerFence = 8.538 ms, UpperFence = 88.476 ms
+ConfidenceInterval = [44.102 ms; 56.505 ms] (CI 99.9%), Margin = 6.201 ms (12.33% of Mean)
+Skewness = 1.06, Kurtosis = 3.62, MValue = 2.16
+-------------------- Histogram --------------------
+[19.686 ms ;  27.371 ms) | @
+[27.371 ms ;  37.337 ms) | @@@@@@@@@@@@@@@@@@@@
+[37.337 ms ;  47.485 ms) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[47.485 ms ;  58.762 ms) | @@@@@@@@@@@@@@@@@@@@
+[58.762 ms ;  70.491 ms) | @@@@@@@@@@@
+[70.491 ms ;  76.648 ms) | @
+[76.648 ms ;  86.796 ms) | @@@@@@
+[86.796 ms ;  91.692 ms) | 
+[91.692 ms ; 101.840 ms) | @@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=5.0.103
+  [Host]     : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+  DefaultJob : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+
+
+|                Method | IterationCount |      Mean |     Error |   StdDev | Ratio | RatioSD |
+|---------------------- |--------------- |----------:|----------:|---------:|------:|--------:|
+| MySQLSelectPlusUpdate |              2 | 291.69 ms | 33.381 ms | 96.31 ms |  1.00 |    0.00 |
+|    PGSelectPlusUpdate |              2 |  50.30 ms |  6.201 ms | 17.39 ms |  0.19 |    0.08 |
+
+// * Warnings *
+MultimodalDistribution
+  BenchmarkHarness.MySQLSelectPlusUpdate: Default -> It seems that the distribution can have several modes (mValue = 3.12)
+MinIterationTime
+  BenchmarkHarness.PGSelectPlusUpdate: Default -> The minimum observed iteration time is 24.7607 ms which is very small. It's recommended to increase it to at least 100.0000 ms using more operations.
+
+// * Hints *
+Outliers
+  BenchmarkHarness.MySQLSelectPlusUpdate: Default -> 4 outliers were removed (556.62 ms..661.19 ms)
+  BenchmarkHarness.PGSelectPlusUpdate: Default    -> 9 outliers were removed (104.08 ms..796.49 ms)
+
+// * Legends *
+  IterationCount : Value of the 'IterationCount' parameter
+  Mean           : Arithmetic mean of all measurements
+  Error          : Half of 99.9% confidence interval
+  StdDev         : Standard deviation of all measurements
+  Ratio          : Mean of the ratio distribution ([Current]/[Baseline])
+  RatioSD        : Standard deviation of the ratio distribution ([Current]/[Baseline])
+  1 ms           : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:01:35 (95.88 sec), executed benchmarks: 2
+
+Global total time: 00:03:31 (211.23 sec), executed benchmarks: 2
+// * Artifacts cleanup *

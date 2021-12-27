@@ -1,0 +1,898 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\f88b77bf-1f0e-4485-937c-5e53620a9438
+// command took 4.85s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\f88b77bf-1f0e-4485-937c-5e53620a9438
+// command took 4.78s and exited with 0
+// ***** Done, took 00:00:09 (9.84 sec)   *****
+// Found 2 benchmarks:
+//   BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: DefaultJob [IterationCount=2]
+//   BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: DefaultJob [IterationCount=2]
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: DefaultJob [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "f88b77bf-1f0e-4485-937c-5e53620a9438.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion(IterationCount: 2)" --job "Default" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\f88b77bf-1f0e-4485-937c-5e53620a9438\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 512500.00 ns, 512.5000 us/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 2286451000.00 ns, 2.2865 s/op
+
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 207086300.00 ns, 207.0863 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   2: 1 op, 198624600.00 ns, 198.6246 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   3: 1 op, 166269400.00 ns, 166.2694 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   4: 1 op, 187500200.00 ns, 187.5002 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   5: 1 op, 167892400.00 ns, 167.8924 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   6: 1 op, 214050300.00 ns, 214.0503 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   7: 1 op, 100352700.00 ns, 100.3527 ms/op
+
+// BeforeActualRun
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 94695300.00 ns, 94.6953 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 119963000.00 ns, 119.9630 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 203668600.00 ns, 203.6686 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   4: 1 op, 151557900.00 ns, 151.5579 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   5: 1 op, 90858000.00 ns, 90.8580 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   6: 1 op, 131714400.00 ns, 131.7144 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   7: 1 op, 62748400.00 ns, 62.7484 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   8: 1 op, 86906800.00 ns, 86.9068 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   9: 1 op, 92627200.00 ns, 92.6272 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  10: 1 op, 93991200.00 ns, 93.9912 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  11: 1 op, 92770100.00 ns, 92.7701 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  12: 1 op, 71035600.00 ns, 71.0356 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  13: 1 op, 68370100.00 ns, 68.3701 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  14: 1 op, 196741300.00 ns, 196.7413 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  15: 1 op, 69738900.00 ns, 69.7389 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  16: 1 op, 82452200.00 ns, 82.4522 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  17: 1 op, 65493700.00 ns, 65.4937 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  18: 1 op, 66497300.00 ns, 66.4973 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  19: 1 op, 66580200.00 ns, 66.5802 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  20: 1 op, 79238200.00 ns, 79.2382 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  21: 1 op, 159953200.00 ns, 159.9532 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  22: 1 op, 59851400.00 ns, 59.8514 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  23: 1 op, 65501900.00 ns, 65.5019 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  24: 1 op, 63112600.00 ns, 63.1126 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  25: 1 op, 54771100.00 ns, 54.7711 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  26: 1 op, 49830800.00 ns, 49.8308 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  27: 1 op, 61873400.00 ns, 61.8734 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  28: 1 op, 50022400.00 ns, 50.0224 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  29: 1 op, 123454500.00 ns, 123.4545 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  30: 1 op, 7208294800.00 ns, 7.2083 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  31: 1 op, 142465900.00 ns, 142.4659 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  32: 1 op, 79839200.00 ns, 79.8392 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  33: 1 op, 66872700.00 ns, 66.8727 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  34: 1 op, 65421900.00 ns, 65.4219 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  35: 1 op, 63031100.00 ns, 63.0311 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  36: 1 op, 137799900.00 ns, 137.7999 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  37: 1 op, 68563500.00 ns, 68.5635 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  38: 1 op, 66059100.00 ns, 66.0591 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  39: 1 op, 74135200.00 ns, 74.1352 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  40: 1 op, 77533900.00 ns, 77.5339 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  41: 1 op, 63982800.00 ns, 63.9828 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  42: 1 op, 59041700.00 ns, 59.0417 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  43: 1 op, 98081200.00 ns, 98.0812 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  44: 1 op, 78192200.00 ns, 78.1922 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  45: 1 op, 69276800.00 ns, 69.2768 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  46: 1 op, 63272700.00 ns, 63.2727 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  47: 1 op, 60633400.00 ns, 60.6334 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  48: 1 op, 59045700.00 ns, 59.0457 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  49: 1 op, 86149500.00 ns, 86.1495 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  50: 1 op, 158627500.00 ns, 158.6275 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  51: 1 op, 68554000.00 ns, 68.5540 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  52: 1 op, 64136800.00 ns, 64.1368 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  53: 1 op, 59539100.00 ns, 59.5391 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  54: 1 op, 57055600.00 ns, 57.0556 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  55: 1 op, 63351800.00 ns, 63.3518 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  56: 1 op, 61186800.00 ns, 61.1868 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  57: 1 op, 195685900.00 ns, 195.6859 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  58: 1 op, 76716100.00 ns, 76.7161 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  59: 1 op, 59084400.00 ns, 59.0844 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  60: 1 op, 58642300.00 ns, 58.6423 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  61: 1 op, 69078400.00 ns, 69.0784 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  62: 1 op, 63994400.00 ns, 63.9944 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  63: 1 op, 78107600.00 ns, 78.1076 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  64: 1 op, 86717000.00 ns, 86.7170 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  65: 1 op, 176680300.00 ns, 176.6803 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  66: 1 op, 69826200.00 ns, 69.8262 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  67: 1 op, 54233000.00 ns, 54.2330 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  68: 1 op, 55322800.00 ns, 55.3228 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  69: 1 op, 61885900.00 ns, 61.8859 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  70: 1 op, 55127000.00 ns, 55.1270 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  71: 1 op, 110469200.00 ns, 110.4692 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  72: 1 op, 92790700.00 ns, 92.7907 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  73: 1 op, 84794500.00 ns, 84.7945 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  74: 1 op, 86273900.00 ns, 86.2739 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  75: 1 op, 59370000.00 ns, 59.3700 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  76: 1 op, 59673500.00 ns, 59.6735 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  77: 1 op, 69794800.00 ns, 69.7948 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  78: 1 op, 67672000.00 ns, 67.6720 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  79: 1 op, 189470100.00 ns, 189.4701 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  80: 1 op, 71718300.00 ns, 71.7183 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  81: 1 op, 68626800.00 ns, 68.6268 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  82: 1 op, 80769600.00 ns, 80.7696 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  83: 1 op, 69592000.00 ns, 69.5920 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  84: 1 op, 103747900.00 ns, 103.7479 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  85: 1 op, 95637600.00 ns, 95.6376 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  86: 1 op, 83158500.00 ns, 83.1585 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  87: 1 op, 184226800.00 ns, 184.2268 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  88: 1 op, 90434100.00 ns, 90.4341 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  89: 1 op, 61573100.00 ns, 61.5731 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  90: 1 op, 55795500.00 ns, 55.7955 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  91: 1 op, 52450000.00 ns, 52.4500 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  92: 1 op, 46517300.00 ns, 46.5173 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  93: 1 op, 48131700.00 ns, 48.1317 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  94: 1 op, 146114300.00 ns, 146.1143 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  95: 1 op, 63585400.00 ns, 63.5854 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  96: 1 op, 49917700.00 ns, 49.9177 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  97: 1 op, 51039000.00 ns, 51.0390 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  98: 1 op, 50623500.00 ns, 50.6235 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  99: 1 op, 43170300.00 ns, 43.1703 ms/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual  100: 1 op, 42133500.00 ns, 42.1335 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 94695300.00 ns, 94.6953 ms/op
+WorkloadResult   2: 1 op, 119963000.00 ns, 119.9630 ms/op
+WorkloadResult   3: 1 op, 90858000.00 ns, 90.8580 ms/op
+WorkloadResult   4: 1 op, 131714400.00 ns, 131.7144 ms/op
+WorkloadResult   5: 1 op, 62748400.00 ns, 62.7484 ms/op
+WorkloadResult   6: 1 op, 86906800.00 ns, 86.9068 ms/op
+WorkloadResult   7: 1 op, 92627200.00 ns, 92.6272 ms/op
+WorkloadResult   8: 1 op, 93991200.00 ns, 93.9912 ms/op
+WorkloadResult   9: 1 op, 92770100.00 ns, 92.7701 ms/op
+WorkloadResult  10: 1 op, 71035600.00 ns, 71.0356 ms/op
+WorkloadResult  11: 1 op, 68370100.00 ns, 68.3701 ms/op
+WorkloadResult  12: 1 op, 69738900.00 ns, 69.7389 ms/op
+WorkloadResult  13: 1 op, 82452200.00 ns, 82.4522 ms/op
+WorkloadResult  14: 1 op, 65493700.00 ns, 65.4937 ms/op
+WorkloadResult  15: 1 op, 66497300.00 ns, 66.4973 ms/op
+WorkloadResult  16: 1 op, 66580200.00 ns, 66.5802 ms/op
+WorkloadResult  17: 1 op, 79238200.00 ns, 79.2382 ms/op
+WorkloadResult  18: 1 op, 59851400.00 ns, 59.8514 ms/op
+WorkloadResult  19: 1 op, 65501900.00 ns, 65.5019 ms/op
+WorkloadResult  20: 1 op, 63112600.00 ns, 63.1126 ms/op
+WorkloadResult  21: 1 op, 54771100.00 ns, 54.7711 ms/op
+WorkloadResult  22: 1 op, 49830800.00 ns, 49.8308 ms/op
+WorkloadResult  23: 1 op, 61873400.00 ns, 61.8734 ms/op
+WorkloadResult  24: 1 op, 50022400.00 ns, 50.0224 ms/op
+WorkloadResult  25: 1 op, 123454500.00 ns, 123.4545 ms/op
+WorkloadResult  26: 1 op, 79839200.00 ns, 79.8392 ms/op
+WorkloadResult  27: 1 op, 66872700.00 ns, 66.8727 ms/op
+WorkloadResult  28: 1 op, 65421900.00 ns, 65.4219 ms/op
+WorkloadResult  29: 1 op, 63031100.00 ns, 63.0311 ms/op
+WorkloadResult  30: 1 op, 68563500.00 ns, 68.5635 ms/op
+WorkloadResult  31: 1 op, 66059100.00 ns, 66.0591 ms/op
+WorkloadResult  32: 1 op, 74135200.00 ns, 74.1352 ms/op
+WorkloadResult  33: 1 op, 77533900.00 ns, 77.5339 ms/op
+WorkloadResult  34: 1 op, 63982800.00 ns, 63.9828 ms/op
+WorkloadResult  35: 1 op, 59041700.00 ns, 59.0417 ms/op
+WorkloadResult  36: 1 op, 98081200.00 ns, 98.0812 ms/op
+WorkloadResult  37: 1 op, 78192200.00 ns, 78.1922 ms/op
+WorkloadResult  38: 1 op, 69276800.00 ns, 69.2768 ms/op
+WorkloadResult  39: 1 op, 63272700.00 ns, 63.2727 ms/op
+WorkloadResult  40: 1 op, 60633400.00 ns, 60.6334 ms/op
+WorkloadResult  41: 1 op, 59045700.00 ns, 59.0457 ms/op
+WorkloadResult  42: 1 op, 86149500.00 ns, 86.1495 ms/op
+WorkloadResult  43: 1 op, 68554000.00 ns, 68.5540 ms/op
+WorkloadResult  44: 1 op, 64136800.00 ns, 64.1368 ms/op
+WorkloadResult  45: 1 op, 59539100.00 ns, 59.5391 ms/op
+WorkloadResult  46: 1 op, 57055600.00 ns, 57.0556 ms/op
+WorkloadResult  47: 1 op, 63351800.00 ns, 63.3518 ms/op
+WorkloadResult  48: 1 op, 61186800.00 ns, 61.1868 ms/op
+WorkloadResult  49: 1 op, 76716100.00 ns, 76.7161 ms/op
+WorkloadResult  50: 1 op, 59084400.00 ns, 59.0844 ms/op
+WorkloadResult  51: 1 op, 58642300.00 ns, 58.6423 ms/op
+WorkloadResult  52: 1 op, 69078400.00 ns, 69.0784 ms/op
+WorkloadResult  53: 1 op, 63994400.00 ns, 63.9944 ms/op
+WorkloadResult  54: 1 op, 78107600.00 ns, 78.1076 ms/op
+WorkloadResult  55: 1 op, 86717000.00 ns, 86.7170 ms/op
+WorkloadResult  56: 1 op, 69826200.00 ns, 69.8262 ms/op
+WorkloadResult  57: 1 op, 54233000.00 ns, 54.2330 ms/op
+WorkloadResult  58: 1 op, 55322800.00 ns, 55.3228 ms/op
+WorkloadResult  59: 1 op, 61885900.00 ns, 61.8859 ms/op
+WorkloadResult  60: 1 op, 55127000.00 ns, 55.1270 ms/op
+WorkloadResult  61: 1 op, 110469200.00 ns, 110.4692 ms/op
+WorkloadResult  62: 1 op, 92790700.00 ns, 92.7907 ms/op
+WorkloadResult  63: 1 op, 84794500.00 ns, 84.7945 ms/op
+WorkloadResult  64: 1 op, 86273900.00 ns, 86.2739 ms/op
+WorkloadResult  65: 1 op, 59370000.00 ns, 59.3700 ms/op
+WorkloadResult  66: 1 op, 59673500.00 ns, 59.6735 ms/op
+WorkloadResult  67: 1 op, 69794800.00 ns, 69.7948 ms/op
+WorkloadResult  68: 1 op, 67672000.00 ns, 67.6720 ms/op
+WorkloadResult  69: 1 op, 71718300.00 ns, 71.7183 ms/op
+WorkloadResult  70: 1 op, 68626800.00 ns, 68.6268 ms/op
+WorkloadResult  71: 1 op, 80769600.00 ns, 80.7696 ms/op
+WorkloadResult  72: 1 op, 69592000.00 ns, 69.5920 ms/op
+WorkloadResult  73: 1 op, 103747900.00 ns, 103.7479 ms/op
+WorkloadResult  74: 1 op, 95637600.00 ns, 95.6376 ms/op
+WorkloadResult  75: 1 op, 83158500.00 ns, 83.1585 ms/op
+WorkloadResult  76: 1 op, 90434100.00 ns, 90.4341 ms/op
+WorkloadResult  77: 1 op, 61573100.00 ns, 61.5731 ms/op
+WorkloadResult  78: 1 op, 55795500.00 ns, 55.7955 ms/op
+WorkloadResult  79: 1 op, 52450000.00 ns, 52.4500 ms/op
+WorkloadResult  80: 1 op, 46517300.00 ns, 46.5173 ms/op
+WorkloadResult  81: 1 op, 48131700.00 ns, 48.1317 ms/op
+WorkloadResult  82: 1 op, 63585400.00 ns, 63.5854 ms/op
+WorkloadResult  83: 1 op, 49917700.00 ns, 49.9177 ms/op
+WorkloadResult  84: 1 op, 51039000.00 ns, 51.0390 ms/op
+WorkloadResult  85: 1 op, 50623500.00 ns, 50.6235 ms/op
+WorkloadResult  86: 1 op, 43170300.00 ns, 43.1703 ms/op
+WorkloadResult  87: 1 op, 42133500.00 ns, 42.1335 ms/op
+
+// AfterAll
+// Benchmark Process 10188 has exited with code 0.
+
+Mean = 71.095 ms, StdErr = 1.897 ms (2.67%), N = 87, StdDev = 17.694 ms
+Min = 42.133 ms, Q1 = 59.606 ms, Median = 66.580 ms, Q3 = 80.304 ms, Max = 131.714 ms
+IQR = 20.698 ms, LowerFence = 28.559 ms, UpperFence = 111.352 ms
+ConfidenceInterval = [64.631 ms; 77.559 ms] (CI 99.9%), Margin = 6.464 ms (9.09% of Mean)
+Skewness = 1.11, Kurtosis = 4.3, MValue = 2.52
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: DefaultJob [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "f88b77bf-1f0e-4485-937c-5e53620a9438.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdatePlusInsertion(IterationCount: 2)" --job "Default" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\f88b77bf-1f0e-4485-937c-5e53620a9438\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 290600.00 ns, 290.6000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud

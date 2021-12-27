@@ -1,0 +1,1275 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 6 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92
+// command took 2.82s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92
+// command took 6.74s and exited with 0
+// ***** Done, took 00:00:09 (9.74 sec)   *****
+// Found 6 benchmarks:
+//   BenchmarkHarness.MySQLInsertion: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.PGInsertion: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.MySQLSelectPlusUpdate: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.PGSelectPlusUpdate: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLInsertion: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-MTLIMJ(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 342700.00 ns, 342.7000 us/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 2648760500.00 ns, 2.6488 s/op
+
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 311994000.00 ns, 311.9940 ms/op
+
+// BeforeActualRun
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 678790000.00 ns, 678.7900 ms/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 718206300.00 ns, 718.2063 ms/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 720930100.00 ns, 720.9301 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 678790000.00 ns, 678.7900 ms/op
+WorkloadResult   2: 1 op, 718206300.00 ns, 718.2063 ms/op
+WorkloadResult   3: 1 op, 720930100.00 ns, 720.9301 ms/op
+
+// AfterAll
+// Benchmark Process 21744 has exited with code 0.
+// Launch: 2 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-WWUNUR(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 303300.00 ns, 303.3000 us/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 2684786500.00 ns, 2.6848 s/op
+
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 2926480600.00 ns, 2.9265 s/op
+
+// BeforeActualRun
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 1793592800.00 ns, 1.7936 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 1789627400.00 ns, 1.7896 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 1231903700.00 ns, 1.2319 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 1793592800.00 ns, 1.7936 s/op
+WorkloadResult   2: 1 op, 1789627400.00 ns, 1.7896 s/op
+WorkloadResult   3: 1 op, 1231903700.00 ns, 1.2319 s/op
+
+// AfterAll
+// Benchmark Process 6332 has exited with code 0.
+// Launch: 3 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-RRHUIB(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 295200.00 ns, 295.2000 us/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 1477263500.00 ns, 1.4773 s/op
+
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 1426673700.00 ns, 1.4267 s/op
+
+// BeforeActualRun
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 1050833800.00 ns, 1.0508 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 1294940600.00 ns, 1.2949 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 1743159900.00 ns, 1.7432 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 1050833800.00 ns, 1.0508 s/op
+WorkloadResult   2: 1 op, 1294940600.00 ns, 1.2949 s/op
+WorkloadResult   3: 1 op, 1743159900.00 ns, 1.7432 s/op
+
+// AfterAll
+// Benchmark Process 25688 has exited with code 0.
+
+Mean = 1.225 s, StdErr = 0.156 s (12.75%), N = 9, StdDev = 0.468 s
+Min = 0.679 s, Q1 = 0.721 s, Median = 1.232 s, Q3 = 1.743 s, Max = 1.794 s
+IQR = 1.022 s, LowerFence = -0.812 s, UpperFence = 3.277 s
+ConfidenceInterval = [0.438 s; 2.012 s] (CI 99.9%), Margin = 0.787 s (64.27% of Mean)
+Skewness = 0.08, Kurtosis = 1.15, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.PGInsertion: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-KTMJNB(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 136360600.00 ns, 136.3606 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 2109268100.00 ns, 2.1093 s/op
+
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 69971700.00 ns, 69.9717 ms/op
+
+// BeforeActualRun
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 263924200.00 ns, 263.9242 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 224877200.00 ns, 224.8772 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   3: 1 op, 230157200.00 ns, 230.1572 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 263924200.00 ns, 263.9242 ms/op
+WorkloadResult   2: 1 op, 224877200.00 ns, 224.8772 ms/op
+WorkloadResult   3: 1 op, 230157200.00 ns, 230.1572 ms/op
+
+// AfterAll
+// Benchmark Process 1468 has exited with code 0.
+// Launch: 2 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-XUOTCG(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 396600.00 ns, 396.6000 us/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 506878900.00 ns, 506.8789 ms/op
+
+OverheadJitting  2: 1 op, 300.00 ns, 300.0000 ns/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadJitting  2: 1 op, 24115900.00 ns, 24.1159 ms/op
+
+OverheadJitting  3: 16 op, 745100.00 ns, 46.5688 us/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadJitting  3: 16 op, 528563400.00 ns, 33.0352 ms/op
+
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    1: 16 op, 988658300.00 ns, 61.7911 ms/op
+
+OverheadWarmup   1: 16 op, 5200.00 ns, 325.0000 ns/op
+OverheadWarmup   2: 16 op, 1200.00 ns, 75.0000 ns/op
+OverheadWarmup   3: 16 op, 1700.00 ns, 106.2500 ns/op
+OverheadWarmup   4: 16 op, 1400.00 ns, 87.5000 ns/op
+OverheadWarmup   5: 16 op, 900.00 ns, 56.2500 ns/op
+OverheadWarmup   6: 16 op, 800.00 ns, 50.0000 ns/op
+OverheadWarmup   7: 16 op, 600.00 ns, 37.5000 ns/op
+OverheadWarmup   8: 16 op, 600.00 ns, 37.5000 ns/op
+OverheadWarmup   9: 16 op, 800.00 ns, 50.0000 ns/op
+
+OverheadActual   1: 16 op, 1000.00 ns, 62.5000 ns/op
+OverheadActual   2: 16 op, 700.00 ns, 43.7500 ns/op
+OverheadActual   3: 16 op, 700.00 ns, 43.7500 ns/op
+OverheadActual   4: 16 op, 800.00 ns, 50.0000 ns/op
+OverheadActual   5: 16 op, 700.00 ns, 43.7500 ns/op
+OverheadActual   6: 16 op, 1100.00 ns, 68.7500 ns/op
+OverheadActual   7: 16 op, 500.00 ns, 31.2500 ns/op
+OverheadActual   8: 16 op, 500.00 ns, 31.2500 ns/op
+OverheadActual   9: 16 op, 400.00 ns, 25.0000 ns/op
+OverheadActual  10: 16 op, 600.00 ns, 37.5000 ns/op
+OverheadActual  11: 16 op, 500.00 ns, 31.2500 ns/op
+OverheadActual  12: 16 op, 1100.00 ns, 68.7500 ns/op
+OverheadActual  13: 16 op, 2700.00 ns, 168.7500 ns/op
+OverheadActual  14: 16 op, 700.00 ns, 43.7500 ns/op
+OverheadActual  15: 16 op, 600.00 ns, 37.5000 ns/op
+OverheadActual  16: 16 op, 400.00 ns, 25.0000 ns/op
+OverheadActual  17: 16 op, 400.00 ns, 25.0000 ns/op
+OverheadActual  18: 16 op, 800.00 ns, 50.0000 ns/op
+OverheadActual  19: 16 op, 500.00 ns, 31.2500 ns/op
+OverheadActual  20: 16 op, 500.00 ns, 31.2500 ns/op
+
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 16 op, 2226166500.00 ns, 139.1354 ms/op
+
+// BeforeActualRun
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 16 op, 1371321300.00 ns, 85.7076 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 16 op, 476944000.00 ns, 29.8090 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   3: 16 op, 417844200.00 ns, 26.1153 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 16 op, 1371320650.00 ns, 85.7075 ms/op
+WorkloadResult   2: 16 op, 476943350.00 ns, 29.8090 ms/op
+WorkloadResult   3: 16 op, 417843550.00 ns, 26.1152 ms/op
+
+// AfterAll
+// Benchmark Process 13672 has exited with code 0.
+// Launch: 3 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-FIGLNU(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 384700.00 ns, 384.7000 us/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 308853000.00 ns, 308.8530 ms/op
+
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    1: 2 op, 50627000.00 ns, 25.3135 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    2: 3 op, 98619500.00 ns, 32.8732 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    3: 4 op, 194280200.00 ns, 48.5701 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    4: 5 op, 186899100.00 ns, 37.3798 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    5: 6 op, 130336600.00 ns, 21.7228 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    6: 7 op, 313377200.00 ns, 44.7682 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    7: 8 op, 276154600.00 ns, 34.5193 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    8: 9 op, 308751300.00 ns, 34.3057 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot    9: 10 op, 284934400.00 ns, 28.4934 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot   10: 11 op, 303323700.00 ns, 27.5749 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadPilot   11: 12 op, 732650400.00 ns, 61.0542 ms/op
+
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 12 op, 386593800.00 ns, 32.2161 ms/op
+
+// BeforeActualRun
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 12 op, 436571000.00 ns, 36.3809 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 12 op, 169960800.00 ns, 14.1634 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   3: 12 op, 168884000.00 ns, 14.0737 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 12 op, 436571000.00 ns, 36.3809 ms/op
+WorkloadResult   2: 12 op, 169960800.00 ns, 14.1634 ms/op
+WorkloadResult   3: 12 op, 168884000.00 ns, 14.0737 ms/op
+
+// AfterAll
+// Benchmark Process 22024 has exited with code 0.
+
+Mean = 102.801 ms, StdErr = 35.104 ms (34.15%), N = 9, StdDev = 105.312 ms
+Min = 14.074 ms, Q1 = 26.115 ms, Median = 36.381 ms, Q3 = 224.877 ms, Max = 263.924 ms
+IQR = 198.762 ms, LowerFence = -272.028 ms, UpperFence = 523.020 ms
+ConfidenceInterval = [-74.169 ms; 279.770 ms] (CI 99.9%), Margin = 176.969 ms (172.15% of Mean)
+Skewness = 0.53, Kurtosis = 1.23, MValue = 3
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdate: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdate(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 2 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-XTFAYF(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 26209100.00 ns, 26.2091 ms/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 10221586200.00 ns, 10.2216 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 9470414400.00 ns, 9.4704 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 9406406300.00 ns, 9.4064 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 12429312800.00 ns, 12.4293 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 10933286100.00 ns, 10.9333 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 9406406300.00 ns, 9.4064 s/op
+WorkloadResult   2: 1 op, 12429312800.00 ns, 12.4293 s/op
+WorkloadResult   3: 1 op, 10933286100.00 ns, 10.9333 s/op
+
+// AfterAll
+// Benchmark Process 16476 has exited with code 0.
+// Launch: 2 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdate(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 2 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-EJUKTJ(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 296100.00 ns, 296.1000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 9358259700.00 ns, 9.3583 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 9679423200.00 ns, 9.6794 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 9533683900.00 ns, 9.5337 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 8499903600.00 ns, 8.4999 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 8301639500.00 ns, 8.3016 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 9533683900.00 ns, 9.5337 s/op
+WorkloadResult   2: 1 op, 8499903600.00 ns, 8.4999 s/op
+WorkloadResult   3: 1 op, 8301639500.00 ns, 8.3016 s/op
+
+// AfterAll
+// Benchmark Process 10424 has exited with code 0.
+// Launch: 3 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdate(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 2 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-PCWWQV(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 309300.00 ns, 309.3000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 11193712200.00 ns, 11.1937 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 10499944600.00 ns, 10.4999 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 7961058200.00 ns, 7.9611 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 9397565400.00 ns, 9.3976 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 8521437600.00 ns, 8.5214 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 7961058200.00 ns, 7.9611 s/op
+WorkloadResult   2: 1 op, 9397565400.00 ns, 9.3976 s/op
+WorkloadResult   3: 1 op, 8521437600.00 ns, 8.5214 s/op
+
+// AfterAll
+// Benchmark Process 24028 has exited with code 0.
+
+Mean = 9.443 s, StdErr = 0.477 s (5.05%), N = 9, StdDev = 1.431 s
+Min = 7.961 s, Q1 = 8.500 s, Median = 9.398 s, Q3 = 9.534 s, Max = 12.429 s
+IQR = 1.034 s, LowerFence = 6.949 s, UpperFence = 11.084 s
+ConfidenceInterval = [7.038 s; 11.848 s] (CI 99.9%), Margin = 2.405 s (25.47% of Mean)
+Skewness = 0.89, Kurtosis = 2.45, MValue = 2.33
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdate: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdate(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 3 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-OSERDO(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 288100.00 ns, 288.1000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 4877619200.00 ns, 4.8776 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 3075334500.00 ns, 3.0753 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 3094327400.00 ns, 3.0943 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 3096356500.00 ns, 3.0964 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   3: 1 op, 3132561100.00 ns, 3.1326 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 3094327400.00 ns, 3.0943 s/op
+WorkloadResult   2: 1 op, 3096356500.00 ns, 3.0964 s/op
+WorkloadResult   3: 1 op, 3132561100.00 ns, 3.1326 s/op
+
+// AfterAll
+// Benchmark Process 15468 has exited with code 0.
+// Launch: 2 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdate(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 3 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-ICMFXS(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 303100.00 ns, 303.1000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 3176052900.00 ns, 3.1761 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 3022552300.00 ns, 3.0226 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 3083372700.00 ns, 3.0834 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 3131802200.00 ns, 3.1318 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   3: 1 op, 3060811300.00 ns, 3.0608 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 3083372700.00 ns, 3.0834 s/op
+WorkloadResult   2: 1 op, 3131802200.00 ns, 3.1318 s/op
+WorkloadResult   3: 1 op, 3060811300.00 ns, 3.0608 s/op
+
+// AfterAll
+// Benchmark Process 20968 has exited with code 0.
+// Launch: 3 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdate(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 3 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-EBSWAY(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 284700.00 ns, 284.7000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 3337431900.00 ns, 3.3374 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 3089480200.00 ns, 3.0895 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 3070562200.00 ns, 3.0706 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 3482375100.00 ns, 3.4824 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   3: 1 op, 3294682100.00 ns, 3.2947 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 3070562200.00 ns, 3.0706 s/op
+WorkloadResult   2: 1 op, 3482375100.00 ns, 3.4824 s/op
+WorkloadResult   3: 1 op, 3294682100.00 ns, 3.2947 s/op
+
+// AfterAll
+// Benchmark Process 14492 has exited with code 0.
+
+Mean = 3.161 s, StdErr = 0.046 s (1.47%), N = 9, StdDev = 0.139 s
+Min = 3.061 s, Q1 = 3.083 s, Median = 3.096 s, Q3 = 3.133 s, Max = 3.482 s
+IQR = 0.049 s, LowerFence = 3.010 s, UpperFence = 3.206 s
+ConfidenceInterval = [2.926 s; 3.395 s] (CI 99.9%), Margin = 0.234 s (7.42% of Mean)
+Skewness = 1.35, Kurtosis = 3.3, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 4 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-ZCDZSK(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 309000.00 ns, 309.0000 us/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 10303693700.00 ns, 10.3037 s/op
+
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 8759299700.00 ns, 8.7593 s/op
+
+// BeforeActualRun
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 8064014800.00 ns, 8.0640 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 10054595200.00 ns, 10.0546 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 8593054300.00 ns, 8.5931 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 8064014800.00 ns, 8.0640 s/op
+WorkloadResult   2: 1 op, 10054595200.00 ns, 10.0546 s/op
+WorkloadResult   3: 1 op, 8593054300.00 ns, 8.5931 s/op
+
+// AfterAll
+// Benchmark Process 8256 has exited with code 0.
+// Launch: 2 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 4 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-SSLJMN(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 301800.00 ns, 301.8000 us/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 10474256700.00 ns, 10.4743 s/op
+
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 8292851700.00 ns, 8.2929 s/op
+
+// BeforeActualRun
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 10239920100.00 ns, 10.2399 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 9738072000.00 ns, 9.7381 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 9955985600.00 ns, 9.9560 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 10239920100.00 ns, 10.2399 s/op
+WorkloadResult   2: 1 op, 9738072000.00 ns, 9.7381 s/op
+WorkloadResult   3: 1 op, 9955985600.00 ns, 9.9560 s/op
+
+// AfterAll
+// Benchmark Process 3356 has exited with code 0.
+// Launch: 3 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 4 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-PIAKOO(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 292900.00 ns, 292.9000 us/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 10650271500.00 ns, 10.6503 s/op
+
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 9938472000.00 ns, 9.9385 s/op
+
+// BeforeActualRun
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 7603927500.00 ns, 7.6039 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 7849319000.00 ns, 7.8493 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 8318889700.00 ns, 8.3189 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 7603927500.00 ns, 7.6039 s/op
+WorkloadResult   2: 1 op, 7849319000.00 ns, 7.8493 s/op
+WorkloadResult   3: 1 op, 8318889700.00 ns, 8.3189 s/op
+
+// AfterAll
+// Benchmark Process 8764 has exited with code 0.
+
+Mean = 8.935 s, StdErr = 0.351 s (3.92%), N = 9, StdDev = 1.052 s
+Min = 7.604 s, Q1 = 8.064 s, Median = 8.593 s, Q3 = 9.956 s, Max = 10.240 s
+IQR = 1.892 s, LowerFence = 5.226 s, UpperFence = 12.794 s
+ConfidenceInterval = [7.168 s; 10.703 s] (CI 99.9%), Margin = 1.767 s (19.78% of Mean)
+Skewness = 0.06, Kurtosis = 1.02, MValue = 3.6
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-DRFLEG(IterationCount=3, LaunchCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdatePlusInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 5 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-GGBRNU(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 290400.00 ns, 290.4000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 31591535500.00 ns, 31.5915 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Benchmarking.Clients.RestClient.GETCallAPI(String API) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 87
+   at Benchmarking.Clients.RestClient.PGSelectPlusUpdatePlusInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 81
+   at Benchmarking.BenchmarkHarness.PGSelectPlusUpdatePlusInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\BenchmarkHarness.cs:line 98
+   at BenchmarkDotNet.Autogenerated.Runnable_5.<.ctor>b__3_4() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\70d23252-c226-43fc-b736-99c77642cb92.notcs:line 3865
+   at BenchmarkDotNet.Autogenerated.Runnable_5.WorkloadActionNoUnroll(Int64 invokeCount) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\70d23252-c226-43fc-b736-99c77642cb92.notcs:line 4516
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineStage.RunIteration(IterationMode mode, IterationStage stage, Int32 index, Int64 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineStage.Run(IStoppingCriteria criteria, Int64 invokeCount, IterationMode mode, IterationStage stage, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineWarmupStage.Run(Int64 invokeCount, IterationMode iterationMode, Int32 unrollFactor, RunStrategy runStrategy)
+   at BenchmarkDotNet.Engines.EngineWarmupStage.RunWorkload(Int64 invokeCount, Int32 unrollFactor, RunStrategy runStrategy)
+   at BenchmarkDotNet.Engines.Engine.Run()
+   at BenchmarkDotNet.Autogenerated.Runnable_5.Run(IHost host, String benchmarkName) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\70d23252-c226-43fc-b736-99c77642cb92.notcs:line 3848
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\70d23252-c226-43fc-b736-99c77642cb92.notcs:line 58
+// AfterAll
+// Benchmark Process 17212 has exited with code -1.
+// Launch: 2 / 3
+// Execute: dotnet "70d23252-c226-43fc-b736-99c77642cb92.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdatePlusInsertion(IterationCount: 2)" --job "IterationCount=3, LaunchCount=3, WarmupCount=1" --benchmarkId 5 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\70d23252-c226-43fc-b736-99c77642cb92\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-JXUVUQ(IterationCount=3, LaunchCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 667700.00 ns, 667.7000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud

@@ -1,0 +1,61 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\d3ea4652-8b9c-4e2f-b071-1732a194e829
+// command took 42.08s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\d3ea4652-8b9c-4e2f-b071-1732a194e829
+// command took 28.52s and exited with 0
+// ***** Done, took 00:01:13 (73.16 sec)   *****
+// Found 1 benchmarks:
+//   IntroStopOnFirstError.CallCorrectMethod: RyuJitX86(Jit=RyuJit, Platform=X86)
+
+// **************************
+// Benchmark: IntroStopOnFirstError.CallCorrectMethod: RyuJitX86(Jit=RyuJit, Platform=X86)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "d3ea4652-8b9c-4e2f-b071-1732a194e829.dll" --benchmarkName "Benchmarking.IntroStopOnFirstError.CallCorrectMethod" --job "RyuJitX86" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\d3ea4652-8b9c-4e2f-b071-1732a194e829\bin\Release\netcoreapp3.1
+ExitCode != 0 and no results reported
+// Benchmark Process 23460 has exited with code -532462766.
+No more Benchmark runs will be launched as NO measurements were obtained from the previous run!
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmarking.IntroStopOnFirstError-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmarking.IntroStopOnFirstError-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmarking.IntroStopOnFirstError-report.html
+
+// * Detailed results *
+IntroStopOnFirstError.CallCorrectMethod: RyuJitX86(Jit=RyuJit, Platform=X86)
+Runtime = ; GC = 
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=5.0.103
+  [Host] : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+
+Job=RyuJitX86  Jit=RyuJit  Platform=X86  
+
+|            Method | Mean | Error |
+|------------------ |-----:|------:|
+| CallCorrectMethod |   NA |    NA |
+
+Benchmarks with issues:
+  IntroStopOnFirstError.CallCorrectMethod: RyuJitX86(Jit=RyuJit, Platform=X86)
+
+// * Legends *
+  Mean  : Arithmetic mean of all measurements
+  Error : Half of 99.9% confidence interval
+  1 ns  : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:29 (29.76 sec), executed benchmarks: 1
+
+Global total time: 00:01:42 (102.96 sec), executed benchmarks: 1
+// * Artifacts cleanup *

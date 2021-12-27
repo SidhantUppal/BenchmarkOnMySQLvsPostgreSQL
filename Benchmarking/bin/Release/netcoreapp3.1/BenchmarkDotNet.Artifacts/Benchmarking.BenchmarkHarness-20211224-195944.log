@@ -1,0 +1,766 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 6 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c
+// command took 13.69s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c
+// command took 5.19s and exited with 0
+// ***** Done, took 00:00:19 (19.04 sec)   *****
+// Found 6 benchmarks:
+//   BenchmarkHarness.MySQLInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.PGInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.MySQLSelectPlusUpdate: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.PGSelectPlusUpdate: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "e0ac87bc-2acb-4e89-a8b4-19db1486937c.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLInsertion(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-ULSFRT(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 306600.00 ns, 306.6000 us/op
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 2076247300.00 ns, 2.0762 s/op
+
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 214704800.00 ns, 214.7048 ms/op
+
+// BeforeActualRun
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 88346300.00 ns, 88.3463 ms/op
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 165476600.00 ns, 165.4766 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 88346300.00 ns, 88.3463 ms/op
+WorkloadResult   2: 1 op, 165476600.00 ns, 165.4766 ms/op
+
+// AfterAll
+// Benchmark Process 25868 has exited with code 0.
+
+Mean = 126.911 ms, StdErr = 38.565 ms (30.39%), N = 2, StdDev = 54.539 ms
+Min = 88.346 ms, Q1 = 107.629 ms, Median = 126.911 ms, Q3 = 146.194 ms, Max = 165.477 ms
+IQR = 38.565 ms, LowerFence = 49.781 ms, UpperFence = 204.042 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.PGInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "e0ac87bc-2acb-4e89-a8b4-19db1486937c.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGInsertion(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-GVYQLJ(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 328900.00 ns, 328.9000 us/op
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 1422016900.00 ns, 1.4220 s/op
+
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 51609400.00 ns, 51.6094 ms/op
+
+// BeforeActualRun
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 17952100.00 ns, 17.9521 ms/op
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 10691800.00 ns, 10.6918 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 17952100.00 ns, 17.9521 ms/op
+WorkloadResult   2: 1 op, 10691800.00 ns, 10.6918 ms/op
+
+// AfterAll
+// Benchmark Process 13252 has exited with code 0.
+
+Mean = 14.322 ms, StdErr = 3.630 ms (25.35%), N = 2, StdDev = 5.134 ms
+Min = 10.692 ms, Q1 = 12.507 ms, Median = 14.322 ms, Q3 = 16.137 ms, Max = 17.952 ms
+IQR = 3.630 ms, LowerFence = 7.062 ms, UpperFence = 21.582 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdate: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "e0ac87bc-2acb-4e89-a8b4-19db1486937c.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdate(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 2 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-ZCMZHM(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 303000.00 ns, 303.0000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 871556000.00 ns, 871.5560 ms/op
+
+OverheadJitting  2: 1 op, 3700.00 ns, 3.7000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadJitting  2: 1 op, 13902800.00 ns, 13.9028 ms/op
+
+OverheadJitting  3: 16 op, 358300.00 ns, 22.3938 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadJitting  3: 16 op, 108717300.00 ns, 6.7948 ms/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadPilot    1: 16 op, 115777600.00 ns, 7.2361 ms/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadPilot    2: 32 op, 721782700.00 ns, 22.5557 ms/op
+
+OverheadWarmup   1: 32 op, 5600.00 ns, 175.0000 ns/op
+OverheadWarmup   2: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadWarmup   3: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadWarmup   4: 32 op, 600.00 ns, 18.7500 ns/op
+OverheadWarmup   5: 32 op, 900.00 ns, 28.1250 ns/op
+OverheadWarmup   6: 32 op, 900.00 ns, 28.1250 ns/op
+
+OverheadActual   1: 32 op, 1300.00 ns, 40.6250 ns/op
+OverheadActual   2: 32 op, 900.00 ns, 28.1250 ns/op
+OverheadActual   3: 32 op, 900.00 ns, 28.1250 ns/op
+OverheadActual   4: 32 op, 600.00 ns, 18.7500 ns/op
+OverheadActual   5: 32 op, 1100.00 ns, 34.3750 ns/op
+OverheadActual   6: 32 op, 700.00 ns, 21.8750 ns/op
+OverheadActual   7: 32 op, 500.00 ns, 15.6250 ns/op
+OverheadActual   8: 32 op, 1200.00 ns, 37.5000 ns/op
+OverheadActual   9: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadActual  10: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadActual  11: 32 op, 1700.00 ns, 53.1250 ns/op
+OverheadActual  12: 32 op, 1000.00 ns, 31.2500 ns/op
+OverheadActual  13: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadActual  14: 32 op, 900.00 ns, 28.1250 ns/op
+OverheadActual  15: 32 op, 600.00 ns, 18.7500 ns/op
+OverheadActual  16: 32 op, 1800.00 ns, 56.2500 ns/op
+OverheadActual  17: 32 op, 700.00 ns, 21.8750 ns/op
+OverheadActual  18: 32 op, 1500.00 ns, 46.8750 ns/op
+OverheadActual  19: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadActual  20: 32 op, 600.00 ns, 18.7500 ns/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 32 op, 308042200.00 ns, 9.6263 ms/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   1: 32 op, 7771936100.00 ns, 242.8730 ms/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   2: 32 op, 177650900.00 ns, 5.5516 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 32 op, 7771935250.00 ns, 242.8730 ms/op
+WorkloadResult   2: 32 op, 177650050.00 ns, 5.5516 ms/op
+
+// AfterAll
+// Benchmark Process 16528 has exited with code 0.
+
+Mean = 124.212 ms, StdErr = 118.661 ms (95.53%), N = 2, StdDev = 167.812 ms
+Min = 5.552 ms, Q1 = 64.882 ms, Median = 124.212 ms, Q3 = 183.543 ms, Max = 242.873 ms
+IQR = 118.661 ms, LowerFence = -113.109 ms, UpperFence = 361.534 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdate: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "e0ac87bc-2acb-4e89-a8b4-19db1486937c.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdate(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 3 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-DMHXZS(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 398300.00 ns, 398.3000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 1454043100.00 ns, 1.4540 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 120819900.00 ns, 120.8199 ms/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 7113200.00 ns, 7.1132 ms/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 4881000.00 ns, 4.8810 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 7113200.00 ns, 7.1132 ms/op
+WorkloadResult   2: 1 op, 4881000.00 ns, 4.8810 ms/op
+
+// AfterAll
+// Benchmark Process 18848 has exited with code 0.
+
+Mean = 5.997 ms, StdErr = 1.116 ms (18.61%), N = 2, StdDev = 1.578 ms
+Min = 4.881 ms, Q1 = 5.439 ms, Median = 5.997 ms, Q3 = 6.555 ms, Max = 7.113 ms
+IQR = 1.116 ms, LowerFence = 3.765 ms, UpperFence = 8.229 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "e0ac87bc-2acb-4e89-a8b4-19db1486937c.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 4 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-SALFTG(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 339800.00 ns, 339.8000 us/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 1921402400.00 ns, 1.9214 s/op
+
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 3770472800.00 ns, 3.7705 s/op
+
+// BeforeActualRun
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 4501558700.00 ns, 4.5016 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 13761862600.00 ns, 13.7619 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 4501558700.00 ns, 4.5016 s/op
+WorkloadResult   2: 1 op, 13761862600.00 ns, 13.7619 s/op
+
+// AfterAll
+// Benchmark Process 10716 has exited with code 0.
+
+Mean = 9.132 s, StdErr = 4.630 s (50.70%), N = 2, StdDev = 6.548 s
+Min = 4.502 s, Q1 = 6.817 s, Median = 9.132 s, Q3 = 11.447 s, Max = 13.762 s
+IQR = 4.630 s, LowerFence = -0.129 s, UpperFence = 18.392 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "e0ac87bc-2acb-4e89-a8b4-19db1486937c.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdatePlusInsertion(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 5 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-DKZENY(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 293100.00 ns, 293.1000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 224833500.00 ns, 224.8335 ms/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadPilot    1: 2 op, 393244000.00 ns, 196.6220 ms/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadPilot    2: 3 op, 6735091000.00 ns, 2.2450 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 3 op, 54726593500.00 ns, 18.2422 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Benchmarking.Clients.RestClient.GETCallAPI(String API) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 87
+   at Benchmarking.Clients.RestClient.PGSelectPlusUpdatePlusInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 81
+   at Benchmarking.BenchmarkHarness.PGSelectPlusUpdatePlusInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\BenchmarkHarness.cs:line 98
+   at BenchmarkDotNet.Autogenerated.Runnable_5.<.ctor>b__3_4() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\e0ac87bc-2acb-4e89-a8b4-19db1486937c.notcs:line 3859
+   at BenchmarkDotNet.Autogenerated.Runnable_5.WorkloadActionNoUnroll(Int64 invokeCount) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\e0ac87bc-2acb-4e89-a8b4-19db1486937c.notcs:line 4510
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineStage.RunIteration(IterationMode mode, IterationStage stage, Int32 index, Int64 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineActualStage.RunSpecific(Int64 invokeCount, IterationMode iterationMode, Int32 iterationCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineActualStage.Run(Int64 invokeCount, IterationMode iterationMode, Boolean runAuto, Int32 unrollFactor, Boolean forceSpecific)
+   at BenchmarkDotNet.Engines.EngineActualStage.RunWorkload(Int64 invokeCount, Int32 unrollFactor, Boolean forceSpecific)
+   at BenchmarkDotNet.Engines.Engine.Run()
+   at BenchmarkDotNet.Autogenerated.Runnable_5.Run(IHost host, String benchmarkName) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\e0ac87bc-2acb-4e89-a8b4-19db1486937c.notcs:line 3842
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\e0ac87bc-2acb-4e89-a8b4-19db1486937c\e0ac87bc-2acb-4e89-a8b4-19db1486937c.notcs:line 58
+// AfterAll
+// Benchmark Process 20460 has exited with code -1.
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.html
+
+// * Detailed results *
+BenchmarkHarness.MySQLInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 126.911 ms, StdErr = 38.565 ms (30.39%), N = 2, StdDev = 54.539 ms
+Min = 88.346 ms, Q1 = 107.629 ms, Median = 126.911 ms, Q3 = 146.194 ms, Max = 165.477 ms
+IQR = 38.565 ms, LowerFence = 49.781 ms, UpperFence = 204.042 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[70.096 ms ; 183.727 ms) | @@
+---------------------------------------------------
+
+BenchmarkHarness.PGInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 14.322 ms, StdErr = 3.630 ms (25.35%), N = 2, StdDev = 5.134 ms
+Min = 10.692 ms, Q1 = 12.507 ms, Median = 14.322 ms, Q3 = 16.137 ms, Max = 17.952 ms
+IQR = 3.630 ms, LowerFence = 7.062 ms, UpperFence = 21.582 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[8.974 ms ; 19.670 ms) | @@
+---------------------------------------------------
+
+BenchmarkHarness.MySQLSelectPlusUpdate: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 124.212 ms, StdErr = 118.661 ms (95.53%), N = 2, StdDev = 167.812 ms
+Min = 5.552 ms, Q1 = 64.882 ms, Median = 124.212 ms, Q3 = 183.543 ms, Max = 242.873 ms
+IQR = 118.661 ms, LowerFence = -113.109 ms, UpperFence = 361.534 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[-50.602 ms ; 299.027 ms) | @@
+---------------------------------------------------
+
+BenchmarkHarness.PGSelectPlusUpdate: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 5.997 ms, StdErr = 1.116 ms (18.61%), N = 2, StdDev = 1.578 ms
+Min = 4.881 ms, Q1 = 5.439 ms, Median = 5.997 ms, Q3 = 6.555 ms, Max = 7.113 ms
+IQR = 1.116 ms, LowerFence = 3.765 ms, UpperFence = 8.229 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[4.353 ms ; 7.641 ms) | @@
+---------------------------------------------------
+
+BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 9.132 s, StdErr = 4.630 s (50.70%), N = 2, StdDev = 6.548 s
+Min = 4.502 s, Q1 = 6.817 s, Median = 9.132 s, Q3 = 11.447 s, Max = 13.762 s
+IQR = 4.630 s, LowerFence = -0.129 s, UpperFence = 18.392 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[2.310 s ; 15.953 s) | @@
+---------------------------------------------------
+
+BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=5.0.103
+  [Host]     : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+  Job-QBZKWR : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+
+IterationCount=2  WarmupCount=1  
+
+|                             Method | IterationCount |         Mean | Error |       StdDev | Ratio | RatioSD |
+|----------------------------------- |--------------- |-------------:|------:|-------------:|------:|--------:|
+|                     MySQLInsertion |              1 |   126.911 ms |    NA |    54.539 ms |  1.00 |    0.00 |
+|                        PGInsertion |              1 |    14.322 ms |    NA |     5.134 ms |  0.13 |    0.10 |
+|              MySQLSelectPlusUpdate |              1 |   124.212 ms |    NA |   167.812 ms |  1.39 |    1.92 |
+|                 PGSelectPlusUpdate |              1 |     5.997 ms |    NA |     1.578 ms |  0.06 |    0.04 |
+| MySQLSelectPlusUpdatePlusInsertion |              1 | 9,131.711 ms |    NA | 6,548.024 ms | 67.06 |   22.78 |
+|    PGSelectPlusUpdatePlusInsertion |              1 |           NA |    NA |           NA |     ? |       ? |
+
+Benchmarks with issues:
+  BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-QBZKWR(IterationCount=2, WarmupCount=1) [IterationCount=1]
+
+// * Warnings *
+MinIterationTime
+  BenchmarkHarness.MySQLInsertion: IterationCount=2, WarmupCount=1     -> The minimum observed iteration time is 88.3463 ms which is very small. It's recommended to increase it to at least 100.0000 ms using more operations.
+  BenchmarkHarness.PGInsertion: IterationCount=2, WarmupCount=1        -> The minimum observed iteration time is 10.6918 ms which is very small. It's recommended to increase it to at least 100.0000 ms using more operations.
+  BenchmarkHarness.PGSelectPlusUpdate: IterationCount=2, WarmupCount=1 -> The minimum observed iteration time is 4.8810 ms which is very small. It's recommended to increase it to at least 100.0000 ms using more operations.
+BaselineCustomAnalyzer
+  Summary -> A question mark '?' symbol indicates that it was not possible to compute the (Ratio, RatioSD) column(s) because the baseline value is too close to zero.
+
+// * Legends *
+  IterationCount : Value of the 'IterationCount' parameter
+  Mean           : Arithmetic mean of all measurements
+  Error          : Half of 99.9% confidence interval
+  StdDev         : Standard deviation of all measurements
+  Ratio          : Mean of the ratio distribution ([Current]/[Baseline])
+  RatioSD        : Standard deviation of the ratio distribution ([Current]/[Baseline])
+  1 ms           : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:03:28 (208.22 sec), executed benchmarks: 6
+
+Global total time: 00:03:47 (227.27 sec), executed benchmarks: 6
+// * Artifacts cleanup *

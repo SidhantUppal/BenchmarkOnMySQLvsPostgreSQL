@@ -1,0 +1,994 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\5def29b5-be45-4653-b576-04d8bd458176
+// command took 3.16s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\5def29b5-be45-4653-b576-04d8bd458176
+// command took 5.44s and exited with 0
+// ***** Done, took 00:00:08 (8.92 sec)   *****
+// Found 2 benchmarks:
+//   BenchmarkHarness.GetAllMySQLData: DefaultJob [IterationCount=2]
+//   BenchmarkHarness.GetAllPostgreSQLData: DefaultJob [IterationCount=2]
+
+// **************************
+// Benchmark: BenchmarkHarness.GetAllMySQLData: DefaultJob [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "5def29b5-be45-4653-b576-04d8bd458176.dll" --benchmarkName "Benchmarking.BenchmarkHarness.GetAllMySQLData(IterationCount: 2)" --job "Default" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\5def29b5-be45-4653-b576-04d8bd458176\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 311600.00 ns, 311.6000 us/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadJitting  1: 1 op, 3877224100.00 ns, 3.8772 s/op
+
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   1: 1 op, 26701800.00 ns, 26.7018 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   2: 1 op, 29184400.00 ns, 29.1844 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   3: 1 op, 38290500.00 ns, 38.2905 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   4: 1 op, 88890600.00 ns, 88.8906 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   5: 1 op, 32136500.00 ns, 32.1365 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   6: 1 op, 60205200.00 ns, 60.2052 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   7: 1 op, 48179700.00 ns, 48.1797 ms/op
+
+// BeforeActualRun
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   1: 1 op, 37258800.00 ns, 37.2588 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   2: 1 op, 29237700.00 ns, 29.2377 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   3: 1 op, 28790800.00 ns, 28.7908 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   4: 1 op, 27638400.00 ns, 27.6384 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   5: 1 op, 28621800.00 ns, 28.6218 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   6: 1 op, 34280800.00 ns, 34.2808 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   7: 1 op, 30081600.00 ns, 30.0816 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   8: 1 op, 31613000.00 ns, 31.6130 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   9: 1 op, 38424300.00 ns, 38.4243 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  10: 1 op, 43845100.00 ns, 43.8451 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  11: 1 op, 35610200.00 ns, 35.6102 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  12: 1 op, 36578700.00 ns, 36.5787 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  13: 1 op, 26144800.00 ns, 26.1448 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  14: 1 op, 26757000.00 ns, 26.7570 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  15: 1 op, 29453000.00 ns, 29.4530 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  16: 1 op, 33012500.00 ns, 33.0125 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  17: 1 op, 38095300.00 ns, 38.0953 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  18: 1 op, 35637500.00 ns, 35.6375 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  19: 1 op, 44557500.00 ns, 44.5575 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  20: 1 op, 27224600.00 ns, 27.2246 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  21: 1 op, 35087600.00 ns, 35.0876 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  22: 1 op, 32035800.00 ns, 32.0358 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  23: 1 op, 24986500.00 ns, 24.9865 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  24: 1 op, 29544200.00 ns, 29.5442 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  25: 1 op, 30542700.00 ns, 30.5427 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  26: 1 op, 39190900.00 ns, 39.1909 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  27: 1 op, 35223800.00 ns, 35.2238 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  28: 1 op, 31097000.00 ns, 31.0970 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  29: 1 op, 36396800.00 ns, 36.3968 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  30: 1 op, 26769000.00 ns, 26.7690 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  31: 1 op, 26953800.00 ns, 26.9538 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  32: 1 op, 24445400.00 ns, 24.4454 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  33: 1 op, 31306800.00 ns, 31.3068 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  34: 1 op, 28830200.00 ns, 28.8302 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  35: 1 op, 38254400.00 ns, 38.2544 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  36: 1 op, 35836900.00 ns, 35.8369 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  37: 1 op, 36594100.00 ns, 36.5941 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  38: 1 op, 47283200.00 ns, 47.2832 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  39: 1 op, 33129600.00 ns, 33.1296 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  40: 1 op, 25764500.00 ns, 25.7645 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  41: 1 op, 34787900.00 ns, 34.7879 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  42: 1 op, 33804400.00 ns, 33.8044 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  43: 1 op, 28179200.00 ns, 28.1792 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  44: 1 op, 43480500.00 ns, 43.4805 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  45: 1 op, 25141600.00 ns, 25.1416 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  46: 1 op, 26969600.00 ns, 26.9696 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  47: 1 op, 41709200.00 ns, 41.7092 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  48: 1 op, 35378300.00 ns, 35.3783 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  49: 1 op, 36687600.00 ns, 36.6876 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  50: 1 op, 35536500.00 ns, 35.5365 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  51: 1 op, 29654000.00 ns, 29.6540 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  52: 1 op, 31876400.00 ns, 31.8764 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  53: 1 op, 31807700.00 ns, 31.8077 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  54: 1 op, 29537100.00 ns, 29.5371 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  55: 1 op, 27599300.00 ns, 27.5993 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  56: 1 op, 24372200.00 ns, 24.3722 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  57: 1 op, 25468800.00 ns, 25.4688 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  58: 1 op, 23528600.00 ns, 23.5286 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  59: 1 op, 28040100.00 ns, 28.0401 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  60: 1 op, 31487200.00 ns, 31.4872 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  61: 1 op, 32131700.00 ns, 32.1317 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  62: 1 op, 36102100.00 ns, 36.1021 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  63: 1 op, 37586400.00 ns, 37.5864 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  64: 1 op, 31356700.00 ns, 31.3567 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  65: 1 op, 28806300.00 ns, 28.8063 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  66: 1 op, 27889000.00 ns, 27.8890 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  67: 1 op, 27467500.00 ns, 27.4675 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  68: 1 op, 26861200.00 ns, 26.8612 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  69: 1 op, 25302500.00 ns, 25.3025 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  70: 1 op, 26410400.00 ns, 26.4104 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  71: 1 op, 31830800.00 ns, 31.8308 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  72: 1 op, 27880300.00 ns, 27.8803 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  73: 1 op, 27954100.00 ns, 27.9541 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  74: 1 op, 32267100.00 ns, 32.2671 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  75: 1 op, 36671500.00 ns, 36.6715 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  76: 1 op, 35052500.00 ns, 35.0525 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  77: 1 op, 25728200.00 ns, 25.7282 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  78: 1 op, 27858200.00 ns, 27.8582 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  79: 1 op, 27543800.00 ns, 27.5438 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  80: 1 op, 31382000.00 ns, 31.3820 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  81: 1 op, 28210500.00 ns, 28.2105 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  82: 1 op, 33292500.00 ns, 33.2925 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  83: 1 op, 29806000.00 ns, 29.8060 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  84: 1 op, 29308100.00 ns, 29.3081 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  85: 1 op, 27397200.00 ns, 27.3972 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  86: 1 op, 23979100.00 ns, 23.9791 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  87: 1 op, 30412100.00 ns, 30.4121 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  88: 1 op, 45166700.00 ns, 45.1667 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  89: 1 op, 32551900.00 ns, 32.5519 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  90: 1 op, 29162000.00 ns, 29.1620 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  91: 1 op, 28972400.00 ns, 28.9724 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  92: 1 op, 27733700.00 ns, 27.7337 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  93: 1 op, 30986300.00 ns, 30.9863 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  94: 1 op, 39265600.00 ns, 39.2656 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  95: 1 op, 39304800.00 ns, 39.3048 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  96: 1 op, 33820100.00 ns, 33.8201 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  97: 1 op, 27987800.00 ns, 27.9878 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  98: 1 op, 28232300.00 ns, 28.2323 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  99: 1 op, 29766400.00 ns, 29.7664 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  100: 1 op, 39393700.00 ns, 39.3937 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 37258800.00 ns, 37.2588 ms/op
+WorkloadResult   2: 1 op, 29237700.00 ns, 29.2377 ms/op
+WorkloadResult   3: 1 op, 28790800.00 ns, 28.7908 ms/op
+WorkloadResult   4: 1 op, 27638400.00 ns, 27.6384 ms/op
+WorkloadResult   5: 1 op, 28621800.00 ns, 28.6218 ms/op
+WorkloadResult   6: 1 op, 34280800.00 ns, 34.2808 ms/op
+WorkloadResult   7: 1 op, 30081600.00 ns, 30.0816 ms/op
+WorkloadResult   8: 1 op, 31613000.00 ns, 31.6130 ms/op
+WorkloadResult   9: 1 op, 38424300.00 ns, 38.4243 ms/op
+WorkloadResult  10: 1 op, 43845100.00 ns, 43.8451 ms/op
+WorkloadResult  11: 1 op, 35610200.00 ns, 35.6102 ms/op
+WorkloadResult  12: 1 op, 36578700.00 ns, 36.5787 ms/op
+WorkloadResult  13: 1 op, 26144800.00 ns, 26.1448 ms/op
+WorkloadResult  14: 1 op, 26757000.00 ns, 26.7570 ms/op
+WorkloadResult  15: 1 op, 29453000.00 ns, 29.4530 ms/op
+WorkloadResult  16: 1 op, 33012500.00 ns, 33.0125 ms/op
+WorkloadResult  17: 1 op, 38095300.00 ns, 38.0953 ms/op
+WorkloadResult  18: 1 op, 35637500.00 ns, 35.6375 ms/op
+WorkloadResult  19: 1 op, 44557500.00 ns, 44.5575 ms/op
+WorkloadResult  20: 1 op, 27224600.00 ns, 27.2246 ms/op
+WorkloadResult  21: 1 op, 35087600.00 ns, 35.0876 ms/op
+WorkloadResult  22: 1 op, 32035800.00 ns, 32.0358 ms/op
+WorkloadResult  23: 1 op, 24986500.00 ns, 24.9865 ms/op
+WorkloadResult  24: 1 op, 29544200.00 ns, 29.5442 ms/op
+WorkloadResult  25: 1 op, 30542700.00 ns, 30.5427 ms/op
+WorkloadResult  26: 1 op, 39190900.00 ns, 39.1909 ms/op
+WorkloadResult  27: 1 op, 35223800.00 ns, 35.2238 ms/op
+WorkloadResult  28: 1 op, 31097000.00 ns, 31.0970 ms/op
+WorkloadResult  29: 1 op, 36396800.00 ns, 36.3968 ms/op
+WorkloadResult  30: 1 op, 26769000.00 ns, 26.7690 ms/op
+WorkloadResult  31: 1 op, 26953800.00 ns, 26.9538 ms/op
+WorkloadResult  32: 1 op, 24445400.00 ns, 24.4454 ms/op
+WorkloadResult  33: 1 op, 31306800.00 ns, 31.3068 ms/op
+WorkloadResult  34: 1 op, 28830200.00 ns, 28.8302 ms/op
+WorkloadResult  35: 1 op, 38254400.00 ns, 38.2544 ms/op
+WorkloadResult  36: 1 op, 35836900.00 ns, 35.8369 ms/op
+WorkloadResult  37: 1 op, 36594100.00 ns, 36.5941 ms/op
+WorkloadResult  38: 1 op, 33129600.00 ns, 33.1296 ms/op
+WorkloadResult  39: 1 op, 25764500.00 ns, 25.7645 ms/op
+WorkloadResult  40: 1 op, 34787900.00 ns, 34.7879 ms/op
+WorkloadResult  41: 1 op, 33804400.00 ns, 33.8044 ms/op
+WorkloadResult  42: 1 op, 28179200.00 ns, 28.1792 ms/op
+WorkloadResult  43: 1 op, 43480500.00 ns, 43.4805 ms/op
+WorkloadResult  44: 1 op, 25141600.00 ns, 25.1416 ms/op
+WorkloadResult  45: 1 op, 26969600.00 ns, 26.9696 ms/op
+WorkloadResult  46: 1 op, 41709200.00 ns, 41.7092 ms/op
+WorkloadResult  47: 1 op, 35378300.00 ns, 35.3783 ms/op
+WorkloadResult  48: 1 op, 36687600.00 ns, 36.6876 ms/op
+WorkloadResult  49: 1 op, 35536500.00 ns, 35.5365 ms/op
+WorkloadResult  50: 1 op, 29654000.00 ns, 29.6540 ms/op
+WorkloadResult  51: 1 op, 31876400.00 ns, 31.8764 ms/op
+WorkloadResult  52: 1 op, 31807700.00 ns, 31.8077 ms/op
+WorkloadResult  53: 1 op, 29537100.00 ns, 29.5371 ms/op
+WorkloadResult  54: 1 op, 27599300.00 ns, 27.5993 ms/op
+WorkloadResult  55: 1 op, 24372200.00 ns, 24.3722 ms/op
+WorkloadResult  56: 1 op, 25468800.00 ns, 25.4688 ms/op
+WorkloadResult  57: 1 op, 23528600.00 ns, 23.5286 ms/op
+WorkloadResult  58: 1 op, 28040100.00 ns, 28.0401 ms/op
+WorkloadResult  59: 1 op, 31487200.00 ns, 31.4872 ms/op
+WorkloadResult  60: 1 op, 32131700.00 ns, 32.1317 ms/op
+WorkloadResult  61: 1 op, 36102100.00 ns, 36.1021 ms/op
+WorkloadResult  62: 1 op, 37586400.00 ns, 37.5864 ms/op
+WorkloadResult  63: 1 op, 31356700.00 ns, 31.3567 ms/op
+WorkloadResult  64: 1 op, 28806300.00 ns, 28.8063 ms/op
+WorkloadResult  65: 1 op, 27889000.00 ns, 27.8890 ms/op
+WorkloadResult  66: 1 op, 27467500.00 ns, 27.4675 ms/op
+WorkloadResult  67: 1 op, 26861200.00 ns, 26.8612 ms/op
+WorkloadResult  68: 1 op, 25302500.00 ns, 25.3025 ms/op
+WorkloadResult  69: 1 op, 26410400.00 ns, 26.4104 ms/op
+WorkloadResult  70: 1 op, 31830800.00 ns, 31.8308 ms/op
+WorkloadResult  71: 1 op, 27880300.00 ns, 27.8803 ms/op
+WorkloadResult  72: 1 op, 27954100.00 ns, 27.9541 ms/op
+WorkloadResult  73: 1 op, 32267100.00 ns, 32.2671 ms/op
+WorkloadResult  74: 1 op, 36671500.00 ns, 36.6715 ms/op
+WorkloadResult  75: 1 op, 35052500.00 ns, 35.0525 ms/op
+WorkloadResult  76: 1 op, 25728200.00 ns, 25.7282 ms/op
+WorkloadResult  77: 1 op, 27858200.00 ns, 27.8582 ms/op
+WorkloadResult  78: 1 op, 27543800.00 ns, 27.5438 ms/op
+WorkloadResult  79: 1 op, 31382000.00 ns, 31.3820 ms/op
+WorkloadResult  80: 1 op, 28210500.00 ns, 28.2105 ms/op
+WorkloadResult  81: 1 op, 33292500.00 ns, 33.2925 ms/op
+WorkloadResult  82: 1 op, 29806000.00 ns, 29.8060 ms/op
+WorkloadResult  83: 1 op, 29308100.00 ns, 29.3081 ms/op
+WorkloadResult  84: 1 op, 27397200.00 ns, 27.3972 ms/op
+WorkloadResult  85: 1 op, 23979100.00 ns, 23.9791 ms/op
+WorkloadResult  86: 1 op, 30412100.00 ns, 30.4121 ms/op
+WorkloadResult  87: 1 op, 45166700.00 ns, 45.1667 ms/op
+WorkloadResult  88: 1 op, 32551900.00 ns, 32.5519 ms/op
+WorkloadResult  89: 1 op, 29162000.00 ns, 29.1620 ms/op
+WorkloadResult  90: 1 op, 28972400.00 ns, 28.9724 ms/op
+WorkloadResult  91: 1 op, 27733700.00 ns, 27.7337 ms/op
+WorkloadResult  92: 1 op, 30986300.00 ns, 30.9863 ms/op
+WorkloadResult  93: 1 op, 39265600.00 ns, 39.2656 ms/op
+WorkloadResult  94: 1 op, 39304800.00 ns, 39.3048 ms/op
+WorkloadResult  95: 1 op, 33820100.00 ns, 33.8201 ms/op
+WorkloadResult  96: 1 op, 27987800.00 ns, 27.9878 ms/op
+WorkloadResult  97: 1 op, 28232300.00 ns, 28.2323 ms/op
+WorkloadResult  98: 1 op, 29766400.00 ns, 29.7664 ms/op
+WorkloadResult  99: 1 op, 39393700.00 ns, 39.3937 ms/op
+
+// AfterAll
+// Benchmark Process 18124 has exited with code 0.
+
+Mean = 31.603 ms, StdErr = 0.500 ms (1.58%), N = 99, StdDev = 4.974 ms
+Min = 23.529 ms, Q1 = 27.869 ms, Median = 30.543 ms, Q3 = 35.301 ms, Max = 45.167 ms
+IQR = 7.432 ms, LowerFence = 16.722 ms, UpperFence = 46.449 ms
+ConfidenceInterval = [29.907 ms; 33.299 ms] (CI 99.9%), Margin = 1.696 ms (5.37% of Mean)
+Skewness = 0.69, Kurtosis = 2.85, MValue = 2.81
+
+// **************************
+// Benchmark: BenchmarkHarness.GetAllPostgreSQLData: DefaultJob [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "5def29b5-be45-4653-b576-04d8bd458176.dll" --benchmarkName "Benchmarking.BenchmarkHarness.GetAllPostgreSQLData(IterationCount: 2)" --job "Default" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\5def29b5-be45-4653-b576-04d8bd458176\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 334900.00 ns, 334.9000 us/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadJitting  1: 1 op, 7209208500.00 ns, 7.2092 s/op
+
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   1: 1 op, 25392600.00 ns, 25.3926 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   2: 1 op, 35351300.00 ns, 35.3513 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   3: 1 op, 30681600.00 ns, 30.6816 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   4: 1 op, 30693400.00 ns, 30.6934 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   5: 1 op, 32734700.00 ns, 32.7347 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadWarmup   6: 1 op, 28371200.00 ns, 28.3712 ms/op
+
+// BeforeActualRun
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   1: 1 op, 26506600.00 ns, 26.5066 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   2: 1 op, 71045000.00 ns, 71.0450 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   3: 1 op, 22908000.00 ns, 22.9080 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   4: 1 op, 21820900.00 ns, 21.8209 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   5: 1 op, 43260300.00 ns, 43.2603 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   6: 1 op, 35176000.00 ns, 35.1760 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   7: 1 op, 28460700.00 ns, 28.4607 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   8: 1 op, 25500600.00 ns, 25.5006 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual   9: 1 op, 29843500.00 ns, 29.8435 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  10: 1 op, 24846900.00 ns, 24.8469 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  11: 1 op, 26988300.00 ns, 26.9883 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  12: 1 op, 28605400.00 ns, 28.6054 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  13: 1 op, 24148900.00 ns, 24.1489 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  14: 1 op, 26109700.00 ns, 26.1097 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  15: 1 op, 26549900.00 ns, 26.5499 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  16: 1 op, 26204500.00 ns, 26.2045 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  17: 1 op, 24998900.00 ns, 24.9989 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  18: 1 op, 25558200.00 ns, 25.5582 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  19: 1 op, 34010800.00 ns, 34.0108 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  20: 1 op, 46539000.00 ns, 46.5390 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  21: 1 op, 27420100.00 ns, 27.4201 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  22: 1 op, 24405300.00 ns, 24.4053 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  23: 1 op, 24392600.00 ns, 24.3926 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  24: 1 op, 27002200.00 ns, 27.0022 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  25: 1 op, 31215600.00 ns, 31.2156 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  26: 1 op, 29161500.00 ns, 29.1615 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  27: 1 op, 27521600.00 ns, 27.5216 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  28: 1 op, 30883100.00 ns, 30.8831 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  29: 1 op, 32207600.00 ns, 32.2076 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  30: 1 op, 30176000.00 ns, 30.1760 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  31: 1 op, 28780000.00 ns, 28.7800 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  32: 1 op, 31019900.00 ns, 31.0199 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  33: 1 op, 26210900.00 ns, 26.2109 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  34: 1 op, 26155500.00 ns, 26.1555 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  35: 1 op, 26208700.00 ns, 26.2087 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  36: 1 op, 41827600.00 ns, 41.8276 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  37: 1 op, 36465900.00 ns, 36.4659 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  38: 1 op, 30404700.00 ns, 30.4047 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  39: 1 op, 28292800.00 ns, 28.2928 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  40: 1 op, 25707800.00 ns, 25.7078 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  41: 1 op, 23270900.00 ns, 23.2709 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  42: 1 op, 25412900.00 ns, 25.4129 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  43: 1 op, 33882100.00 ns, 33.8821 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  44: 1 op, 27110000.00 ns, 27.1100 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  45: 1 op, 26500900.00 ns, 26.5009 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  46: 1 op, 28322500.00 ns, 28.3225 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  47: 1 op, 29194800.00 ns, 29.1948 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  48: 1 op, 26120400.00 ns, 26.1204 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  49: 1 op, 31792000.00 ns, 31.7920 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  50: 1 op, 24205300.00 ns, 24.2053 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  51: 1 op, 23856900.00 ns, 23.8569 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  52: 1 op, 32930900.00 ns, 32.9309 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  53: 1 op, 28447400.00 ns, 28.4474 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  54: 1 op, 30201100.00 ns, 30.2011 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  55: 1 op, 25122200.00 ns, 25.1222 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  56: 1 op, 31117900.00 ns, 31.1179 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  57: 1 op, 32419600.00 ns, 32.4196 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  58: 1 op, 34908000.00 ns, 34.9080 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  59: 1 op, 23676800.00 ns, 23.6768 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  60: 1 op, 27863000.00 ns, 27.8630 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  61: 1 op, 26701700.00 ns, 26.7017 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  62: 1 op, 24114600.00 ns, 24.1146 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  63: 1 op, 24146400.00 ns, 24.1464 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  64: 1 op, 24624800.00 ns, 24.6248 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  65: 1 op, 27246200.00 ns, 27.2462 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  66: 1 op, 25065300.00 ns, 25.0653 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  67: 1 op, 25818600.00 ns, 25.8186 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  68: 1 op, 41179600.00 ns, 41.1796 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  69: 1 op, 36455600.00 ns, 36.4556 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  70: 1 op, 33859200.00 ns, 33.8592 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  71: 1 op, 28133100.00 ns, 28.1331 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  72: 1 op, 24609100.00 ns, 24.6091 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  73: 1 op, 27012500.00 ns, 27.0125 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  74: 1 op, 24466200.00 ns, 24.4662 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  75: 1 op, 25911000.00 ns, 25.9110 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  76: 1 op, 27677300.00 ns, 27.6773 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  77: 1 op, 33017100.00 ns, 33.0171 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  78: 1 op, 25133500.00 ns, 25.1335 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  79: 1 op, 23306200.00 ns, 23.3062 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  80: 1 op, 24900000.00 ns, 24.9000 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  81: 1 op, 26421200.00 ns, 26.4212 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  82: 1 op, 24421600.00 ns, 24.4216 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  83: 1 op, 26868400.00 ns, 26.8684 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  84: 1 op, 26373200.00 ns, 26.3732 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  85: 1 op, 25872400.00 ns, 25.8724 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  86: 1 op, 34334900.00 ns, 34.3349 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  87: 1 op, 39383100.00 ns, 39.3831 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  88: 1 op, 29338700.00 ns, 29.3387 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  89: 1 op, 25829200.00 ns, 25.8292 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  90: 1 op, 28176500.00 ns, 28.1765 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  91: 1 op, 26304900.00 ns, 26.3049 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  92: 1 op, 25393100.00 ns, 25.3931 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  93: 1 op, 26445200.00 ns, 26.4452 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  94: 1 op, 28637100.00 ns, 28.6371 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  95: 1 op, 27167300.00 ns, 27.1673 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  96: 1 op, 28571700.00 ns, 28.5717 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  97: 1 op, 35593800.00 ns, 35.5938 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  98: 1 op, 29346400.00 ns, 29.3464 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  99: 1 op, 25302900.00 ns, 25.3029 ms/op
+[{"id":1,"data":"Apple"}]
+[{"id":1,"data":"Apple"}]
+WorkloadActual  100: 1 op, 24482600.00 ns, 24.4826 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 26506600.00 ns, 26.5066 ms/op
+WorkloadResult   2: 1 op, 22908000.00 ns, 22.9080 ms/op
+WorkloadResult   3: 1 op, 21820900.00 ns, 21.8209 ms/op
+WorkloadResult   4: 1 op, 35176000.00 ns, 35.1760 ms/op
+WorkloadResult   5: 1 op, 28460700.00 ns, 28.4607 ms/op
+WorkloadResult   6: 1 op, 25500600.00 ns, 25.5006 ms/op
+WorkloadResult   7: 1 op, 29843500.00 ns, 29.8435 ms/op
+WorkloadResult   8: 1 op, 24846900.00 ns, 24.8469 ms/op
+WorkloadResult   9: 1 op, 26988300.00 ns, 26.9883 ms/op
+WorkloadResult  10: 1 op, 28605400.00 ns, 28.6054 ms/op
+WorkloadResult  11: 1 op, 24148900.00 ns, 24.1489 ms/op
+WorkloadResult  12: 1 op, 26109700.00 ns, 26.1097 ms/op
+WorkloadResult  13: 1 op, 26549900.00 ns, 26.5499 ms/op
+WorkloadResult  14: 1 op, 26204500.00 ns, 26.2045 ms/op
+WorkloadResult  15: 1 op, 24998900.00 ns, 24.9989 ms/op
+WorkloadResult  16: 1 op, 25558200.00 ns, 25.5582 ms/op
+WorkloadResult  17: 1 op, 34010800.00 ns, 34.0108 ms/op
+WorkloadResult  18: 1 op, 27420100.00 ns, 27.4201 ms/op
+WorkloadResult  19: 1 op, 24405300.00 ns, 24.4053 ms/op
+WorkloadResult  20: 1 op, 24392600.00 ns, 24.3926 ms/op
+WorkloadResult  21: 1 op, 27002200.00 ns, 27.0022 ms/op
+WorkloadResult  22: 1 op, 31215600.00 ns, 31.2156 ms/op
+WorkloadResult  23: 1 op, 29161500.00 ns, 29.1615 ms/op
+WorkloadResult  24: 1 op, 27521600.00 ns, 27.5216 ms/op
+WorkloadResult  25: 1 op, 30883100.00 ns, 30.8831 ms/op
+WorkloadResult  26: 1 op, 32207600.00 ns, 32.2076 ms/op
+WorkloadResult  27: 1 op, 30176000.00 ns, 30.1760 ms/op
+WorkloadResult  28: 1 op, 28780000.00 ns, 28.7800 ms/op
+WorkloadResult  29: 1 op, 31019900.00 ns, 31.0199 ms/op
+WorkloadResult  30: 1 op, 26210900.00 ns, 26.2109 ms/op
+WorkloadResult  31: 1 op, 26155500.00 ns, 26.1555 ms/op
+WorkloadResult  32: 1 op, 26208700.00 ns, 26.2087 ms/op
+WorkloadResult  33: 1 op, 36465900.00 ns, 36.4659 ms/op
+WorkloadResult  34: 1 op, 30404700.00 ns, 30.4047 ms/op
+WorkloadResult  35: 1 op, 28292800.00 ns, 28.2928 ms/op
+WorkloadResult  36: 1 op, 25707800.00 ns, 25.7078 ms/op
+WorkloadResult  37: 1 op, 23270900.00 ns, 23.2709 ms/op
+WorkloadResult  38: 1 op, 25412900.00 ns, 25.4129 ms/op
+WorkloadResult  39: 1 op, 33882100.00 ns, 33.8821 ms/op
+WorkloadResult  40: 1 op, 27110000.00 ns, 27.1100 ms/op
+WorkloadResult  41: 1 op, 26500900.00 ns, 26.5009 ms/op
+WorkloadResult  42: 1 op, 28322500.00 ns, 28.3225 ms/op
+WorkloadResult  43: 1 op, 29194800.00 ns, 29.1948 ms/op
+WorkloadResult  44: 1 op, 26120400.00 ns, 26.1204 ms/op
+WorkloadResult  45: 1 op, 31792000.00 ns, 31.7920 ms/op
+WorkloadResult  46: 1 op, 24205300.00 ns, 24.2053 ms/op
+WorkloadResult  47: 1 op, 23856900.00 ns, 23.8569 ms/op
+WorkloadResult  48: 1 op, 32930900.00 ns, 32.9309 ms/op
+WorkloadResult  49: 1 op, 28447400.00 ns, 28.4474 ms/op
+WorkloadResult  50: 1 op, 30201100.00 ns, 30.2011 ms/op
+WorkloadResult  51: 1 op, 25122200.00 ns, 25.1222 ms/op
+WorkloadResult  52: 1 op, 31117900.00 ns, 31.1179 ms/op
+WorkloadResult  53: 1 op, 32419600.00 ns, 32.4196 ms/op
+WorkloadResult  54: 1 op, 34908000.00 ns, 34.9080 ms/op
+WorkloadResult  55: 1 op, 23676800.00 ns, 23.6768 ms/op
+WorkloadResult  56: 1 op, 27863000.00 ns, 27.8630 ms/op
+WorkloadResult  57: 1 op, 26701700.00 ns, 26.7017 ms/op
+WorkloadResult  58: 1 op, 24114600.00 ns, 24.1146 ms/op
+WorkloadResult  59: 1 op, 24146400.00 ns, 24.1464 ms/op
+WorkloadResult  60: 1 op, 24624800.00 ns, 24.6248 ms/op
+WorkloadResult  61: 1 op, 27246200.00 ns, 27.2462 ms/op
+WorkloadResult  62: 1 op, 25065300.00 ns, 25.0653 ms/op
+WorkloadResult  63: 1 op, 25818600.00 ns, 25.8186 ms/op
+WorkloadResult  64: 1 op, 36455600.00 ns, 36.4556 ms/op
+WorkloadResult  65: 1 op, 33859200.00 ns, 33.8592 ms/op
+WorkloadResult  66: 1 op, 28133100.00 ns, 28.1331 ms/op
+WorkloadResult  67: 1 op, 24609100.00 ns, 24.6091 ms/op
+WorkloadResult  68: 1 op, 27012500.00 ns, 27.0125 ms/op
+WorkloadResult  69: 1 op, 24466200.00 ns, 24.4662 ms/op
+WorkloadResult  70: 1 op, 25911000.00 ns, 25.9110 ms/op
+WorkloadResult  71: 1 op, 27677300.00 ns, 27.6773 ms/op
+WorkloadResult  72: 1 op, 33017100.00 ns, 33.0171 ms/op
+WorkloadResult  73: 1 op, 25133500.00 ns, 25.1335 ms/op
+WorkloadResult  74: 1 op, 23306200.00 ns, 23.3062 ms/op
+WorkloadResult  75: 1 op, 24900000.00 ns, 24.9000 ms/op
+WorkloadResult  76: 1 op, 26421200.00 ns, 26.4212 ms/op
+WorkloadResult  77: 1 op, 24421600.00 ns, 24.4216 ms/op
+WorkloadResult  78: 1 op, 26868400.00 ns, 26.8684 ms/op
+WorkloadResult  79: 1 op, 26373200.00 ns, 26.3732 ms/op
+WorkloadResult  80: 1 op, 25872400.00 ns, 25.8724 ms/op
+WorkloadResult  81: 1 op, 34334900.00 ns, 34.3349 ms/op
+WorkloadResult  82: 1 op, 29338700.00 ns, 29.3387 ms/op
+WorkloadResult  83: 1 op, 25829200.00 ns, 25.8292 ms/op
+WorkloadResult  84: 1 op, 28176500.00 ns, 28.1765 ms/op
+WorkloadResult  85: 1 op, 26304900.00 ns, 26.3049 ms/op
+WorkloadResult  86: 1 op, 25393100.00 ns, 25.3931 ms/op
+WorkloadResult  87: 1 op, 26445200.00 ns, 26.4452 ms/op
+WorkloadResult  88: 1 op, 28637100.00 ns, 28.6371 ms/op
+WorkloadResult  89: 1 op, 27167300.00 ns, 27.1673 ms/op
+WorkloadResult  90: 1 op, 28571700.00 ns, 28.5717 ms/op
+WorkloadResult  91: 1 op, 35593800.00 ns, 35.5938 ms/op
+WorkloadResult  92: 1 op, 29346400.00 ns, 29.3464 ms/op
+WorkloadResult  93: 1 op, 25302900.00 ns, 25.3029 ms/op
+WorkloadResult  94: 1 op, 24482600.00 ns, 24.4826 ms/op
+
+// AfterAll
+// Benchmark Process 11540 has exited with code 0.
+
+Mean = 27.716 ms, StdErr = 0.347 ms (1.25%), N = 94, StdDev = 3.360 ms
+Min = 21.821 ms, Q1 = 25.325 ms, Median = 26.785 ms, Q3 = 29.303 ms, Max = 36.466 ms
+IQR = 3.977 ms, LowerFence = 19.360 ms, UpperFence = 35.269 ms
+ConfidenceInterval = [26.538 ms; 28.894 ms] (CI 99.9%), Margin = 1.178 ms (4.25% of Mean)
+Skewness = 0.87, Kurtosis = 3.01, MValue = 2.28
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.html
+
+// * Detailed results *
+BenchmarkHarness.GetAllMySQLData: DefaultJob [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 31.603 ms, StdErr = 0.500 ms (1.58%), N = 99, StdDev = 4.974 ms
+Min = 23.529 ms, Q1 = 27.869 ms, Median = 30.543 ms, Q3 = 35.301 ms, Max = 45.167 ms
+IQR = 7.432 ms, LowerFence = 16.722 ms, UpperFence = 46.449 ms
+ConfidenceInterval = [29.907 ms; 33.299 ms] (CI 99.9%), Margin = 1.696 ms (5.37% of Mean)
+Skewness = 0.69, Kurtosis = 2.85, MValue = 2.81
+-------------------- Histogram --------------------
+[22.117 ms ; 23.783 ms) | @
+[23.783 ms ; 26.739 ms) | @@@@@@@@@@@
+[26.739 ms ; 29.562 ms) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[29.562 ms ; 32.372 ms) | @@@@@@@@@@@@@@@@@@@
+[32.372 ms ; 34.776 ms) | @@@@@@@
+[34.776 ms ; 37.598 ms) | @@@@@@@@@@@@@@@@@
+[37.598 ms ; 40.156 ms) | @@@@@@@
+[40.156 ms ; 42.912 ms) | @
+[42.912 ms ; 45.735 ms) | @@@@
+---------------------------------------------------
+
+BenchmarkHarness.GetAllPostgreSQLData: DefaultJob [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 27.716 ms, StdErr = 0.347 ms (1.25%), N = 94, StdDev = 3.360 ms
+Min = 21.821 ms, Q1 = 25.325 ms, Median = 26.785 ms, Q3 = 29.303 ms, Max = 36.466 ms
+IQR = 3.977 ms, LowerFence = 19.360 ms, UpperFence = 35.269 ms
+ConfidenceInterval = [26.538 ms; 28.894 ms] (CI 99.9%), Margin = 1.178 ms (4.25% of Mean)
+Skewness = 0.87, Kurtosis = 3.01, MValue = 2.28
+-------------------- Histogram --------------------
+[21.395 ms ; 23.232 ms) | @@
+[23.232 ms ; 25.350 ms) | @@@@@@@@@@@@@@@@@@@@@@
+[25.350 ms ; 27.290 ms) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[27.290 ms ; 29.353 ms) | @@@@@@@@@@@@@@@@@@
+[29.353 ms ; 31.499 ms) | @@@@@@@@
+[31.499 ms ; 33.757 ms) | @@@@@
+[33.757 ms ; 35.696 ms) | @@@@@@@
+[35.696 ms ; 37.436 ms) | @@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=5.0.103
+  [Host]     : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+  DefaultJob : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+
+
+|               Method | IterationCount |     Mean |    Error |   StdDev |   Median | Ratio | RatioSD |
+|--------------------- |--------------- |---------:|---------:|---------:|---------:|------:|--------:|
+|      GetAllMySQLData |              2 | 31.60 ms | 1.696 ms | 4.974 ms | 30.54 ms |  1.00 |    0.00 |
+| GetAllPostgreSQLData |              2 | 27.72 ms | 1.178 ms | 3.360 ms | 26.79 ms |  0.90 |    0.18 |
+
+// * Warnings *
+MultimodalDistribution
+  BenchmarkHarness.GetAllMySQLData: Default -> It seems that the distribution can have several modes (mValue = 2.81)
+MinIterationTime
+  BenchmarkHarness.GetAllMySQLData: Default      -> The minimum observed iteration time is 23.5286 ms which is very small. It's recommended to increase it to at least 100.0000 ms using more operations.
+  BenchmarkHarness.GetAllPostgreSQLData: Default -> The minimum observed iteration time is 21.8209 ms which is very small. It's recommended to increase it to at least 100.0000 ms using more operations.
+
+// * Hints *
+Outliers
+  BenchmarkHarness.GetAllMySQLData: Default      -> 1 outlier  was  removed (47.28 ms)
+  BenchmarkHarness.GetAllPostgreSQLData: Default -> 6 outliers were removed (39.38 ms..71.05 ms)
+
+// * Legends *
+  IterationCount : Value of the 'IterationCount' parameter
+  Mean           : Arithmetic mean of all measurements
+  Error          : Half of 99.9% confidence interval
+  StdDev         : Standard deviation of all measurements
+  Median         : Value separating the higher half of all measurements (50th percentile)
+  Ratio          : Mean of the ratio distribution ([Current]/[Baseline])
+  RatioSD        : Standard deviation of the ratio distribution ([Current]/[Baseline])
+  1 ms           : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:27 (27.08 sec), executed benchmarks: 2
+
+Global total time: 00:00:36 (36 sec), executed benchmarks: 2
+// * Artifacts cleanup *

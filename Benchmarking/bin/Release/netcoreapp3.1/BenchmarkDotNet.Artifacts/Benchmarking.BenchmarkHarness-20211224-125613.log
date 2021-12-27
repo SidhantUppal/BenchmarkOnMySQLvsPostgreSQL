@@ -1,0 +1,5085 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 4 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f
+// command took 7.76s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f
+// command took 6.85s and exited with 0
+// ***** Done, took 00:00:14 (14.9 sec)   *****
+// Found 4 benchmarks:
+//   BenchmarkHarness.MySQLInsertion: DefaultJob [IterationCount=20]
+//   BenchmarkHarness.PGInsertion: DefaultJob [IterationCount=20]
+//   BenchmarkHarness.MySQLInsertion: DefaultJob [IterationCount=30]
+//   BenchmarkHarness.PGInsertion: DefaultJob [IterationCount=30]
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLInsertion: DefaultJob [IterationCount=20]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLInsertion(IterationCount: 20)" --job "Default" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 852000.00 ns, 852.0000 us/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 7662455000.00 ns, 7.6625 s/op
+
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 3650804900.00 ns, 3.6508 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   2: 1 op, 3045498300.00 ns, 3.0455 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   3: 1 op, 7833530000.00 ns, 7.8335 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   4: 1 op, 4685641100.00 ns, 4.6856 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   5: 1 op, 3612914900.00 ns, 3.6129 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   6: 1 op, 3812307600.00 ns, 3.8123 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   7: 1 op, 2997609400.00 ns, 2.9976 s/op
+
+// BeforeActualRun
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 3161737900.00 ns, 3.1617 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 4294116100.00 ns, 4.2941 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 5082596600.00 ns, 5.0826 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   4: 1 op, 5686828200.00 ns, 5.6868 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   5: 1 op, 3565011900.00 ns, 3.5650 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   6: 1 op, 3973364700.00 ns, 3.9734 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   7: 1 op, 3482976700.00 ns, 3.4830 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   8: 1 op, 2283923400.00 ns, 2.2839 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   9: 1 op, 2659679300.00 ns, 2.6597 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  10: 1 op, 2755115900.00 ns, 2.7551 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  11: 1 op, 2967693400.00 ns, 2.9677 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  12: 1 op, 2892734100.00 ns, 2.8927 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  13: 1 op, 4207795700.00 ns, 4.2078 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  14: 1 op, 3122838800.00 ns, 3.1228 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  15: 1 op, 3871347400.00 ns, 3.8713 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  16: 1 op, 3970573600.00 ns, 3.9706 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  17: 1 op, 3667464600.00 ns, 3.6675 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  18: 1 op, 3517924400.00 ns, 3.5179 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  19: 1 op, 3466549700.00 ns, 3.4665 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  20: 1 op, 3333221200.00 ns, 3.3332 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  21: 1 op, 2895804400.00 ns, 2.8958 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  22: 1 op, 5449864600.00 ns, 5.4499 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  23: 1 op, 4871195100.00 ns, 4.8712 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  24: 1 op, 3605737500.00 ns, 3.6057 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  25: 1 op, 4049948500.00 ns, 4.0499 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  26: 1 op, 3394480400.00 ns, 3.3945 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  27: 1 op, 2571360800.00 ns, 2.5714 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  28: 1 op, 3804792800.00 ns, 3.8048 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  29: 1 op, 2796465900.00 ns, 2.7965 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  30: 1 op, 3348122000.00 ns, 3.3481 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  31: 1 op, 4072840700.00 ns, 4.0728 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  32: 1 op, 3481371000.00 ns, 3.4814 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  33: 1 op, 3453475000.00 ns, 3.4535 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  34: 1 op, 2087251100.00 ns, 2.0873 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  35: 1 op, 2519094100.00 ns, 2.5191 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  36: 1 op, 2210103700.00 ns, 2.2101 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  37: 1 op, 3069560300.00 ns, 3.0696 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  38: 1 op, 3476612900.00 ns, 3.4766 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  39: 1 op, 3156252500.00 ns, 3.1563 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  40: 1 op, 2323680900.00 ns, 2.3237 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  41: 1 op, 2917573300.00 ns, 2.9176 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  42: 1 op, 2376790500.00 ns, 2.3768 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  43: 1 op, 2660931400.00 ns, 2.6609 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  44: 1 op, 2456401700.00 ns, 2.4564 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  45: 1 op, 2801655300.00 ns, 2.8017 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  46: 1 op, 2528502000.00 ns, 2.5285 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  47: 1 op, 2724142900.00 ns, 2.7241 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  48: 1 op, 2389921600.00 ns, 2.3899 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  49: 1 op, 2786096600.00 ns, 2.7861 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  50: 1 op, 2575234500.00 ns, 2.5752 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  51: 1 op, 2922867900.00 ns, 2.9229 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  52: 1 op, 3207726900.00 ns, 3.2077 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  53: 1 op, 3241745400.00 ns, 3.2417 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  54: 1 op, 2419780300.00 ns, 2.4198 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  55: 1 op, 2411852200.00 ns, 2.4119 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  56: 1 op, 2212447200.00 ns, 2.2124 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  57: 1 op, 4174048500.00 ns, 4.1740 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  58: 1 op, 3095764200.00 ns, 3.0958 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  59: 1 op, 5025255400.00 ns, 5.0253 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  60: 1 op, 3465051000.00 ns, 3.4651 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  61: 1 op, 3740735100.00 ns, 3.7407 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  62: 1 op, 3553361000.00 ns, 3.5534 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  63: 1 op, 2968607900.00 ns, 2.9686 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  64: 1 op, 3034397500.00 ns, 3.0344 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  65: 1 op, 3469515000.00 ns, 3.4695 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  66: 1 op, 3094895500.00 ns, 3.0949 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  67: 1 op, 2894262100.00 ns, 2.8943 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  68: 1 op, 3472219300.00 ns, 3.4722 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  69: 1 op, 2910883200.00 ns, 2.9109 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  70: 1 op, 2836421900.00 ns, 2.8364 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  71: 1 op, 2517362000.00 ns, 2.5174 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  72: 1 op, 2703679100.00 ns, 2.7037 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  73: 1 op, 2609563800.00 ns, 2.6096 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  74: 1 op, 3114178200.00 ns, 3.1142 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  75: 1 op, 2817239900.00 ns, 2.8172 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  76: 1 op, 5459938900.00 ns, 5.4599 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  77: 1 op, 5707319700.00 ns, 5.7073 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  78: 1 op, 4133473900.00 ns, 4.1335 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  79: 1 op, 2771506100.00 ns, 2.7715 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  80: 1 op, 2919252900.00 ns, 2.9193 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  81: 1 op, 2243851700.00 ns, 2.2439 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  82: 1 op, 3011212300.00 ns, 3.0112 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  83: 1 op, 2213565000.00 ns, 2.2136 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  84: 1 op, 2600741200.00 ns, 2.6007 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  85: 1 op, 2087428600.00 ns, 2.0874 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  86: 1 op, 3263380400.00 ns, 3.2634 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  87: 1 op, 3216640200.00 ns, 3.2166 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  88: 1 op, 3096495200.00 ns, 3.0965 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  89: 1 op, 3403998800.00 ns, 3.4040 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  90: 1 op, 3855994800.00 ns, 3.8560 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  91: 1 op, 3684261300.00 ns, 3.6843 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  92: 1 op, 3135737700.00 ns, 3.1357 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  93: 1 op, 3258369800.00 ns, 3.2584 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  94: 1 op, 2951207700.00 ns, 2.9512 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  95: 1 op, 3069869100.00 ns, 3.0699 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  96: 1 op, 3064404500.00 ns, 3.0644 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  97: 1 op, 3221931300.00 ns, 3.2219 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  98: 1 op, 3258155100.00 ns, 3.2582 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  99: 1 op, 3384640500.00 ns, 3.3846 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual  100: 1 op, 3474673700.00 ns, 3.4747 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 3161737900.00 ns, 3.1617 s/op
+WorkloadResult   2: 1 op, 4294116100.00 ns, 4.2941 s/op
+WorkloadResult   3: 1 op, 3565011900.00 ns, 3.5650 s/op
+WorkloadResult   4: 1 op, 3973364700.00 ns, 3.9734 s/op
+WorkloadResult   5: 1 op, 3482976700.00 ns, 3.4830 s/op
+WorkloadResult   6: 1 op, 2283923400.00 ns, 2.2839 s/op
+WorkloadResult   7: 1 op, 2659679300.00 ns, 2.6597 s/op
+WorkloadResult   8: 1 op, 2755115900.00 ns, 2.7551 s/op
+WorkloadResult   9: 1 op, 2967693400.00 ns, 2.9677 s/op
+WorkloadResult  10: 1 op, 2892734100.00 ns, 2.8927 s/op
+WorkloadResult  11: 1 op, 4207795700.00 ns, 4.2078 s/op
+WorkloadResult  12: 1 op, 3122838800.00 ns, 3.1228 s/op
+WorkloadResult  13: 1 op, 3871347400.00 ns, 3.8713 s/op
+WorkloadResult  14: 1 op, 3970573600.00 ns, 3.9706 s/op
+WorkloadResult  15: 1 op, 3667464600.00 ns, 3.6675 s/op
+WorkloadResult  16: 1 op, 3517924400.00 ns, 3.5179 s/op
+WorkloadResult  17: 1 op, 3466549700.00 ns, 3.4665 s/op
+WorkloadResult  18: 1 op, 3333221200.00 ns, 3.3332 s/op
+WorkloadResult  19: 1 op, 2895804400.00 ns, 2.8958 s/op
+WorkloadResult  20: 1 op, 3605737500.00 ns, 3.6057 s/op
+WorkloadResult  21: 1 op, 4049948500.00 ns, 4.0499 s/op
+WorkloadResult  22: 1 op, 3394480400.00 ns, 3.3945 s/op
+WorkloadResult  23: 1 op, 2571360800.00 ns, 2.5714 s/op
+WorkloadResult  24: 1 op, 3804792800.00 ns, 3.8048 s/op
+WorkloadResult  25: 1 op, 2796465900.00 ns, 2.7965 s/op
+WorkloadResult  26: 1 op, 3348122000.00 ns, 3.3481 s/op
+WorkloadResult  27: 1 op, 4072840700.00 ns, 4.0728 s/op
+WorkloadResult  28: 1 op, 3481371000.00 ns, 3.4814 s/op
+WorkloadResult  29: 1 op, 3453475000.00 ns, 3.4535 s/op
+WorkloadResult  30: 1 op, 2087251100.00 ns, 2.0873 s/op
+WorkloadResult  31: 1 op, 2519094100.00 ns, 2.5191 s/op
+WorkloadResult  32: 1 op, 2210103700.00 ns, 2.2101 s/op
+WorkloadResult  33: 1 op, 3069560300.00 ns, 3.0696 s/op
+WorkloadResult  34: 1 op, 3476612900.00 ns, 3.4766 s/op
+WorkloadResult  35: 1 op, 3156252500.00 ns, 3.1563 s/op
+WorkloadResult  36: 1 op, 2323680900.00 ns, 2.3237 s/op
+WorkloadResult  37: 1 op, 2917573300.00 ns, 2.9176 s/op
+WorkloadResult  38: 1 op, 2376790500.00 ns, 2.3768 s/op
+WorkloadResult  39: 1 op, 2660931400.00 ns, 2.6609 s/op
+WorkloadResult  40: 1 op, 2456401700.00 ns, 2.4564 s/op
+WorkloadResult  41: 1 op, 2801655300.00 ns, 2.8017 s/op
+WorkloadResult  42: 1 op, 2528502000.00 ns, 2.5285 s/op
+WorkloadResult  43: 1 op, 2724142900.00 ns, 2.7241 s/op
+WorkloadResult  44: 1 op, 2389921600.00 ns, 2.3899 s/op
+WorkloadResult  45: 1 op, 2786096600.00 ns, 2.7861 s/op
+WorkloadResult  46: 1 op, 2575234500.00 ns, 2.5752 s/op
+WorkloadResult  47: 1 op, 2922867900.00 ns, 2.9229 s/op
+WorkloadResult  48: 1 op, 3207726900.00 ns, 3.2077 s/op
+WorkloadResult  49: 1 op, 3241745400.00 ns, 3.2417 s/op
+WorkloadResult  50: 1 op, 2419780300.00 ns, 2.4198 s/op
+WorkloadResult  51: 1 op, 2411852200.00 ns, 2.4119 s/op
+WorkloadResult  52: 1 op, 2212447200.00 ns, 2.2124 s/op
+WorkloadResult  53: 1 op, 4174048500.00 ns, 4.1740 s/op
+WorkloadResult  54: 1 op, 3095764200.00 ns, 3.0958 s/op
+WorkloadResult  55: 1 op, 3465051000.00 ns, 3.4651 s/op
+WorkloadResult  56: 1 op, 3740735100.00 ns, 3.7407 s/op
+WorkloadResult  57: 1 op, 3553361000.00 ns, 3.5534 s/op
+WorkloadResult  58: 1 op, 2968607900.00 ns, 2.9686 s/op
+WorkloadResult  59: 1 op, 3034397500.00 ns, 3.0344 s/op
+WorkloadResult  60: 1 op, 3469515000.00 ns, 3.4695 s/op
+WorkloadResult  61: 1 op, 3094895500.00 ns, 3.0949 s/op
+WorkloadResult  62: 1 op, 2894262100.00 ns, 2.8943 s/op
+WorkloadResult  63: 1 op, 3472219300.00 ns, 3.4722 s/op
+WorkloadResult  64: 1 op, 2910883200.00 ns, 2.9109 s/op
+WorkloadResult  65: 1 op, 2836421900.00 ns, 2.8364 s/op
+WorkloadResult  66: 1 op, 2517362000.00 ns, 2.5174 s/op
+WorkloadResult  67: 1 op, 2703679100.00 ns, 2.7037 s/op
+WorkloadResult  68: 1 op, 2609563800.00 ns, 2.6096 s/op
+WorkloadResult  69: 1 op, 3114178200.00 ns, 3.1142 s/op
+WorkloadResult  70: 1 op, 2817239900.00 ns, 2.8172 s/op
+WorkloadResult  71: 1 op, 4133473900.00 ns, 4.1335 s/op
+WorkloadResult  72: 1 op, 2771506100.00 ns, 2.7715 s/op
+WorkloadResult  73: 1 op, 2919252900.00 ns, 2.9193 s/op
+WorkloadResult  74: 1 op, 2243851700.00 ns, 2.2439 s/op
+WorkloadResult  75: 1 op, 3011212300.00 ns, 3.0112 s/op
+WorkloadResult  76: 1 op, 2213565000.00 ns, 2.2136 s/op
+WorkloadResult  77: 1 op, 2600741200.00 ns, 2.6007 s/op
+WorkloadResult  78: 1 op, 2087428600.00 ns, 2.0874 s/op
+WorkloadResult  79: 1 op, 3263380400.00 ns, 3.2634 s/op
+WorkloadResult  80: 1 op, 3216640200.00 ns, 3.2166 s/op
+WorkloadResult  81: 1 op, 3096495200.00 ns, 3.0965 s/op
+WorkloadResult  82: 1 op, 3403998800.00 ns, 3.4040 s/op
+WorkloadResult  83: 1 op, 3855994800.00 ns, 3.8560 s/op
+WorkloadResult  84: 1 op, 3684261300.00 ns, 3.6843 s/op
+WorkloadResult  85: 1 op, 3135737700.00 ns, 3.1357 s/op
+WorkloadResult  86: 1 op, 3258369800.00 ns, 3.2584 s/op
+WorkloadResult  87: 1 op, 2951207700.00 ns, 2.9512 s/op
+WorkloadResult  88: 1 op, 3069869100.00 ns, 3.0699 s/op
+WorkloadResult  89: 1 op, 3064404500.00 ns, 3.0644 s/op
+WorkloadResult  90: 1 op, 3221931300.00 ns, 3.2219 s/op
+WorkloadResult  91: 1 op, 3258155100.00 ns, 3.2582 s/op
+WorkloadResult  92: 1 op, 3384640500.00 ns, 3.3846 s/op
+WorkloadResult  93: 1 op, 3474673700.00 ns, 3.4747 s/op
+
+// AfterAll
+// Benchmark Process 24764 has exited with code 0.
+
+Mean = 3.096 s, StdErr = 0.055 s (1.78%), N = 93, StdDev = 0.533 s
+Min = 2.087 s, Q1 = 2.724 s, Median = 3.095 s, Q3 = 3.470 s, Max = 4.294 s
+IQR = 0.745 s, LowerFence = 1.606 s, UpperFence = 4.588 s
+ConfidenceInterval = [2.908 s; 3.284 s] (CI 99.9%), Margin = 0.188 s (6.07% of Mean)
+Skewness = 0.18, Kurtosis = 2.39, MValue = 2.43
+
+// **************************
+// Benchmark: BenchmarkHarness.PGInsertion: DefaultJob [IterationCount=20]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGInsertion(IterationCount: 20)" --job "Default" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 55908700.00 ns, 55.9087 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadJitting  1: 1 op, 2796575900.00 ns, 2.7966 s/op
+
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadWarmup   1: 1 op, 149371400.00 ns, 149.3714 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadWarmup   2: 1 op, 160527200.00 ns, 160.5272 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadWarmup   3: 1 op, 182089900.00 ns, 182.0899 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadWarmup   4: 1 op, 240530300.00 ns, 240.5303 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadWarmup   5: 1 op, 175576700.00 ns, 175.5767 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadWarmup   6: 1 op, 172569900.00 ns, 172.5699 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadWarmup   7: 1 op, 134160400.00 ns, 134.1604 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadWarmup   8: 1 op, 208574300.00 ns, 208.5743 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadWarmup   9: 1 op, 207012700.00 ns, 207.0127 ms/op
+
+// BeforeActualRun
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual   1: 1 op, 172730300.00 ns, 172.7303 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual   2: 1 op, 181455300.00 ns, 181.4553 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual   3: 1 op, 175318800.00 ns, 175.3188 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual   4: 1 op, 169403600.00 ns, 169.4036 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual   5: 1 op, 172201800.00 ns, 172.2018 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual   6: 1 op, 172209800.00 ns, 172.2098 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual   7: 1 op, 144444300.00 ns, 144.4443 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual   8: 1 op, 163640500.00 ns, 163.6405 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual   9: 1 op, 143837000.00 ns, 143.8370 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  10: 1 op, 147454100.00 ns, 147.4541 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  11: 1 op, 149272500.00 ns, 149.2725 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  12: 1 op, 140799600.00 ns, 140.7996 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  13: 1 op, 179666800.00 ns, 179.6668 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  14: 1 op, 161351100.00 ns, 161.3511 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  15: 1 op, 135496700.00 ns, 135.4967 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  16: 1 op, 157255700.00 ns, 157.2557 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  17: 1 op, 190443400.00 ns, 190.4434 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  18: 1 op, 145991200.00 ns, 145.9912 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  19: 1 op, 143054000.00 ns, 143.0540 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  20: 1 op, 151663200.00 ns, 151.6632 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  21: 1 op, 140494700.00 ns, 140.4947 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  22: 1 op, 149591600.00 ns, 149.5916 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  23: 1 op, 163370000.00 ns, 163.3700 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  24: 1 op, 180888200.00 ns, 180.8882 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  25: 1 op, 156819500.00 ns, 156.8195 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  26: 1 op, 130262100.00 ns, 130.2621 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  27: 1 op, 156068300.00 ns, 156.0683 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  28: 1 op, 155861000.00 ns, 155.8610 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  29: 1 op, 137968100.00 ns, 137.9681 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  30: 1 op, 183180800.00 ns, 183.1808 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  31: 1 op, 163977400.00 ns, 163.9774 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  32: 1 op, 143577200.00 ns, 143.5772 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  33: 1 op, 175773000.00 ns, 175.7730 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  34: 1 op, 99258600.00 ns, 99.2586 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  35: 1 op, 94559400.00 ns, 94.5594 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  36: 1 op, 90513000.00 ns, 90.5130 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  37: 1 op, 103214400.00 ns, 103.2144 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  38: 1 op, 133440600.00 ns, 133.4406 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  39: 1 op, 134783800.00 ns, 134.7838 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  40: 1 op, 94936100.00 ns, 94.9361 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  41: 1 op, 84594000.00 ns, 84.5940 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  42: 1 op, 90818900.00 ns, 90.8189 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  43: 1 op, 85072900.00 ns, 85.0729 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  44: 1 op, 86197700.00 ns, 86.1977 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  45: 1 op, 87634300.00 ns, 87.6343 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  46: 1 op, 90565100.00 ns, 90.5651 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  47: 1 op, 91358100.00 ns, 91.3581 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  48: 1 op, 86536500.00 ns, 86.5365 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  49: 1 op, 108574200.00 ns, 108.5742 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  50: 1 op, 99521000.00 ns, 99.5210 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  51: 1 op, 85453700.00 ns, 85.4537 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  52: 1 op, 92621300.00 ns, 92.6213 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  53: 1 op, 111037700.00 ns, 111.0377 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  54: 1 op, 87797700.00 ns, 87.7977 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  55: 1 op, 82604000.00 ns, 82.6040 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  56: 1 op, 92139200.00 ns, 92.1392 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  57: 1 op, 92655400.00 ns, 92.6554 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  58: 1 op, 136609900.00 ns, 136.6099 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  59: 1 op, 74380500.00 ns, 74.3805 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  60: 1 op, 69136400.00 ns, 69.1364 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  61: 1 op, 70980600.00 ns, 70.9806 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  62: 1 op, 74921100.00 ns, 74.9211 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  63: 1 op, 70136400.00 ns, 70.1364 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  64: 1 op, 69258800.00 ns, 69.2588 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  65: 1 op, 68373000.00 ns, 68.3730 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  66: 1 op, 74331400.00 ns, 74.3314 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  67: 1 op, 70410700.00 ns, 70.4107 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  68: 1 op, 65559800.00 ns, 65.5598 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  69: 1 op, 76897000.00 ns, 76.8970 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  70: 1 op, 81775600.00 ns, 81.7756 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  71: 1 op, 109902300.00 ns, 109.9023 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  72: 1 op, 74759500.00 ns, 74.7595 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  73: 1 op, 65916400.00 ns, 65.9164 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  74: 1 op, 65147900.00 ns, 65.1479 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  75: 1 op, 70580100.00 ns, 70.5801 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  76: 1 op, 70563200.00 ns, 70.5632 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  77: 1 op, 69181500.00 ns, 69.1815 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  78: 1 op, 64179900.00 ns, 64.1799 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  79: 1 op, 83863400.00 ns, 83.8634 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  80: 1 op, 74912400.00 ns, 74.9124 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  81: 1 op, 64413500.00 ns, 64.4135 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  82: 1 op, 69787900.00 ns, 69.7879 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  83: 1 op, 83194800.00 ns, 83.1948 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  84: 1 op, 79546900.00 ns, 79.5469 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  85: 1 op, 68502500.00 ns, 68.5025 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  86: 1 op, 74916300.00 ns, 74.9163 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  87: 1 op, 78925100.00 ns, 78.9251 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  88: 1 op, 67790100.00 ns, 67.7901 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  89: 1 op, 76818300.00 ns, 76.8183 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  90: 1 op, 68730400.00 ns, 68.7304 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  91: 1 op, 71685600.00 ns, 71.6856 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  92: 1 op, 68262800.00 ns, 68.2628 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  93: 1 op, 63018600.00 ns, 63.0186 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  94: 1 op, 72717500.00 ns, 72.7175 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  95: 1 op, 68338800.00 ns, 68.3388 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  96: 1 op, 80769400.00 ns, 80.7694 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  97: 1 op, 72790300.00 ns, 72.7903 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  98: 1 op, 73765600.00 ns, 73.7656 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  99: 1 op, 69671600.00 ns, 69.6716 ms/op
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+Internal server Error
+WorkloadActual  100: 1 op, 71002800.00 ns, 71.0028 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 172730300.00 ns, 172.7303 ms/op
+WorkloadResult   2: 1 op, 181455300.00 ns, 181.4553 ms/op
+WorkloadResult   3: 1 op, 175318800.00 ns, 175.3188 ms/op
+WorkloadResult   4: 1 op, 169403600.00 ns, 169.4036 ms/op
+WorkloadResult   5: 1 op, 172201800.00 ns, 172.2018 ms/op
+WorkloadResult   6: 1 op, 172209800.00 ns, 172.2098 ms/op
+WorkloadResult   7: 1 op, 144444300.00 ns, 144.4443 ms/op
+WorkloadResult   8: 1 op, 163640500.00 ns, 163.6405 ms/op
+WorkloadResult   9: 1 op, 143837000.00 ns, 143.8370 ms/op
+WorkloadResult  10: 1 op, 147454100.00 ns, 147.4541 ms/op
+WorkloadResult  11: 1 op, 149272500.00 ns, 149.2725 ms/op
+WorkloadResult  12: 1 op, 140799600.00 ns, 140.7996 ms/op
+WorkloadResult  13: 1 op, 179666800.00 ns, 179.6668 ms/op
+WorkloadResult  14: 1 op, 161351100.00 ns, 161.3511 ms/op
+WorkloadResult  15: 1 op, 135496700.00 ns, 135.4967 ms/op
+WorkloadResult  16: 1 op, 157255700.00 ns, 157.2557 ms/op
+WorkloadResult  17: 1 op, 190443400.00 ns, 190.4434 ms/op
+WorkloadResult  18: 1 op, 145991200.00 ns, 145.9912 ms/op
+WorkloadResult  19: 1 op, 143054000.00 ns, 143.0540 ms/op
+WorkloadResult  20: 1 op, 151663200.00 ns, 151.6632 ms/op
+WorkloadResult  21: 1 op, 140494700.00 ns, 140.4947 ms/op
+WorkloadResult  22: 1 op, 149591600.00 ns, 149.5916 ms/op
+WorkloadResult  23: 1 op, 163370000.00 ns, 163.3700 ms/op
+WorkloadResult  24: 1 op, 180888200.00 ns, 180.8882 ms/op
+WorkloadResult  25: 1 op, 156819500.00 ns, 156.8195 ms/op
+WorkloadResult  26: 1 op, 130262100.00 ns, 130.2621 ms/op
+WorkloadResult  27: 1 op, 156068300.00 ns, 156.0683 ms/op
+WorkloadResult  28: 1 op, 155861000.00 ns, 155.8610 ms/op
+WorkloadResult  29: 1 op, 137968100.00 ns, 137.9681 ms/op
+WorkloadResult  30: 1 op, 183180800.00 ns, 183.1808 ms/op
+WorkloadResult  31: 1 op, 163977400.00 ns, 163.9774 ms/op
+WorkloadResult  32: 1 op, 143577200.00 ns, 143.5772 ms/op
+WorkloadResult  33: 1 op, 175773000.00 ns, 175.7730 ms/op
+WorkloadResult  34: 1 op, 99258600.00 ns, 99.2586 ms/op
+WorkloadResult  35: 1 op, 94559400.00 ns, 94.5594 ms/op
+WorkloadResult  36: 1 op, 90513000.00 ns, 90.5130 ms/op
+WorkloadResult  37: 1 op, 103214400.00 ns, 103.2144 ms/op
+WorkloadResult  38: 1 op, 133440600.00 ns, 133.4406 ms/op
+WorkloadResult  39: 1 op, 134783800.00 ns, 134.7838 ms/op
+WorkloadResult  40: 1 op, 94936100.00 ns, 94.9361 ms/op
+WorkloadResult  41: 1 op, 84594000.00 ns, 84.5940 ms/op
+WorkloadResult  42: 1 op, 90818900.00 ns, 90.8189 ms/op
+WorkloadResult  43: 1 op, 85072900.00 ns, 85.0729 ms/op
+WorkloadResult  44: 1 op, 86197700.00 ns, 86.1977 ms/op
+WorkloadResult  45: 1 op, 87634300.00 ns, 87.6343 ms/op
+WorkloadResult  46: 1 op, 90565100.00 ns, 90.5651 ms/op
+WorkloadResult  47: 1 op, 91358100.00 ns, 91.3581 ms/op
+WorkloadResult  48: 1 op, 86536500.00 ns, 86.5365 ms/op
+WorkloadResult  49: 1 op, 108574200.00 ns, 108.5742 ms/op
+WorkloadResult  50: 1 op, 99521000.00 ns, 99.5210 ms/op
+WorkloadResult  51: 1 op, 85453700.00 ns, 85.4537 ms/op
+WorkloadResult  52: 1 op, 92621300.00 ns, 92.6213 ms/op
+WorkloadResult  53: 1 op, 111037700.00 ns, 111.0377 ms/op
+WorkloadResult  54: 1 op, 87797700.00 ns, 87.7977 ms/op
+WorkloadResult  55: 1 op, 82604000.00 ns, 82.6040 ms/op
+WorkloadResult  56: 1 op, 92139200.00 ns, 92.1392 ms/op
+WorkloadResult  57: 1 op, 92655400.00 ns, 92.6554 ms/op
+WorkloadResult  58: 1 op, 136609900.00 ns, 136.6099 ms/op
+WorkloadResult  59: 1 op, 74380500.00 ns, 74.3805 ms/op
+WorkloadResult  60: 1 op, 69136400.00 ns, 69.1364 ms/op
+WorkloadResult  61: 1 op, 70980600.00 ns, 70.9806 ms/op
+WorkloadResult  62: 1 op, 74921100.00 ns, 74.9211 ms/op
+WorkloadResult  63: 1 op, 70136400.00 ns, 70.1364 ms/op
+WorkloadResult  64: 1 op, 69258800.00 ns, 69.2588 ms/op
+WorkloadResult  65: 1 op, 68373000.00 ns, 68.3730 ms/op
+WorkloadResult  66: 1 op, 74331400.00 ns, 74.3314 ms/op
+WorkloadResult  67: 1 op, 70410700.00 ns, 70.4107 ms/op
+WorkloadResult  68: 1 op, 65559800.00 ns, 65.5598 ms/op
+WorkloadResult  69: 1 op, 76897000.00 ns, 76.8970 ms/op
+WorkloadResult  70: 1 op, 81775600.00 ns, 81.7756 ms/op
+WorkloadResult  71: 1 op, 109902300.00 ns, 109.9023 ms/op
+WorkloadResult  72: 1 op, 74759500.00 ns, 74.7595 ms/op
+WorkloadResult  73: 1 op, 65916400.00 ns, 65.9164 ms/op
+WorkloadResult  74: 1 op, 65147900.00 ns, 65.1479 ms/op
+WorkloadResult  75: 1 op, 70580100.00 ns, 70.5801 ms/op
+WorkloadResult  76: 1 op, 70563200.00 ns, 70.5632 ms/op
+WorkloadResult  77: 1 op, 69181500.00 ns, 69.1815 ms/op
+WorkloadResult  78: 1 op, 64179900.00 ns, 64.1799 ms/op
+WorkloadResult  79: 1 op, 83863400.00 ns, 83.8634 ms/op
+WorkloadResult  80: 1 op, 74912400.00 ns, 74.9124 ms/op
+WorkloadResult  81: 1 op, 64413500.00 ns, 64.4135 ms/op
+WorkloadResult  82: 1 op, 69787900.00 ns, 69.7879 ms/op
+WorkloadResult  83: 1 op, 83194800.00 ns, 83.1948 ms/op
+WorkloadResult  84: 1 op, 79546900.00 ns, 79.5469 ms/op
+WorkloadResult  85: 1 op, 68502500.00 ns, 68.5025 ms/op
+WorkloadResult  86: 1 op, 74916300.00 ns, 74.9163 ms/op
+WorkloadResult  87: 1 op, 78925100.00 ns, 78.9251 ms/op
+WorkloadResult  88: 1 op, 67790100.00 ns, 67.7901 ms/op
+WorkloadResult  89: 1 op, 76818300.00 ns, 76.8183 ms/op
+WorkloadResult  90: 1 op, 68730400.00 ns, 68.7304 ms/op
+WorkloadResult  91: 1 op, 71685600.00 ns, 71.6856 ms/op
+WorkloadResult  92: 1 op, 68262800.00 ns, 68.2628 ms/op
+WorkloadResult  93: 1 op, 63018600.00 ns, 63.0186 ms/op
+WorkloadResult  94: 1 op, 72717500.00 ns, 72.7175 ms/op
+WorkloadResult  95: 1 op, 68338800.00 ns, 68.3388 ms/op
+WorkloadResult  96: 1 op, 80769400.00 ns, 80.7694 ms/op
+WorkloadResult  97: 1 op, 72790300.00 ns, 72.7903 ms/op
+WorkloadResult  98: 1 op, 73765600.00 ns, 73.7656 ms/op
+WorkloadResult  99: 1 op, 69671600.00 ns, 69.6716 ms/op
+WorkloadResult  100: 1 op, 71002800.00 ns, 71.0028 ms/op
+
+// AfterAll
+// Benchmark Process 18044 has exited with code 0.
+
+Mean = 107.378 ms, StdErr = 3.968 ms (3.70%), N = 100, StdDev = 39.677 ms
+Min = 63.019 ms, Q1 = 72.772 ms, Median = 90.539 ms, Q3 = 143.989 ms, Max = 190.443 ms
+IQR = 71.217 ms, LowerFence = -34.053 ms, UpperFence = 250.814 ms
+ConfidenceInterval = [93.922 ms; 120.835 ms] (CI 99.9%), Margin = 13.457 ms (12.53% of Mean)
+Skewness = 0.6, Kurtosis = 1.79, MValue = 2.85
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLInsertion: DefaultJob [IterationCount=30]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLInsertion(IterationCount: 30)" --job "Default" --benchmarkId 2 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 340100.00 ns, 340.1000 us/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 6156372400.00 ns, 6.1564 s/op
+
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Benchmarking.Clients.RestClient.MySQLInsertion(Int32 i) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 69
+   at Benchmarking.BenchmarkHarness.MySQLInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\BenchmarkHarness.cs:line 44
+   at BenchmarkDotNet.Autogenerated.Runnable_2.<.ctor>b__3_4() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.notcs:line 1655
+   at BenchmarkDotNet.Autogenerated.Runnable_2.WorkloadActionNoUnroll(Int64 invokeCount) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.notcs:line 2306
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineStage.RunIteration(IterationMode mode, IterationStage stage, Int32 index, Int64 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineStage.Run(IStoppingCriteria criteria, Int64 invokeCount, IterationMode mode, IterationStage stage, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineWarmupStage.Run(Int64 invokeCount, IterationMode iterationMode, Int32 unrollFactor, RunStrategy runStrategy)
+   at BenchmarkDotNet.Engines.EngineWarmupStage.RunWorkload(Int64 invokeCount, Int32 unrollFactor, RunStrategy runStrategy)
+   at BenchmarkDotNet.Engines.Engine.Run()
+   at BenchmarkDotNet.Autogenerated.Runnable_2.Run(IHost host, String benchmarkName) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.notcs:line 1638
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.notcs:line 56
+// AfterAll
+// Benchmark Process 19272 has exited with code -1.
+
+
+// **************************
+// Benchmark: BenchmarkHarness.PGInsertion: DefaultJob [IterationCount=30]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGInsertion(IterationCount: 30)" --job "Default" --benchmarkId 3 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 497900.00 ns, 497.9000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Benchmarking.Clients.RestClient.PGInsertion(Int32 i) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 73
+   at Benchmarking.BenchmarkHarness.PGInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\BenchmarkHarness.cs:line 53
+   at BenchmarkDotNet.Autogenerated.Runnable_3.<.ctor>b__3_4() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.notcs:line 2387
+   at BenchmarkDotNet.Autogenerated.Runnable_3.WorkloadActionNoUnroll(Int64 invokeCount) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.notcs:line 3038
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_3.Run(IHost host, String benchmarkName) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.notcs:line 2366
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f\3a8ed3b3-4d1b-4004-b77a-4cab9487f06f.notcs:line 56
+// AfterAll
+// Benchmark Process 18732 has exited with code -1.
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.html
+
+// * Detailed results *
+BenchmarkHarness.MySQLInsertion: DefaultJob [IterationCount=20]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 3.096 s, StdErr = 0.055 s (1.78%), N = 93, StdDev = 0.533 s
+Min = 2.087 s, Q1 = 2.724 s, Median = 3.095 s, Q3 = 3.470 s, Max = 4.294 s
+IQR = 0.745 s, LowerFence = 1.606 s, UpperFence = 4.588 s
+ConfidenceInterval = [2.908 s; 3.284 s] (CI 99.9%), Margin = 0.188 s (6.07% of Mean)
+Skewness = 0.18, Kurtosis = 2.39, MValue = 2.43
+-------------------- Histogram --------------------
+[1.933 s ; 2.179 s) | @@
+[2.179 s ; 2.513 s) | @@@@@@@@@@@
+[2.513 s ; 2.873 s) | @@@@@@@@@@@@@@@@@@
+[2.873 s ; 3.182 s) | @@@@@@@@@@@@@@@@@@@@@@@
+[3.182 s ; 3.500 s) | @@@@@@@@@@@@@@@@@@@@@
+[3.500 s ; 3.816 s) | @@@@@@@@
+[3.816 s ; 3.935 s) | @@
+[3.935 s ; 4.244 s) | @@@@@@@
+[4.244 s ; 4.448 s) | @
+---------------------------------------------------
+
+BenchmarkHarness.PGInsertion: DefaultJob [IterationCount=20]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 107.378 ms, StdErr = 3.968 ms (3.70%), N = 100, StdDev = 39.677 ms
+Min = 63.019 ms, Q1 = 72.772 ms, Median = 90.539 ms, Q3 = 143.989 ms, Max = 190.443 ms
+IQR = 71.217 ms, LowerFence = -34.053 ms, UpperFence = 250.814 ms
+ConfidenceInterval = [93.922 ms; 120.835 ms] (CI 99.9%), Margin = 13.457 ms (12.53% of Mean)
+Skewness = 0.6, Kurtosis = 1.79, MValue = 2.85
+-------------------- Histogram --------------------
+[ 51.799 ms ;  64.139 ms) | @
+[ 64.139 ms ;  86.578 ms) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[ 86.578 ms ; 109.988 ms) | @@@@@@@@@@@@@@@@
+[109.988 ms ; 135.157 ms) | @@@@
+[135.157 ms ; 157.596 ms) | @@@@@@@@@@@@@@@@@@
+[157.596 ms ; 183.485 ms) | @@@@@@@@@@@@@@
+[183.485 ms ; 201.663 ms) | @
+---------------------------------------------------
+
+BenchmarkHarness.MySQLInsertion: DefaultJob [IterationCount=30]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+There are not any results runs
+
+BenchmarkHarness.PGInsertion: DefaultJob [IterationCount=30]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=5.0.103
+  [Host]     : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+  DefaultJob : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+
+
+|         Method | IterationCount |       Mean |     Error |    StdDev |      Median | Ratio | RatioSD |
+|--------------- |--------------- |-----------:|----------:|----------:|------------:|------:|--------:|
+| MySQLInsertion |             20 | 3,096.1 ms | 187.80 ms | 532.77 ms | 3,094.90 ms |  1.00 |    0.00 |
+|    PGInsertion |             20 |   107.4 ms |  13.46 ms |  39.68 ms |    90.54 ms |  0.04 |    0.01 |
+|                |                |            |           |           |             |       |         |
+| MySQLInsertion |             30 |         NA |        NA |        NA |          NA |     ? |       ? |
+|    PGInsertion |             30 |         NA |        NA |        NA |          NA |     ? |       ? |
+
+Benchmarks with issues:
+  BenchmarkHarness.MySQLInsertion: DefaultJob [IterationCount=30]
+  BenchmarkHarness.PGInsertion: DefaultJob [IterationCount=30]
+
+// * Warnings *
+MultimodalDistribution
+  BenchmarkHarness.PGInsertion: Default -> It seems that the distribution can have several modes (mValue = 2.85)
+MinIterationTime
+  BenchmarkHarness.PGInsertion: Default -> The minimum observed iteration time is 63.0186 ms which is very small. It's recommended to increase it to at least 100.0000 ms using more operations.
+BaselineCustomAnalyzer
+  Summary -> A question mark '?' symbol indicates that it was not possible to compute the (Ratio, RatioSD) column(s) because the baseline value is too close to zero.
+
+// * Hints *
+Outliers
+  BenchmarkHarness.MySQLInsertion: Default -> 7 outliers were removed (4.87 s..5.71 s)
+
+// * Legends *
+  IterationCount : Value of the 'IterationCount' parameter
+  Mean           : Arithmetic mean of all measurements
+  Error          : Half of 99.9% confidence interval
+  StdDev         : Standard deviation of all measurements
+  Median         : Value separating the higher half of all measurements (50th percentile)
+  Ratio          : Mean of the ratio distribution ([Current]/[Baseline])
+  RatioSD        : Standard deviation of the ratio distribution ([Current]/[Baseline])
+  1 ms           : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:06:52 (412.16 sec), executed benchmarks: 4
+
+Global total time: 00:07:07 (427.08 sec), executed benchmarks: 4
+// * Artifacts cleanup *

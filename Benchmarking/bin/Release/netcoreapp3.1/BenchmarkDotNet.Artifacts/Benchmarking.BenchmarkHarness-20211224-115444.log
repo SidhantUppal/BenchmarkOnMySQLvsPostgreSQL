@@ -1,0 +1,567 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\1244f89f-7a19-4246-9780-fa25c31e6a9c
+// command took 10.09s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\1244f89f-7a19-4246-9780-fa25c31e6a9c
+// command took 23.98s and exited with 0
+// ***** Done, took 00:00:34 (34.51 sec)   *****
+// Found 1 benchmarks:
+//   BenchmarkHarness.RestGetSmallPayloadAsync: DefaultJob [IterationCount=2]
+
+// **************************
+// Benchmark: BenchmarkHarness.RestGetSmallPayloadAsync: DefaultJob [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "1244f89f-7a19-4246-9780-fa25c31e6a9c.dll" --benchmarkName "Benchmarking.BenchmarkHarness.RestGetSmallPayloadAsync(IterationCount: 2)" --job "Default" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\1244f89f-7a19-4246-9780-fa25c31e6a9c\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 306500.00 ns, 306.5000 us/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadJitting  1: 1 op, 1073008900.00 ns, 1.0730 s/op
+
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadWarmup   1: 1 op, 219576000.00 ns, 219.5760 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadWarmup   2: 1 op, 227326600.00 ns, 227.3266 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadWarmup   3: 1 op, 231538400.00 ns, 231.5384 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadWarmup   4: 1 op, 219880400.00 ns, 219.8804 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadWarmup   5: 1 op, 245068300.00 ns, 245.0683 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadWarmup   6: 1 op, 224345900.00 ns, 224.3459 ms/op
+
+// BeforeActualRun
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual   1: 1 op, 216723400.00 ns, 216.7234 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual   2: 1 op, 238713300.00 ns, 238.7133 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual   3: 1 op, 229856600.00 ns, 229.8566 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual   4: 1 op, 243828500.00 ns, 243.8285 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual   5: 1 op, 226656300.00 ns, 226.6563 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual   6: 1 op, 213139500.00 ns, 213.1395 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual   7: 1 op, 232067300.00 ns, 232.0673 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual   8: 1 op, 214890400.00 ns, 214.8904 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual   9: 1 op, 240462500.00 ns, 240.4625 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  10: 1 op, 231311100.00 ns, 231.3111 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  11: 1 op, 216549100.00 ns, 216.5491 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  12: 1 op, 234940500.00 ns, 234.9405 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  13: 1 op, 221175500.00 ns, 221.1755 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  14: 1 op, 217326100.00 ns, 217.3261 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  15: 1 op, 229042800.00 ns, 229.0428 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  16: 1 op, 240957600.00 ns, 240.9576 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  17: 1 op, 244610400.00 ns, 244.6104 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  18: 1 op, 231947400.00 ns, 231.9474 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  19: 1 op, 224686900.00 ns, 224.6869 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  20: 1 op, 246221200.00 ns, 246.2212 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  21: 1 op, 214226400.00 ns, 214.2264 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  22: 1 op, 214767200.00 ns, 214.7672 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  23: 1 op, 233516100.00 ns, 233.5161 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  24: 1 op, 228399900.00 ns, 228.3999 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  25: 1 op, 216239500.00 ns, 216.2395 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  26: 1 op, 216248600.00 ns, 216.2486 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  27: 1 op, 216926800.00 ns, 216.9268 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  28: 1 op, 214726400.00 ns, 214.7264 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  29: 1 op, 229761900.00 ns, 229.7619 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  30: 1 op, 249986700.00 ns, 249.9867 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  31: 1 op, 240587400.00 ns, 240.5874 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  32: 1 op, 232941800.00 ns, 232.9418 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  33: 1 op, 247292800.00 ns, 247.2928 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  34: 1 op, 247220000.00 ns, 247.2200 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  35: 1 op, 244395100.00 ns, 244.3951 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  36: 1 op, 235115900.00 ns, 235.1159 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  37: 1 op, 245921800.00 ns, 245.9218 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  38: 1 op, 243625700.00 ns, 243.6257 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  39: 1 op, 228436200.00 ns, 228.4362 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  40: 1 op, 217038800.00 ns, 217.0388 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  41: 1 op, 233834600.00 ns, 233.8346 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  42: 1 op, 231076800.00 ns, 231.0768 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  43: 1 op, 219378300.00 ns, 219.3783 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  44: 1 op, 223803700.00 ns, 223.8037 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  45: 1 op, 213937300.00 ns, 213.9373 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  46: 1 op, 214255800.00 ns, 214.2558 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  47: 1 op, 216567400.00 ns, 216.5674 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  48: 1 op, 244368900.00 ns, 244.3689 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  49: 1 op, 244199100.00 ns, 244.1991 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  50: 1 op, 216556600.00 ns, 216.5566 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  51: 1 op, 217401500.00 ns, 217.4015 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  52: 1 op, 224754700.00 ns, 224.7547 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  53: 1 op, 245150300.00 ns, 245.1503 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  54: 1 op, 230242500.00 ns, 230.2425 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  55: 1 op, 217527100.00 ns, 217.5271 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  56: 1 op, 227563400.00 ns, 227.5634 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  57: 1 op, 214697700.00 ns, 214.6977 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  58: 1 op, 217120600.00 ns, 217.1206 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  59: 1 op, 228724700.00 ns, 228.7247 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  60: 1 op, 216640000.00 ns, 216.6400 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  61: 1 op, 241287300.00 ns, 241.2873 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  62: 1 op, 223563600.00 ns, 223.5636 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  63: 1 op, 243952700.00 ns, 243.9527 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  64: 1 op, 219145000.00 ns, 219.1450 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  65: 1 op, 230929900.00 ns, 230.9299 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  66: 1 op, 224471600.00 ns, 224.4716 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  67: 1 op, 215615600.00 ns, 215.6156 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  68: 1 op, 213990100.00 ns, 213.9901 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  69: 1 op, 217393400.00 ns, 217.3934 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  70: 1 op, 231080800.00 ns, 231.0808 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  71: 1 op, 247143400.00 ns, 247.1434 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  72: 1 op, 232152500.00 ns, 232.1525 ms/op
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+********** Task<Student> GetSmallPayloadAsync() start ********
+{"id":"1","firstName":"Sidhant","lastName":"Uppal"}
+WorkloadActual  73: 1 op, 228644000.00 ns, 228.6440 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 216723400.00 ns, 216.7234 ms/op
+WorkloadResult   2: 1 op, 238713300.00 ns, 238.7133 ms/op
+WorkloadResult   3: 1 op, 229856600.00 ns, 229.8566 ms/op
+WorkloadResult   4: 1 op, 243828500.00 ns, 243.8285 ms/op
+WorkloadResult   5: 1 op, 226656300.00 ns, 226.6563 ms/op
+WorkloadResult   6: 1 op, 213139500.00 ns, 213.1395 ms/op
+WorkloadResult   7: 1 op, 232067300.00 ns, 232.0673 ms/op
+WorkloadResult   8: 1 op, 214890400.00 ns, 214.8904 ms/op
+WorkloadResult   9: 1 op, 240462500.00 ns, 240.4625 ms/op
+WorkloadResult  10: 1 op, 231311100.00 ns, 231.3111 ms/op
+WorkloadResult  11: 1 op, 216549100.00 ns, 216.5491 ms/op
+WorkloadResult  12: 1 op, 234940500.00 ns, 234.9405 ms/op
+WorkloadResult  13: 1 op, 221175500.00 ns, 221.1755 ms/op
+WorkloadResult  14: 1 op, 217326100.00 ns, 217.3261 ms/op
+WorkloadResult  15: 1 op, 229042800.00 ns, 229.0428 ms/op
+WorkloadResult  16: 1 op, 240957600.00 ns, 240.9576 ms/op
+WorkloadResult  17: 1 op, 244610400.00 ns, 244.6104 ms/op
+WorkloadResult  18: 1 op, 231947400.00 ns, 231.9474 ms/op
+WorkloadResult  19: 1 op, 224686900.00 ns, 224.6869 ms/op
+WorkloadResult  20: 1 op, 246221200.00 ns, 246.2212 ms/op
+WorkloadResult  21: 1 op, 214226400.00 ns, 214.2264 ms/op
+WorkloadResult  22: 1 op, 214767200.00 ns, 214.7672 ms/op
+WorkloadResult  23: 1 op, 233516100.00 ns, 233.5161 ms/op
+WorkloadResult  24: 1 op, 228399900.00 ns, 228.3999 ms/op
+WorkloadResult  25: 1 op, 216239500.00 ns, 216.2395 ms/op
+WorkloadResult  26: 1 op, 216248600.00 ns, 216.2486 ms/op
+WorkloadResult  27: 1 op, 216926800.00 ns, 216.9268 ms/op
+WorkloadResult  28: 1 op, 214726400.00 ns, 214.7264 ms/op
+WorkloadResult  29: 1 op, 229761900.00 ns, 229.7619 ms/op
+WorkloadResult  30: 1 op, 249986700.00 ns, 249.9867 ms/op
+WorkloadResult  31: 1 op, 240587400.00 ns, 240.5874 ms/op
+WorkloadResult  32: 1 op, 232941800.00 ns, 232.9418 ms/op
+WorkloadResult  33: 1 op, 247292800.00 ns, 247.2928 ms/op
+WorkloadResult  34: 1 op, 247220000.00 ns, 247.2200 ms/op
+WorkloadResult  35: 1 op, 244395100.00 ns, 244.3951 ms/op
+WorkloadResult  36: 1 op, 235115900.00 ns, 235.1159 ms/op
+WorkloadResult  37: 1 op, 245921800.00 ns, 245.9218 ms/op
+WorkloadResult  38: 1 op, 243625700.00 ns, 243.6257 ms/op
+WorkloadResult  39: 1 op, 228436200.00 ns, 228.4362 ms/op
+WorkloadResult  40: 1 op, 217038800.00 ns, 217.0388 ms/op
+WorkloadResult  41: 1 op, 233834600.00 ns, 233.8346 ms/op
+WorkloadResult  42: 1 op, 231076800.00 ns, 231.0768 ms/op
+WorkloadResult  43: 1 op, 219378300.00 ns, 219.3783 ms/op
+WorkloadResult  44: 1 op, 223803700.00 ns, 223.8037 ms/op
+WorkloadResult  45: 1 op, 213937300.00 ns, 213.9373 ms/op
+WorkloadResult  46: 1 op, 214255800.00 ns, 214.2558 ms/op
+WorkloadResult  47: 1 op, 216567400.00 ns, 216.5674 ms/op
+WorkloadResult  48: 1 op, 244368900.00 ns, 244.3689 ms/op
+WorkloadResult  49: 1 op, 244199100.00 ns, 244.1991 ms/op
+WorkloadResult  50: 1 op, 216556600.00 ns, 216.5566 ms/op
+WorkloadResult  51: 1 op, 217401500.00 ns, 217.4015 ms/op
+WorkloadResult  52: 1 op, 224754700.00 ns, 224.7547 ms/op
+WorkloadResult  53: 1 op, 245150300.00 ns, 245.1503 ms/op
+WorkloadResult  54: 1 op, 230242500.00 ns, 230.2425 ms/op
+WorkloadResult  55: 1 op, 217527100.00 ns, 217.5271 ms/op
+WorkloadResult  56: 1 op, 227563400.00 ns, 227.5634 ms/op
+WorkloadResult  57: 1 op, 214697700.00 ns, 214.6977 ms/op
+WorkloadResult  58: 1 op, 217120600.00 ns, 217.1206 ms/op
+WorkloadResult  59: 1 op, 228724700.00 ns, 228.7247 ms/op
+WorkloadResult  60: 1 op, 216640000.00 ns, 216.6400 ms/op
+WorkloadResult  61: 1 op, 241287300.00 ns, 241.2873 ms/op
+WorkloadResult  62: 1 op, 223563600.00 ns, 223.5636 ms/op
+WorkloadResult  63: 1 op, 243952700.00 ns, 243.9527 ms/op
+WorkloadResult  64: 1 op, 219145000.00 ns, 219.1450 ms/op
+WorkloadResult  65: 1 op, 230929900.00 ns, 230.9299 ms/op
+WorkloadResult  66: 1 op, 224471600.00 ns, 224.4716 ms/op
+WorkloadResult  67: 1 op, 215615600.00 ns, 215.6156 ms/op
+WorkloadResult  68: 1 op, 213990100.00 ns, 213.9901 ms/op
+WorkloadResult  69: 1 op, 217393400.00 ns, 217.3934 ms/op
+WorkloadResult  70: 1 op, 231080800.00 ns, 231.0808 ms/op
+WorkloadResult  71: 1 op, 247143400.00 ns, 247.1434 ms/op
+WorkloadResult  72: 1 op, 232152500.00 ns, 232.1525 ms/op
+WorkloadResult  73: 1 op, 228644000.00 ns, 228.6440 ms/op
+
+// AfterAll
+// Benchmark Process 25496 has exited with code 0.
+
+Mean = 228.488 ms, StdErr = 1.328 ms (0.58%), N = 73, StdDev = 11.342 ms
+Min = 213.139 ms, Q1 = 217.039 ms, Median = 228.644 ms, Q3 = 238.713 ms, Max = 249.987 ms
+IQR = 21.674 ms, LowerFence = 184.527 ms, UpperFence = 271.225 ms
+ConfidenceInterval = [223.934 ms; 233.043 ms] (CI 99.9%), Margin = 4.555 ms (1.99% of Mean)
+Skewness = 0.28, Kurtosis = 1.7, MValue = 4.15
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.html
+
+// * Detailed results *
+BenchmarkHarness.RestGetSmallPayloadAsync: DefaultJob [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 228.488 ms, StdErr = 1.328 ms (0.58%), N = 73, StdDev = 11.342 ms
+Min = 213.139 ms, Q1 = 217.039 ms, Median = 228.644 ms, Q3 = 238.713 ms, Max = 249.987 ms
+IQR = 21.674 ms, LowerFence = 184.527 ms, UpperFence = 271.225 ms
+ConfidenceInterval = [223.934 ms; 233.043 ms] (CI 99.9%), Margin = 4.555 ms (1.99% of Mean)
+Skewness = 0.28, Kurtosis = 1.7, MValue = 4.15
+-------------------- Histogram --------------------
+[212.697 ms ; 219.821 ms) | @@@@@@@@@@@@@@@@@@@@@@@@@@
+[219.821 ms ; 228.196 ms) | @@@@@@@@
+[228.196 ms ; 235.320 ms) | @@@@@@@@@@@@@@@@@@@@
+[235.320 ms ; 240.316 ms) | @
+[240.316 ms ; 247.440 ms) | @@@@@@@@@@@@@@@@@
+[247.440 ms ; 253.549 ms) | @
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=5.0.103
+  [Host]     : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+  DefaultJob : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+
+
+|                   Method | IterationCount |     Mean |   Error |   StdDev |
+|------------------------- |--------------- |---------:|--------:|---------:|
+| RestGetSmallPayloadAsync |              2 | 228.5 ms | 4.55 ms | 11.34 ms |
+
+// * Warnings *
+MultimodalDistribution
+  BenchmarkHarness.RestGetSmallPayloadAsync: Default -> It seems that the distribution is bimodal (mValue = 4.15)
+
+// * Legends *
+  IterationCount : Value of the 'IterationCount' parameter
+  Mean           : Arithmetic mean of all measurements
+  Error          : Half of 99.9% confidence interval
+  StdDev         : Standard deviation of all measurements
+  1 ms           : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:24 (24.03 sec), executed benchmarks: 1
+
+Global total time: 00:00:58 (58.65 sec), executed benchmarks: 1
+// * Artifacts cleanup *

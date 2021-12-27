@@ -1,0 +1,1277 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 6 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a
+// command took 4.3s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a
+// command took 6.6s and exited with 0
+// ***** Done, took 00:00:11 (11.09 sec)   *****
+// Found 6 benchmarks:
+//   BenchmarkHarness.MySQLInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.PGInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.MySQLSelectPlusUpdate: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.PGSelectPlusUpdate: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+//   BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "b5b64719-db3f-44ab-9abf-ac504e06b69a.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLInsertion(IterationCount: 2)" --job "IterationCount=3, WarmupCount=1" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-BDLRUY(IterationCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 310700.00 ns, 310.7000 us/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 3405610100.00 ns, 3.4056 s/op
+
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 670618600.00 ns, 670.6186 ms/op
+
+// BeforeActualRun
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 1079669500.00 ns, 1.0797 s/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 826053700.00 ns, 826.0537 ms/op
+"Data are saved in MySQLDB"
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 961717400.00 ns, 961.7174 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 1079669500.00 ns, 1.0797 s/op
+WorkloadResult   2: 1 op, 826053700.00 ns, 826.0537 ms/op
+WorkloadResult   3: 1 op, 961717400.00 ns, 961.7174 ms/op
+
+// AfterAll
+// Benchmark Process 10348 has exited with code 0.
+
+Mean = 955.814 ms, StdErr = 73.272 ms (7.67%), N = 3, StdDev = 126.911 ms
+Min = 826.054 ms, Q1 = 893.886 ms, Median = 961.717 ms, Q3 = 1,020.693 ms, Max = 1,079.669 ms
+IQR = 126.808 ms, LowerFence = 703.674 ms, UpperFence = 1,210.905 ms
+ConfidenceInterval = [-1,359.514 ms; 3,271.141 ms] (CI 99.9%), Margin = 2,315.328 ms (242.24% of Mean)
+Skewness = -0.05, Kurtosis = 0.67, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.PGInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "b5b64719-db3f-44ab-9abf-ac504e06b69a.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGInsertion(IterationCount: 2)" --job "IterationCount=3, WarmupCount=1" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-NPCJFY(IterationCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 162180400.00 ns, 162.1804 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 1271813100.00 ns, 1.2718 s/op
+
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 28748900.00 ns, 28.7489 ms/op
+
+// BeforeActualRun
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 25555700.00 ns, 25.5557 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 21445900.00 ns, 21.4459 ms/op
+"Data are saved in PostgreSQL"
+"Data are saved in PostgreSQL"
+WorkloadActual   3: 1 op, 22261500.00 ns, 22.2615 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 25555700.00 ns, 25.5557 ms/op
+WorkloadResult   2: 1 op, 21445900.00 ns, 21.4459 ms/op
+WorkloadResult   3: 1 op, 22261500.00 ns, 22.2615 ms/op
+
+// AfterAll
+// Benchmark Process 6876 has exited with code 0.
+
+Mean = 23.088 ms, StdErr = 1.256 ms (5.44%), N = 3, StdDev = 2.176 ms
+Min = 21.446 ms, Q1 = 21.854 ms, Median = 22.262 ms, Q3 = 23.909 ms, Max = 25.556 ms
+IQR = 2.055 ms, LowerFence = 18.771 ms, UpperFence = 26.991 ms
+ConfidenceInterval = [-16.609 ms; 62.784 ms] (CI 99.9%), Margin = 39.697 ms (171.94% of Mean)
+Skewness = 0.32, Kurtosis = 0.67, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdate: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "b5b64719-db3f-44ab-9abf-ac504e06b69a.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdate(IterationCount: 2)" --job "IterationCount=3, WarmupCount=1" --benchmarkId 2 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-MTJKOH(IterationCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 297100.00 ns, 297.1000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 4320277900.00 ns, 4.3203 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 4401238400.00 ns, 4.4012 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 3783484400.00 ns, 3.7835 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 4333976400.00 ns, 4.3340 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 3598495000.00 ns, 3.5985 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 3783484400.00 ns, 3.7835 s/op
+WorkloadResult   2: 1 op, 4333976400.00 ns, 4.3340 s/op
+WorkloadResult   3: 1 op, 3598495000.00 ns, 3.5985 s/op
+
+// AfterAll
+// Benchmark Process 14428 has exited with code 0.
+
+Mean = 3.905 s, StdErr = 0.221 s (5.66%), N = 3, StdDev = 0.383 s
+Min = 3.598 s, Q1 = 3.691 s, Median = 3.783 s, Q3 = 4.059 s, Max = 4.334 s
+IQR = 0.368 s, LowerFence = 3.139 s, UpperFence = 4.610 s
+ConfidenceInterval = [-3.074 s; 10.885 s] (CI 99.9%), Margin = 6.980 s (178.72% of Mean)
+Skewness = 0.29, Kurtosis = 0.67, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdate: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "b5b64719-db3f-44ab-9abf-ac504e06b69a.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdate(IterationCount: 2)" --job "IterationCount=3, WarmupCount=1" --benchmarkId 3 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-CRRRMD(IterationCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 316900.00 ns, 316.9000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 567239800.00 ns, 567.2398 ms/op
+
+OverheadJitting  2: 1 op, 1700.00 ns, 1.7000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadJitting  2: 1 op, 16388200.00 ns, 16.3882 ms/op
+
+OverheadJitting  3: 16 op, 278700.00 ns, 17.4187 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadJitting  3: 16 op, 300310300.00 ns, 18.7694 ms/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadPilot    1: 16 op, 392153900.00 ns, 24.5096 ms/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadPilot    2: 32 op, 1143987600.00 ns, 35.7496 ms/op
+
+OverheadWarmup   1: 32 op, 5100.00 ns, 159.3750 ns/op
+OverheadWarmup   2: 32 op, 2200.00 ns, 68.7500 ns/op
+OverheadWarmup   3: 32 op, 900.00 ns, 28.1250 ns/op
+OverheadWarmup   4: 32 op, 1300.00 ns, 40.6250 ns/op
+OverheadWarmup   5: 32 op, 1200.00 ns, 37.5000 ns/op
+OverheadWarmup   6: 32 op, 1000.00 ns, 31.2500 ns/op
+OverheadWarmup   7: 32 op, 1300.00 ns, 40.6250 ns/op
+OverheadWarmup   8: 32 op, 1400.00 ns, 43.7500 ns/op
+OverheadWarmup   9: 32 op, 1200.00 ns, 37.5000 ns/op
+
+OverheadActual   1: 32 op, 1100.00 ns, 34.3750 ns/op
+OverheadActual   2: 32 op, 1000.00 ns, 31.2500 ns/op
+OverheadActual   3: 32 op, 1000.00 ns, 31.2500 ns/op
+OverheadActual   4: 32 op, 1100.00 ns, 34.3750 ns/op
+OverheadActual   5: 32 op, 6700.00 ns, 209.3750 ns/op
+OverheadActual   6: 32 op, 1200.00 ns, 37.5000 ns/op
+OverheadActual   7: 32 op, 1000.00 ns, 31.2500 ns/op
+OverheadActual   8: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadActual   9: 32 op, 900.00 ns, 28.1250 ns/op
+OverheadActual  10: 32 op, 1400.00 ns, 43.7500 ns/op
+OverheadActual  11: 32 op, 1700.00 ns, 53.1250 ns/op
+OverheadActual  12: 32 op, 2600.00 ns, 81.2500 ns/op
+OverheadActual  13: 32 op, 4600.00 ns, 143.7500 ns/op
+OverheadActual  14: 32 op, 1300.00 ns, 40.6250 ns/op
+OverheadActual  15: 32 op, 1200.00 ns, 37.5000 ns/op
+OverheadActual  16: 32 op, 1000.00 ns, 31.2500 ns/op
+OverheadActual  17: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadActual  18: 32 op, 800.00 ns, 25.0000 ns/op
+OverheadActual  19: 32 op, 700.00 ns, 21.8750 ns/op
+OverheadActual  20: 32 op, 700.00 ns, 21.8750 ns/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 32 op, 549669600.00 ns, 17.1772 ms/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 32 op, 604720200.00 ns, 18.8975 ms/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 32 op, 596899900.00 ns, 18.6531 ms/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   3: 32 op, 1099816800.00 ns, 34.3693 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 32 op, 604719150.00 ns, 18.8975 ms/op
+WorkloadResult   2: 32 op, 596898850.00 ns, 18.6531 ms/op
+WorkloadResult   3: 32 op, 1099815750.00 ns, 34.3692 ms/op
+
+// AfterAll
+// Benchmark Process 2776 has exited with code 0.
+
+Mean = 23.973 ms, StdErr = 5.198 ms (21.68%), N = 3, StdDev = 9.004 ms
+Min = 18.653 ms, Q1 = 18.775 ms, Median = 18.897 ms, Q3 = 26.633 ms, Max = 34.369 ms
+IQR = 7.858 ms, LowerFence = 6.988 ms, UpperFence = 38.420 ms
+ConfidenceInterval = [-140.293 ms; 188.240 ms] (CI 99.9%), Margin = 164.267 ms (685.21% of Mean)
+Skewness = 0.38, Kurtosis = 0.67, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "b5b64719-db3f-44ab-9abf-ac504e06b69a.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion(IterationCount: 2)" --job "IterationCount=3, WarmupCount=1" --benchmarkId 4 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-BNWRHA(IterationCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 313800.00 ns, 313.8000 us/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 3703885900.00 ns, 3.7039 s/op
+
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 3769543000.00 ns, 3.7695 s/op
+
+// BeforeActualRun
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 3235585800.00 ns, 3.2356 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 3028088000.00 ns, 3.0281 s/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadActual   3: 1 op, 4829146400.00 ns, 4.8291 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 3235585800.00 ns, 3.2356 s/op
+WorkloadResult   2: 1 op, 3028088000.00 ns, 3.0281 s/op
+WorkloadResult   3: 1 op, 4829146400.00 ns, 4.8291 s/op
+
+// AfterAll
+// Benchmark Process 15056 has exited with code 0.
+
+Mean = 3.698 s, StdErr = 0.569 s (15.39%), N = 3, StdDev = 0.985 s
+Min = 3.028 s, Q1 = 3.132 s, Median = 3.236 s, Q3 = 4.032 s, Max = 4.829 s
+IQR = 0.901 s, LowerFence = 1.781 s, UpperFence = 5.383 s
+ConfidenceInterval = [-14.280 s; 21.675 s] (CI 99.9%), Margin = 17.978 s (486.20% of Mean)
+Skewness = 0.37, Kurtosis = 0.67, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "b5b64719-db3f-44ab-9abf-ac504e06b69a.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdatePlusInsertion(IterationCount: 2)" --job "IterationCount=3, WarmupCount=1" --benchmarkId 5 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-WJTIPM(IterationCount=3, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 446700.00 ns, 446.7000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 495982600.00 ns, 495.9826 ms/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 1351986100.00 ns, 1.3520 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 8873755800.00 ns, 8.8738 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 81970935900.00 ns, 81.9709 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Benchmarking.Clients.RestClient.GETCallAPI(String API) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 87
+   at Benchmarking.Clients.RestClient.PGSelectPlusUpdatePlusInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 81
+   at Benchmarking.BenchmarkHarness.PGSelectPlusUpdatePlusInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\BenchmarkHarness.cs:line 98
+   at BenchmarkDotNet.Autogenerated.Runnable_5.<.ctor>b__3_4() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\b5b64719-db3f-44ab-9abf-ac504e06b69a.notcs:line 3859
+   at BenchmarkDotNet.Autogenerated.Runnable_5.WorkloadActionNoUnroll(Int64 invokeCount) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\b5b64719-db3f-44ab-9abf-ac504e06b69a.notcs:line 4510
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineStage.RunIteration(IterationMode mode, IterationStage stage, Int32 index, Int64 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineActualStage.RunSpecific(Int64 invokeCount, IterationMode iterationMode, Int32 iterationCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineActualStage.Run(Int64 invokeCount, IterationMode iterationMode, Boolean runAuto, Int32 unrollFactor, Boolean forceSpecific)
+   at BenchmarkDotNet.Engines.EngineActualStage.RunWorkload(Int64 invokeCount, Int32 unrollFactor, Boolean forceSpecific)
+   at BenchmarkDotNet.Engines.Engine.Run()
+   at BenchmarkDotNet.Autogenerated.Runnable_5.Run(IHost host, String benchmarkName) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\b5b64719-db3f-44ab-9abf-ac504e06b69a.notcs:line 3842
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\netcoreapp3.1\b5b64719-db3f-44ab-9abf-ac504e06b69a\b5b64719-db3f-44ab-9abf-ac504e06b69a.notcs:line 58
+// AfterAll
+// Benchmark Process 19404 has exited with code -1.
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.html
+
+// * Detailed results *
+BenchmarkHarness.MySQLInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 955.814 ms, StdErr = 73.272 ms (7.67%), N = 3, StdDev = 126.911 ms
+Min = 826.054 ms, Q1 = 893.886 ms, Median = 961.717 ms, Q3 = 1,020.693 ms, Max = 1,079.669 ms
+IQR = 126.808 ms, LowerFence = 703.674 ms, UpperFence = 1,210.905 ms
+ConfidenceInterval = [-1,359.514 ms; 3,271.141 ms] (CI 99.9%), Margin = 2,315.328 ms (242.24% of Mean)
+Skewness = -0.05, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[710.560 ms ;   905.200 ms) | @
+[905.200 ms ; 1,136.187 ms) | @@
+---------------------------------------------------
+
+BenchmarkHarness.PGInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 23.088 ms, StdErr = 1.256 ms (5.44%), N = 3, StdDev = 2.176 ms
+Min = 21.446 ms, Q1 = 21.854 ms, Median = 22.262 ms, Q3 = 23.909 ms, Max = 25.556 ms
+IQR = 2.055 ms, LowerFence = 18.771 ms, UpperFence = 26.991 ms
+ConfidenceInterval = [-16.609 ms; 62.784 ms] (CI 99.9%), Margin = 39.697 ms (171.94% of Mean)
+Skewness = 0.32, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[19.874 ms ; 23.834 ms) | @@
+[23.834 ms ; 27.536 ms) | @
+---------------------------------------------------
+
+BenchmarkHarness.MySQLSelectPlusUpdate: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 3.905 s, StdErr = 0.221 s (5.66%), N = 3, StdDev = 0.383 s
+Min = 3.598 s, Q1 = 3.691 s, Median = 3.783 s, Q3 = 4.059 s, Max = 4.334 s
+IQR = 0.368 s, LowerFence = 3.139 s, UpperFence = 4.610 s
+ConfidenceInterval = [-3.074 s; 10.885 s] (CI 99.9%), Margin = 6.980 s (178.72% of Mean)
+Skewness = 0.29, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[3.343 s ; 4.039 s) | @@
+[4.039 s ; 4.682 s) | @
+---------------------------------------------------
+
+BenchmarkHarness.PGSelectPlusUpdate: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 23.973 ms, StdErr = 5.198 ms (21.68%), N = 3, StdDev = 9.004 ms
+Min = 18.653 ms, Q1 = 18.775 ms, Median = 18.897 ms, Q3 = 26.633 ms, Max = 34.369 ms
+IQR = 7.858 ms, LowerFence = 6.988 ms, UpperFence = 38.420 ms
+ConfidenceInterval = [-140.293 ms; 188.240 ms] (CI 99.9%), Margin = 164.267 ms (685.21% of Mean)
+Skewness = 0.38, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[18.317 ms ; 34.705 ms) | @@@
+---------------------------------------------------
+
+BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 3.698 s, StdErr = 0.569 s (15.39%), N = 3, StdDev = 0.985 s
+Min = 3.028 s, Q1 = 3.132 s, Median = 3.236 s, Q3 = 4.032 s, Max = 4.829 s
+IQR = 0.901 s, LowerFence = 1.781 s, UpperFence = 5.383 s
+ConfidenceInterval = [-14.280 s; 21.675 s] (CI 99.9%), Margin = 17.978 s (486.20% of Mean)
+Skewness = 0.37, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[2.131 s ; 4.029 s) | @@
+[4.029 s ; 5.726 s) | @
+---------------------------------------------------
+
+BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+Runtime = .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT; GC = Concurrent Workstation
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=5.0.103
+  [Host]     : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+  Job-VEDSMC : .NET Core 3.1.12 (CoreCLR 4.700.21.6504, CoreFX 4.700.21.6905), X64 RyuJIT
+
+IterationCount=3  WarmupCount=1  
+
+|                             Method | IterationCount |        Mean |        Error |     StdDev |      Median | Ratio | RatioSD |
+|----------------------------------- |--------------- |------------:|-------------:|-----------:|------------:|------:|--------:|
+|                     MySQLInsertion |              2 |   955.81 ms |  2,315.33 ms | 126.911 ms |   961.72 ms |  1.00 |    0.00 |
+|                        PGInsertion |              2 |    23.09 ms |     39.70 ms |   2.176 ms |    22.26 ms |  0.02 |    0.00 |
+|              MySQLSelectPlusUpdate |              2 | 3,905.32 ms |  6,979.65 ms | 382.578 ms | 3,783.48 ms |  4.16 |    0.94 |
+|                 PGSelectPlusUpdate |              2 |    23.97 ms |    164.27 ms |   9.004 ms |    18.90 ms |  0.03 |    0.01 |
+| MySQLSelectPlusUpdatePlusInsertion |              2 | 3,697.61 ms | 17,977.71 ms | 985.419 ms | 3,235.59 ms |  3.89 |    1.03 |
+|    PGSelectPlusUpdatePlusInsertion |              2 |          NA |           NA |         NA |          NA |     ? |       ? |
+
+Benchmarks with issues:
+  BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-VEDSMC(IterationCount=3, WarmupCount=1) [IterationCount=2]
+
+// * Warnings *
+MinIterationTime
+  BenchmarkHarness.PGInsertion: IterationCount=3, WarmupCount=1 -> The minimum observed iteration time is 21.4459 ms which is very small. It's recommended to increase it to at least 100.0000 ms using more operations.
+BaselineCustomAnalyzer
+  Summary -> A question mark '?' symbol indicates that it was not possible to compute the (Ratio, RatioSD) column(s) because the baseline value is too close to zero.
+
+// * Hints *
+Outliers
+  BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: IterationCount=3, WarmupCount=1 -> Something went wrong with outliers: Size(WorkloadActual) = 2, Size(WorkloadActual/Outliers) = 0, Size(Result) = 0), OutlierMode = RemoveUpper
+
+// * Legends *
+  IterationCount : Value of the 'IterationCount' parameter
+  Mean           : Arithmetic mean of all measurements
+  Error          : Half of 99.9% confidence interval
+  StdDev         : Standard deviation of all measurements
+  Median         : Value separating the higher half of all measurements (50th percentile)
+  Ratio          : Mean of the ratio distribution ([Current]/[Baseline])
+  RatioSD        : Standard deviation of the ratio distribution ([Current]/[Baseline])
+  1 ms           : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:04:13 (253.29 sec), executed benchmarks: 6
+
+Global total time: 00:04:24 (264.4 sec), executed benchmarks: 6
+// * Artifacts cleanup *

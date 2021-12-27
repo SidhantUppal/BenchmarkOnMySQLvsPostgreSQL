@@ -1,0 +1,400 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 6 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b
+// command took 44.18s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b
+// command took more that the timeout: 120s. Killing the process tree!
+// start dotnet build -c Release  --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b
+// command took 53.3s and exited with 0
+// ***** Done, took 00:03:57 (237.7 sec)   *****
+// Found 6 benchmarks:
+//   BenchmarkHarness.MySQLInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.PGInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.MySQLSelectPlusUpdate: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.PGSelectPlusUpdate: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+//   BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "33641cba-f92d-43ad-b430-83489392167b.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLInsertion(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 0 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\bin\Release\net5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 5.0.3 (5.0.321.7212), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-VHIHJZ(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 472400.00 ns, 472.4000 us/op
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 28069532400.00 ns, 28.0695 s/op
+
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 870738700.00 ns, 870.7387 ms/op
+
+// BeforeActualRun
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 900669900.00 ns, 900.6699 ms/op
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 385211700.00 ns, 385.2117 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 900669900.00 ns, 900.6699 ms/op
+WorkloadResult   2: 1 op, 385211700.00 ns, 385.2117 ms/op
+
+// AfterAll
+// Benchmark Process 14936 has exited with code 0.
+
+Mean = 642.941 ms, StdErr = 257.729 ms (40.09%), N = 2, StdDev = 364.484 ms
+Min = 385.212 ms, Q1 = 514.076 ms, Median = 642.941 ms, Q3 = 771.805 ms, Max = 900.670 ms
+IQR = 257.729 ms, LowerFence = 127.483 ms, UpperFence = 1,158.399 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.PGInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "33641cba-f92d-43ad-b430-83489392167b.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGInsertion(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 1 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\bin\Release\net5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 5.0.3 (5.0.321.7212), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-HEDMOI(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 265600.00 ns, 265.6000 us/op
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 7916215300.00 ns, 7.9162 s/op
+
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 98746100.00 ns, 98.7461 ms/op
+
+// BeforeActualRun
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 79438700.00 ns, 79.4387 ms/op
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 30338300.00 ns, 30.3383 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 79438700.00 ns, 79.4387 ms/op
+WorkloadResult   2: 1 op, 30338300.00 ns, 30.3383 ms/op
+
+// AfterAll
+// Benchmark Process 25688 has exited with code 0.
+
+Mean = 54.889 ms, StdErr = 24.550 ms (44.73%), N = 2, StdDev = 34.719 ms
+Min = 30.338 ms, Q1 = 42.613 ms, Median = 54.889 ms, Q3 = 67.164 ms, Max = 79.439 ms
+IQR = 24.550 ms, LowerFence = 5.788 ms, UpperFence = 103.989 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdate: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "33641cba-f92d-43ad-b430-83489392167b.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdate(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 2 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\bin\Release\net5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 5.0.3 (5.0.321.7212), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-HTSQES(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 208300.00 ns, 208.3000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 37883516900.00 ns, 37.8835 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 25751967000.00 ns, 25.7520 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   1: 1 op, 24799669900.00 ns, 24.7997 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/MySQLSelectPlusUpdate
+"Data are saved in MySQLDB"
+WorkloadActual   2: 1 op, 30383012600.00 ns, 30.3830 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 24799669900.00 ns, 24.7997 s/op
+WorkloadResult   2: 1 op, 30383012600.00 ns, 30.3830 s/op
+
+// AfterAll
+// Benchmark Process 12616 has exited with code 0.
+
+Mean = 27.591 s, StdErr = 2.792 s (10.12%), N = 2, StdDev = 3.948 s
+Min = 24.800 s, Q1 = 26.196 s, Median = 27.591 s, Q3 = 28.987 s, Max = 30.383 s
+IQR = 2.792 s, LowerFence = 22.008 s, UpperFence = 33.175 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdate: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "33641cba-f92d-43ad-b430-83489392167b.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdate(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 3 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\bin\Release\net5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 5.0.3 (5.0.321.7212), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-EBTQGG(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 204400.00 ns, 204.4000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 16577225900.00 ns, 16.5772 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 1695875600.00 ns, 1.6959 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 973821800.00 ns, 973.8218 ms/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377//api/save/PGSelectPlusUpdate
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 1156808600.00 ns, 1.1568 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 973821800.00 ns, 973.8218 ms/op
+WorkloadResult   2: 1 op, 1156808600.00 ns, 1.1568 s/op
+
+// AfterAll
+// Benchmark Process 19856 has exited with code 0.
+
+Mean = 1.065 s, StdErr = 0.091 s (8.59%), N = 2, StdDev = 0.129 s
+Min = 0.974 s, Q1 = 1.020 s, Median = 1.065 s, Q3 = 1.111 s, Max = 1.157 s
+IQR = 0.091 s, LowerFence = 0.882 s, UpperFence = 1.248 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// **************************
+// Benchmark: BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "33641cba-f92d-43ad-b430-83489392167b.dll" --benchmarkName "Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 4 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\bin\Release\net5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 5.0.3 (5.0.321.7212), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-TOSIVX(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 420500.00 ns, 420.5000 us/op
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadJitting  1: 1 op, 47118193900.00 ns, 47.1182 s/op
+
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+"Data are saved in MySQLDB"
+WorkloadWarmup   1: 1 op, 92861052600.00 ns, 92.8611 s/op
+
+// BeforeActualRun
+public async Task MySQLSelectPlusUpdatePlusInsertion()
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/MySQLcrud
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.SendAsyncCore(HttpRequestMessage request, HttpCompletionOption completionOption, Boolean async, Boolean emitTelemetryStartStop, CancellationToken cancellationToken)
+   at Benchmarking.Clients.RestClient.GETCallAPI(String API) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 87
+   at Benchmarking.Clients.RestClient.MySQLSelectPlusUpdatePlusInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\Clients\RestClient.cs:line 76
+   at Benchmarking.BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\BenchmarkHarness.cs:line 89
+   at BenchmarkDotNet.Autogenerated.Runnable_4.<.ctor>b__3_4() in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\33641cba-f92d-43ad-b430-83489392167b.notcs:line 3126
+   at BenchmarkDotNet.Autogenerated.Runnable_4.WorkloadActionNoUnroll(Int64 invokeCount) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\33641cba-f92d-43ad-b430-83489392167b.notcs:line 3779
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineStage.RunIteration(IterationMode mode, IterationStage stage, Int32 index, Int64 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineActualStage.RunSpecific(Int64 invokeCount, IterationMode iterationMode, Int32 iterationCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineActualStage.Run(Int64 invokeCount, IterationMode iterationMode, Boolean runAuto, Int32 unrollFactor, Boolean forceSpecific)
+   at BenchmarkDotNet.Engines.EngineActualStage.RunWorkload(Int64 invokeCount, Int32 unrollFactor, Boolean forceSpecific)
+   at BenchmarkDotNet.Engines.Engine.Run()
+   at BenchmarkDotNet.Autogenerated.Runnable_4.Run(IHost host, String benchmarkName) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\33641cba-f92d-43ad-b430-83489392167b.notcs:line 3107
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\33641cba-f92d-43ad-b430-83489392167b.notcs:line 56
+// AfterAll
+// Benchmark Process 1636 has exited with code -1.
+
+
+// **************************
+// Benchmark: BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "33641cba-f92d-43ad-b430-83489392167b.dll" --benchmarkName "Benchmarking.BenchmarkHarness.PGSelectPlusUpdatePlusInsertion(IterationCount: 1)" --job "IterationCount=2, WarmupCount=1" --benchmarkId 5 in E:\Talentelgia\MySQLVSPostgresWithReact\Benchmarking\bin\Release\net5.0\33641cba-f92d-43ad-b430-83489392167b\bin\Release\net5.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 5.0.3 (5.0.321.7212), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-IFWSFV(IterationCount=2, WarmupCount=1)
+
+OverheadJitting  1: 1 op, 205900.00 ns, 205.9000 us/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadJitting  1: 1 op, 5820841200.00 ns, 5.8208 s/op
+
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadWarmup   1: 1 op, 10135976100.00 ns, 10.1360 s/op
+
+// BeforeActualRun
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadActual   1: 1 op, 31250342700.00 ns, 31.2503 s/op
+private async Task<string> GETCallAPI(string API) https://localhost:44377/api/save/PGSQLcrud
+"Data are saved in PostgreSQL"
+WorkloadActual   2: 1 op, 60949724800.00 ns, 60.9497 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 31250342700.00 ns, 31.2503 s/op
+WorkloadResult   2: 1 op, 60949724800.00 ns, 60.9497 s/op
+
+// AfterAll
+// Benchmark Process 11520 has exited with code 0.
+
+Mean = 46.100 s, StdErr = 14.850 s (32.21%), N = 2, StdDev = 21.001 s
+Min = 31.250 s, Q1 = 38.675 s, Median = 46.100 s, Q3 = 53.525 s, Max = 60.950 s
+IQR = 14.850 s, LowerFence = 16.401 s, UpperFence = 75.799 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmarking.BenchmarkHarness-report.html
+
+// * Detailed results *
+BenchmarkHarness.MySQLInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET 5.0.3 (5.0.321.7212), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 642.941 ms, StdErr = 257.729 ms (40.09%), N = 2, StdDev = 364.484 ms
+Min = 385.212 ms, Q1 = 514.076 ms, Median = 642.941 ms, Q3 = 771.805 ms, Max = 900.670 ms
+IQR = 257.729 ms, LowerFence = 127.483 ms, UpperFence = 1,158.399 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[263.246 ms ; 1,022.635 ms) | @@
+---------------------------------------------------
+
+BenchmarkHarness.PGInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET 5.0.3 (5.0.321.7212), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 54.889 ms, StdErr = 24.550 ms (44.73%), N = 2, StdDev = 34.719 ms
+Min = 30.338 ms, Q1 = 42.613 ms, Median = 54.889 ms, Q3 = 67.164 ms, Max = 79.439 ms
+IQR = 24.550 ms, LowerFence = 5.788 ms, UpperFence = 103.989 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[18.720 ms ; 91.057 ms) | @@
+---------------------------------------------------
+
+BenchmarkHarness.MySQLSelectPlusUpdate: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET 5.0.3 (5.0.321.7212), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 27.591 s, StdErr = 2.792 s (10.12%), N = 2, StdDev = 3.948 s
+Min = 24.800 s, Q1 = 26.196 s, Median = 27.591 s, Q3 = 28.987 s, Max = 30.383 s
+IQR = 2.792 s, LowerFence = 22.008 s, UpperFence = 33.175 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[23.479 s ; 31.704 s) | @@
+---------------------------------------------------
+
+BenchmarkHarness.PGSelectPlusUpdate: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET 5.0.3 (5.0.321.7212), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 1.065 s, StdErr = 0.091 s (8.59%), N = 2, StdDev = 0.129 s
+Min = 0.974 s, Q1 = 1.020 s, Median = 1.065 s, Q3 = 1.111 s, Max = 1.157 s
+IQR = 0.091 s, LowerFence = 0.882 s, UpperFence = 1.248 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[0.931 s ; 1.200 s) | @@
+---------------------------------------------------
+
+BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET 5.0.3 (5.0.321.7212), X64 RyuJIT; GC = Concurrent Workstation
+There are not any results runs
+
+BenchmarkHarness.PGSelectPlusUpdatePlusInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+Runtime = .NET 5.0.3 (5.0.321.7212), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 46.100 s, StdErr = 14.850 s (32.21%), N = 2, StdDev = 21.001 s
+Min = 31.250 s, Q1 = 38.675 s, Median = 46.100 s, Q3 = 53.525 s, Max = 60.950 s
+IQR = 14.850 s, LowerFence = 16.401 s, UpperFence = 75.799 s
+ConfidenceInterval = [NaN s; NaN s] (CI 99.9%), Margin = NaN s (NaN% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[24.223 s ; 67.977 s) | @@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+Intel Core i5-8250U CPU 1.60GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=5.0.103
+  [Host]     : .NET 5.0.3 (5.0.321.7212), X64 RyuJIT  [AttachedDebugger]
+  Job-SMTBKO : .NET 5.0.3 (5.0.321.7212), X64 RyuJIT
+
+IterationCount=2  WarmupCount=1  
+
+|                             Method | IterationCount |         Mean | Error |       StdDev | Ratio | RatioSD |
+|----------------------------------- |--------------- |-------------:|------:|-------------:|------:|--------:|
+|                     MySQLInsertion |              1 |    642.94 ms |    NA |    364.48 ms |  1.00 |    0.00 |
+|                        PGInsertion |              1 |     54.89 ms |    NA |     34.72 ms |  0.08 |    0.01 |
+|              MySQLSelectPlusUpdate |              1 | 27,591.34 ms |    NA |  3,948.02 ms | 53.20 |   36.30 |
+|                 PGSelectPlusUpdate |              1 |  1,065.32 ms |    NA |    129.39 ms |  2.04 |    1.36 |
+| MySQLSelectPlusUpdatePlusInsertion |              1 |           NA |    NA |           NA |     ? |       ? |
+|    PGSelectPlusUpdatePlusInsertion |              1 | 46,100.03 ms |    NA | 21,000.63 ms | 96.46 |   87.35 |
+
+Benchmarks with issues:
+  BenchmarkHarness.MySQLSelectPlusUpdatePlusInsertion: Job-SMTBKO(IterationCount=2, WarmupCount=1) [IterationCount=1]
+
+// * Warnings *
+Environment
+  Summary -> Benchmark was executed with attached debugger
+MinIterationTime
+  BenchmarkHarness.PGInsertion: IterationCount=2, WarmupCount=1 -> The minimum observed iteration time is 30.3383 ms which is very small. It's recommended to increase it to at least 100.0000 ms using more operations.
+BaselineCustomAnalyzer
+  Summary -> A question mark '?' symbol indicates that it was not possible to compute the (Ratio, RatioSD) column(s) because the baseline value is too close to zero.
+
+// * Legends *
+  IterationCount : Value of the 'IterationCount' parameter
+  Mean           : Arithmetic mean of all measurements
+  Error          : Half of 99.9% confidence interval
+  StdDev         : Standard deviation of all measurements
+  Ratio          : Mean of the ratio distribution ([Current]/[Baseline])
+  RatioSD        : Standard deviation of the ratio distribution ([Current]/[Baseline])
+  1 ms           : 1 Millisecond (0.001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:09:51 (591.83 sec), executed benchmarks: 6
+
+Global total time: 00:13:49 (829.56 sec), executed benchmarks: 6
+// * Artifacts cleanup *
