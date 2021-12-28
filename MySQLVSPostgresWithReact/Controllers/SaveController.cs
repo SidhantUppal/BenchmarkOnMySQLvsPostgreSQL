@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace MySQLVSPostgresWithReact.Controllers
 {
+    // Save Controller will use to insert, Update operation into the MySQL and Postgres
     [ApiController]
     [Route("api/[controller]")]
     public class SaveController : Controller
@@ -22,6 +23,7 @@ namespace MySQLVSPostgresWithReact.Controllers
         }
 
         [HttpGet]
+        // Get list of mysql data
         public async Task<List<TblThread>> GetAllMySQLData()
         {
             try
@@ -37,6 +39,7 @@ namespace MySQLVSPostgresWithReact.Controllers
             }
         }
 
+        // Get list of data from postgres 
         [HttpGet("GetAllPostGreSQLData")]
         public async Task<List<TblThread>> GetAllPostGreSQLData()
         {
@@ -54,32 +57,35 @@ namespace MySQLVSPostgresWithReact.Controllers
         }
 
         [HttpPost]
+        // Will insert a registry with a random chain for the string in the MySQL DB
         public async Task<string> MySQLInsertion(TblThread tblThread)
         {
             return await scopedPassThrough.SaveDataInMySQL(tblThread);
         }
 
         [HttpPost("PGInsertion")]
+        // Will insert a registry with a random chain for the string in the PostgreSQL DB
         public async Task<string> PGInsertion(TblThread tblThread)
         {
             return await scopedPassThrough.SaveDataInPostgreSQL(tblThread);
         }
 
-
         [HttpGet("MySQLSelectPlusUpdate")]
+        // This method will access a random registry using its ID and they will update the string field with a random value (on MySQL DB)
         public async Task<IActionResult> MySQLSelectPlusUpdate()
         {
             return Ok(await scopedPassThrough.SelectAndUpdateInMySQL());
         }
 
         [HttpGet("PGSelectPlusUpdate")]
+        // This method will access a random registry using its ID and they will update the string field with a random value (on PostgreSQL DB)
         public async Task<IActionResult> PGSelectPlusUpdate()
         {
             return Ok(await scopedPassThrough.SelectAndUpdateInPostgreSQL());
         }
 
-
         [HttpGet("MySQLcrud")]
+        // Method to execute select, update and insertion 
         public async Task<IActionResult> MySQLcrud()
         {
             Console.WriteLine("---------------------------");
@@ -89,6 +95,7 @@ namespace MySQLVSPostgresWithReact.Controllers
         }
 
         [HttpGet("PGSQLcrud")]
+        // Method to execute select, update and insertion 
         public async Task<IActionResult> PGSQLcrud()
         { 
             return Ok(await scopedPassThrough.SelectUpdateAndInsertPostgreSQL());

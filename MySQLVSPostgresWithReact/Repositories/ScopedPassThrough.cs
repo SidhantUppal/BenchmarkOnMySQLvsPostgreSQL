@@ -27,44 +27,51 @@ namespace MySQLVSPostgresWithReact.Repositories
             withPostgreDB = new WithPostgreDB(postgreSQLDbContext);
         }
 
-        // this is for test
+        // get all data
         public async Task<List<TblThread>> GetAllMySQLData() 
         {
             return await withMySQLDB.GetALLData();
         }
 
+        // get all data
         public async Task<List<TblThread>> GetAllPostGreSQLData() 
         {
             return await withPostgreDB.GetALLData();
         }
 
-        // saved data in MySQL
+        // ***** MySQL Operations
+        // Save
         public async Task<string> SaveDataInMySQL(TblThread tblThread)
         {
             return await withMySQLDB.SaveData(tblThread); 
         }
 
+        // Select and Update
         public async Task<string> SelectAndUpdateInMySQL()
         {
             return await withMySQLDB.SelectAndUpdate();
         }
-
+        
+        // Select, update and Insert
         public async Task<string> SelectUpdateAndInsertMySQL()
         {
             return await withMySQLDB.SelectUpdateAndInsert(); 
         }
 
-        // saved data in PostgreSQL 
+        // PostgreSQL Operations
+        // Save
         public async Task<string> SaveDataInPostgreSQL(TblThread tblThread)
         {
             return await withPostgreDB.SaveData(tblThread);
         }
 
+        // Select and update
         public async Task<string> SelectAndUpdateInPostgreSQL()
         {
             return await withPostgreDB.SelectAndUpdate();
         }
 
+        // Select, update and Insert
         public async Task<string> SelectUpdateAndInsertPostgreSQL()
         {
             return await withPostgreDB.SelectUpdateAndInsert();
